@@ -1,12 +1,21 @@
 dnl require autoconf 2.60 (AS_ECHO/AS_ECHO_N)
 AC_PREREQ([2.60])
 define(_CLIENT_VERSION_MAJOR, 0)
+<<<<<<< HEAD
 define(_CLIENT_VERSION_MINOR, 11)
 define(_CLIENT_VERSION_REVISION, 99)
 define(_CLIENT_VERSION_BUILD, 0)
 define(_CLIENT_VERSION_IS_RELEASE, false)
 define(_COPYRIGHT_YEAR, 2015)
 AC_INIT([Bitcoin Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/bitcoin/bitcoin/issues],[bitcoin])
+=======
+define(_CLIENT_VERSION_MINOR, 10)
+define(_CLIENT_VERSION_REVISION, 4)
+define(_CLIENT_VERSION_BUILD, 0)
+define(_CLIENT_VERSION_IS_RELEASE, true)
+define(_COPYRIGHT_YEAR, 2015)
+AC_INIT([Bitcoin Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[info@bitcoin.org],[bitcoin])
+>>>>>>> refs/remotes/origin/0.10
 AC_CONFIG_SRCDIR([src/main.cpp])
 AC_CONFIG_HEADERS([src/config/bitcoin-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
@@ -742,12 +751,43 @@ else
   fi
 fi
 
+<<<<<<< HEAD
 CXXFLAGS_TEMP="$CXXFLAGS"
+=======
+AC_CHECK_LIB([crypto],[RAND_egd],[],[
+  AC_ARG_WITH([libressl],
+    [AS_HELP_STRING([--with-libressl],[Build with system LibreSSL (default is no; DANGEROUS; NOT SUPPORTED)])],
+    [AC_MSG_WARN([Detected LibreSSL: This is NOT supported, and may break consensus compatibility!])],
+    [AC_MSG_ERROR([Detected LibreSSL: This is NOT supported, and may break consensus compatibility!])]
+  )
+])
+
+CFLAGS_TEMP="$CFLAGS"
+>>>>>>> refs/remotes/origin/0.10
 LIBS_TEMP="$LIBS"
 CXXFLAGS="$CXXFLAGS $SSL_CFLAGS $CRYPTO_CFLAGS"
 LIBS="$LIBS $SSL_LIBS $CRYPTO_LIBS"
 AC_CHECK_HEADER([openssl/ec.h],, AC_MSG_ERROR(OpenSSL ec header missing),)
+<<<<<<< HEAD
 CXXFLAGS="$CXXFLAGS_TEMP"
+=======
+
+AC_MSG_CHECKING(for a supported OpenSSL version)
+AC_LINK_IFELSE([AC_LANG_PROGRAM([[
+  #include <openssl/rand.h>
+  ]],
+  [[RAND_egd(NULL);]])],
+  [AC_MSG_RESULT(yes)],
+  [
+    AC_ARG_WITH([libressl],
+    [AS_HELP_STRING([--with-libressl],[Build with system LibreSSL (default is no; DANGEROUS; NOT SUPPORTED)])],
+    [AC_MSG_WARN([Detected LibreSSL: This is NOT supported, and may break consensus compatibility!])],
+    [AC_MSG_ERROR([Detected LibreSSL: This is NOT supported, and may break consensus compatibility!])]
+    )]
+)
+
+CFLAGS="$CFLAGS_TEMP"
+>>>>>>> refs/remotes/origin/0.10
 LIBS="$LIBS_TEMP"
 
 BITCOIN_QT_PATH_PROGS([PROTOC], [protoc],$protoc_bin_path)

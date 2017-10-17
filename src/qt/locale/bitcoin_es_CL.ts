@@ -300,6 +300,25 @@
     <message>
         <source>Bitcoin Core</source>
         <translation>bitcoin core</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Bitcoin network</source>
+        <translation><numerusform>%n conexión activa hacia la red Bitcoin</numerusform><numerusform>%n conexiones activas hacia la red Bitcoin</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n hora</numerusform><numerusform>%n horas</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n día</numerusform><numerusform>%n días</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n semana</numerusform><numerusform>%n semanas</numerusform></translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Error</source>
@@ -476,6 +495,14 @@
         <translation>bitcoin core</translation>
     </message>
     <message>
+        <source>Welcome</source>
+        <translation>bienvenido</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>bitcoin core</translation>
+    </message>
+    <message>
         <source>Error</source>
         <translation>Error</translation>
     </message>
@@ -601,6 +628,10 @@
     <message>
         <source>Amount</source>
         <translation>Cantidad</translation>
+    </message>
+    <message>
+        <source>UNKNOWN</source>
+        <translation>DESCONOCIDO</translation>
     </message>
     <message>
         <source>N/A</source>

@@ -489,6 +489,10 @@
         <source>Up to date</source>
         <translation>Auf aktuellem Stand</translation>
     </message>
+    <message numerus="yes">
+        <source>Processed %n blocks of transaction history.</source>
+        <translation><numerusform>%n Block des Transaktionsverlaufs verarbeitet.</numerusform><numerusform>%n Blöcke des Transaktionsverlaufs verarbeitet.</numerusform></translation>
+    </message>
     <message>
         <source>Catching up...</source>
         <translation>Hole auf...</translation>
@@ -878,6 +882,33 @@
         <source>command-line options</source>
         <translation>Kommandozeilenoptionen</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>UI options</source>
+        <translation>UI-Optionen</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Sprache festlegen, z.B. "de_DE" (Standard: Systemstandard)</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>Minimiert starten</translation>
+    </message>
+    <message>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>SSL-Wurzelzertifikate für Zahlungsanforderungen festlegen (Standard: -system-)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Startbildschirm beim Starten anzeigen (Standard: 1)</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>Datenverzeichnis beim Starten auswählen (Standard: 0)</translation>
+    </message>
+>>>>>>> refs/remotes/origin/0.10
 </context>
 <context>
     <name>Intro</name>
@@ -1306,6 +1337,13 @@
         <translation>Zahlungsanforderung %1 ist zu groß (%2 Byte, erlaubt sind %3 Byte).</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Payment request DoS protection</source>
+        <translation>Zahlungsanforderungs-DoS-Schutz</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Error communicating with %1: %2</source>
         <translation>Kommunikationsfehler mit %1: %2</translation>
     </message>
@@ -2022,6 +2060,13 @@
         <translation>Wechselgeld kopieren</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Total Amount %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</source>
+        <translation>Gesamtbetrag %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>or</source>
         <translation>oder</translation>
     </message>
@@ -2856,10 +2901,13 @@
         <translation>Als Hintergrunddienst ausführen und Befehle annehmen</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>Eingehende Verbindungen annehmen (Standard: 1, wenn nicht -proxy oder -connect)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>An die angegebene Adresse binden und immer abhören. Für IPv6 "[Host]:Port"-Notation verwenden</translation>
     </message>
@@ -2872,6 +2920,13 @@
         <translation>Veröffentlicht unter der MIT-Softwarelizenz, siehe beiligende Datei COPYING oder &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>Regressionstest-Modus aktivieren, der eine spezielle Blockkette nutzt, in der Blöcke sofort gelöst werden können.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Befehl ausführen wenn sich eine Wallet-Transaktion verändert (%s im Befehl wird durch die Transaktions-ID ersetzt)</translation>
     </message>
@@ -3092,16 +3147,33 @@
         <translation>Ungültiger Betrag für -maxtxfee=&lt;amount&gt;: '%s' (muss mindestens die minimale Weiterleitungsgebühr in Höhe von %s sein, um zu verhindern dass Transaktionen nicht bearbeitet werden)</translation>
     </message>
     <message>
+        <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
+        <translation>Wenn -paytxfee nicht festgelegt wurde Gebühren einschließen, so dass mit der Bestätigung von Transaktionen im Schnitt innerhalb von n Blöcken begonnen wird (Standard: %u)</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>Ungültiger Betrag für -maxtxfee=&lt;amount&gt;: '%s' (muss mindestens die minimale Weiterleitungsgebühr in Höhe von %s sein, um zu verhindern dass Transaktionen nicht bearbeitet werden)</translation>
+    </message>
+    <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
         <translation>Maximale Datengröße in "Data Carrier"-Transaktionen die weitergeleitet und erarbeitet werden (Standard: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
+        <translation>Maximale Gesamtgebühren je Wallet-Transaktion, ein zu niedriger Wert kann große Transaktionen abbrechen (Standard: %s)</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>Adressen von Gegenstellen via DNS-Namensauflösung finden, falls zu wenige Adressen verfügbar sind (Standard: 1, außer bei -connect)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
         <translation>Zufällige Anmeldedaten für jede Proxyverbindung verwenden. Dies aktiviert Tor-Datenflussisolation (Standard: %u)</translation>
+=======
+        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
+        <translation>Zum Weiterleiten von freien Transaktionen oder Transaktionen mit niedrigen Gebühren eine hohe Priorität voraussetzen (Standard: %u)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
@@ -3116,14 +3188,48 @@
         <translation>Der Transaktionsbetrag ist zum senden zu niedrig, nachdem die Gebühr abgezogen wurde.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im OpenSSL-Toolkit &lt;https://www.openssl.org/&gt; entwickelt wird, sowie von Eric Young geschriebene kryptographische Software und von Thomas Bernard geschriebene UPnP-Software.</translation>
+=======
+        <source>To use bitcoind, or the -server option to bitcoin-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</source>
+        <translation>Um bitcoind oder die Option -server mit bitcoin-qt verwenden zu können, müssen Sie rpcpassword in der Konfigurationsdatei angeben:
+%s
+Es wird empfohlen das folgende Zufallspasswort zu verwenden.
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(Sie müssen sich dieses Passwort nicht merken!)
+Der Benutzername und das Passwort dürfen NICHT identisch sein.
+Falls die Konfigurationsdatei nicht existiert, erzeugen Sie diese bitte mit Leserechten nur für den Dateibesitzer.
+Es wird ebenfalls empfohlen alertnotify anzugeben, um im Problemfall benachrichtigt zu werden.
+Beispiel: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</translation>
+    </message>
+    <message>
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>Warnung: -maxtxfee ist auf einen sehr hohen Wert festgelegt! Gebühren dieser Höhe könnten für eine einzelne Transaktion bezahlt werden.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
+        <translation>Warnung: Bitte korrigieren Sie die Datums- und Uhrzeiteinstellungen Ihres Computers, da Bitcoin Core ansonsten nicht ordnungsgemäß funktionieren wird.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>Erlaubte Gegenstellen werden nicht für DoS-Attacken gesperrt und ihre Transkationen werden immer weitergeleitet, auch wenn sie sich bereits im Speicherpool befinden, was z.B. für Gateways sinnvoll ist.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
         <translation>Sie müssen die Datenbank mit Hilfe von -reindex neu aufbauen, um zum ungekürzten Modus zurückzukehren. Dies erfordert, dass die gesamte Blockkette erneut heruntergeladen wird.</translation>
     </message>
@@ -3132,14 +3238,19 @@
         <translation>(Standard: %u)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Accept public REST requests (default: %u)</source>
         <translation>Öffentliche REST-Anfragen annehmen (Standard: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Activating best chain...</source>
         <translation>Aktiviere beste Blockkette...</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Cannot resolve -whitebind address: '%s'</source>
         <translation>Kann Adresse in -whitebind nicht auflösen: '%s'</translation>
     </message>
@@ -3162,6 +3273,21 @@
     <message>
         <source>Error reading from database, shutting down.</source>
         <translation>Fehler beim lesen der Datenbank, Ausführung wird beendet.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Error: A fatal internal error occurred, see debug.log for details</source>
+        <translation>Fehler: Ein schwerer interner Fehler ist aufgetreten, siehe debug.log für Details.</translation>
+    </message>
+    <message>
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation>Fehler: Nicht unterstütztes Argument -tor gefunden, bitte -onion verwenden.</translation>
+    </message>
+    <message>
+        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Gebühr (in BTC/kB), die von Ihnen gesendeten Transaktionen hinzugefügt wird (Standard: %s)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Information</source>
@@ -3204,12 +3330,32 @@
         <translation>Knoten-Weiterleitungsoptionen:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>RPC-SSL-Optionen (siehe Bitcoin-Wiki für SSL-Einrichtung):</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>RPC server options:</source>
         <translation>RPC-Serveroptionen:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Rebuild block chain index from current blk000??.dat files on startup</source>
         <translation>Blockkettenindex aus aktuellen Dateien blk000??.dat beim Starten wiederaufbauen</translation>
+=======
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>Unterstützung für persistente HTTP-Verbindungen bei RPC (Standard: %d)</translation>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>Zufällig eine von &lt;n&gt; Netzwerknachrichten verwerfen</translation>
+>>>>>>> refs/remotes/origin/0.10
+    </message>
+    <message>
+        <source>Receive and display P2P network alerts (default: %u)</source>
+        <translation>P2P-Netzwerk-Alarme empfangen und anzeigen (Standard: %u)</translation>
     </message>
     <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
@@ -3352,6 +3498,13 @@
         <translation>Legt fest, wie gründlich die Blockverifikation von -checkblocks ist (0-4, Standard: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
+        <translation>Transaktionspriorität und Gebühr pro kB beim Erzeugen von Blöcken protokollieren (Standard: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
         <translation>Einen vollständigen Transaktionsindex führen, der vom RPC-Befehl "getrawtransaction" genutzt wird (Standard: %u)</translation>
     </message>

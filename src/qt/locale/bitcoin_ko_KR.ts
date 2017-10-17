@@ -409,6 +409,10 @@
         <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>사용할 수 있는 비트코인 명령어 옵션 목록을 가져오기 위해 Bitcoin-Qt 도움말 메시지를 표시합니다.</translation>
     </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Bitcoin network</source>
+        <translation><numerusform>비트코인 네트워크와 %n 개의 활성연결</numerusform></translation>
+    </message>
     <message>
         <source>No block source available...</source>
         <translation>사용 가능한 블록이 없습니다...</translation>
@@ -431,7 +435,11 @@
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
+<<<<<<< HEAD
         <translation><numerusform>%n년</numerusform></translation>
+=======
+        <translation><numerusform>%n 년</numerusform></translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>%1 behind</source>
@@ -460,6 +468,10 @@
     <message>
         <source>Up to date</source>
         <translation>현재까지</translation>
+    </message>
+    <message numerus="yes">
+        <source>Processed %n blocks of transaction history.</source>
+        <translation><numerusform>%n 블록의 거래 기록들이 처리됨.</numerusform></translation>
     </message>
     <message>
         <source>Catching up...</source>
@@ -841,7 +853,15 @@
         <source>Error</source>
         <translation>오류</translation>
     </message>
-    </context>
+    <message numerus="yes">
+        <source>%n GB of free space available</source>
+        <translation><numerusform>%n GB가 사용가능</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>(of %n GB needed)</source>
+        <translation><numerusform>(%n GB가 필요)</numerusform></translation>
+    </message>
+</context>
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -2436,6 +2456,13 @@
         <translation>최저 거래 수수료가 부족합니다. -mintxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>RPC SSL 옵션: (비트코인 위키의 SSL 설정 설명서 참고)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>RPC server options:</source>
         <translation>RPC 서버 설정</translation>
     </message>

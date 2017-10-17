@@ -738,7 +738,11 @@ UniValue getbalance(const UniValue& params, bool fHelp)
         for (map<uint256, CWalletTx>::iterator it = pwalletMain->mapWallet.begin(); it != pwalletMain->mapWallet.end(); ++it)
         {
             const CWalletTx& wtx = (*it).second;
+<<<<<<< HEAD:src/wallet/rpcwallet.cpp
             if (!CheckFinalTx(wtx) || wtx.GetBlocksToMaturity() > 0 || wtx.GetDepthInMainChain() < 0)
+=======
+            if (!IsFinalTx(wtx) || wtx.GetBlocksToMaturity() > 0 || wtx.GetDepthInMainChain() < 0)
+>>>>>>> refs/remotes/origin/0.10:src/rpcwallet.cpp
                 continue;
 
             CAmount allFee;

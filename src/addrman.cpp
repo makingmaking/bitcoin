@@ -8,24 +8,42 @@
 #include "serialize.h"
 #include "streams.h"
 
+<<<<<<< HEAD
 int CAddrInfo::GetTriedBucket(const uint256& nKey) const
 {
     uint64_t hash1 = (CHashWriter(SER_GETHASH, 0) << nKey << GetKey()).GetHash().GetCheapHash();
     uint64_t hash2 = (CHashWriter(SER_GETHASH, 0) << nKey << GetGroup() << (hash1 % ADDRMAN_TRIED_BUCKETS_PER_GROUP)).GetHash().GetCheapHash();
+=======
+using namespace std;
+
+int CAddrInfo::GetTriedBucket(const uint256& nKey) const
+{
+    uint64_t hash1 = (CHashWriter(SER_GETHASH, 0) << nKey << GetKey()).GetHash().GetLow64();
+    uint64_t hash2 = (CHashWriter(SER_GETHASH, 0) << nKey << GetGroup() << (hash1 % ADDRMAN_TRIED_BUCKETS_PER_GROUP)).GetHash().GetLow64();
+>>>>>>> refs/remotes/origin/0.10
     return hash2 % ADDRMAN_TRIED_BUCKET_COUNT;
 }
 
 int CAddrInfo::GetNewBucket(const uint256& nKey, const CNetAddr& src) const
 {
     std::vector<unsigned char> vchSourceGroupKey = src.GetGroup();
+<<<<<<< HEAD
     uint64_t hash1 = (CHashWriter(SER_GETHASH, 0) << nKey << GetGroup() << vchSourceGroupKey).GetHash().GetCheapHash();
     uint64_t hash2 = (CHashWriter(SER_GETHASH, 0) << nKey << vchSourceGroupKey << (hash1 % ADDRMAN_NEW_BUCKETS_PER_SOURCE_GROUP)).GetHash().GetCheapHash();
+=======
+    uint64_t hash1 = (CHashWriter(SER_GETHASH, 0) << nKey << GetGroup() << vchSourceGroupKey).GetHash().GetLow64();
+    uint64_t hash2 = (CHashWriter(SER_GETHASH, 0) << nKey << vchSourceGroupKey << (hash1 % ADDRMAN_NEW_BUCKETS_PER_SOURCE_GROUP)).GetHash().GetLow64();
+>>>>>>> refs/remotes/origin/0.10
     return hash2 % ADDRMAN_NEW_BUCKET_COUNT;
 }
 
 int CAddrInfo::GetBucketPosition(const uint256 &nKey, bool fNew, int nBucket) const
 {
+<<<<<<< HEAD
     uint64_t hash1 = (CHashWriter(SER_GETHASH, 0) << nKey << (fNew ? 'N' : 'K') << nBucket << GetKey()).GetHash().GetCheapHash();
+=======
+    uint64_t hash1 = (CHashWriter(SER_GETHASH, 0) << nKey << (fNew ? 'N' : 'K') << nBucket << GetKey()).GetHash().GetLow64();
+>>>>>>> refs/remotes/origin/0.10
     return hash1 % ADDRMAN_BUCKET_SIZE;
 }
 
@@ -66,7 +84,11 @@ double CAddrInfo::GetChance(int64_t nNow) const
         fChance *= 0.01;
 
     // deprioritize 66% after each failed attempt, but at most 1/28th to avoid the search taking forever or overly penalizing outages.
+<<<<<<< HEAD
     fChance *= pow(0.66, std::min(nAttempts, 8));
+=======
+    fChance *= pow(0.66, min(nAttempts, 8));
+>>>>>>> refs/remotes/origin/0.10
 
     return fChance;
 }
@@ -329,26 +351,40 @@ void CAddrMan::Attempt_(const CService& addr, int64_t nTime)
     info.nAttempts++;
 }
 
+<<<<<<< HEAD
 CAddrInfo CAddrMan::Select_(bool newOnly)
+=======
+CAddress CAddrMan::Select_()
+>>>>>>> refs/remotes/origin/0.10
 {
     if (size() == 0)
         return CAddrInfo();
 
+<<<<<<< HEAD
     if (newOnly && nNew == 0)
         return CAddrInfo();
 
     // Use a 50% chance for choosing between tried and new table entries.
     if (!newOnly &&
        (nTried > 0 && (nNew == 0 || GetRandInt(2) == 0))) { 
+=======
+    // Use a 50% chance for choosing between tried and new table entries.
+    if (nTried > 0 && (nNew == 0 || GetRandInt(2) == 0)) {
+>>>>>>> refs/remotes/origin/0.10
         // use a tried node
         double fChanceFactor = 1.0;
         while (1) {
             int nKBucket = GetRandInt(ADDRMAN_TRIED_BUCKET_COUNT);
             int nKBucketPos = GetRandInt(ADDRMAN_BUCKET_SIZE);
+<<<<<<< HEAD
             while (vvTried[nKBucket][nKBucketPos] == -1) {
                 nKBucket = (nKBucket + insecure_rand()) % ADDRMAN_TRIED_BUCKET_COUNT;
                 nKBucketPos = (nKBucketPos + insecure_rand()) % ADDRMAN_BUCKET_SIZE;
             }
+=======
+            if (vvTried[nKBucket][nKBucketPos] == -1)
+                continue;
+>>>>>>> refs/remotes/origin/0.10
             int nId = vvTried[nKBucket][nKBucketPos];
             assert(mapInfo.count(nId) == 1);
             CAddrInfo& info = mapInfo[nId];
@@ -362,10 +398,15 @@ CAddrInfo CAddrMan::Select_(bool newOnly)
         while (1) {
             int nUBucket = GetRandInt(ADDRMAN_NEW_BUCKET_COUNT);
             int nUBucketPos = GetRandInt(ADDRMAN_BUCKET_SIZE);
+<<<<<<< HEAD
             while (vvNew[nUBucket][nUBucketPos] == -1) {
                 nUBucket = (nUBucket + insecure_rand()) % ADDRMAN_NEW_BUCKET_COUNT;
                 nUBucketPos = (nUBucketPos + insecure_rand()) % ADDRMAN_BUCKET_SIZE;
             }
+=======
+            if (vvNew[nUBucket][nUBucketPos] == -1)
+                continue;
+>>>>>>> refs/remotes/origin/0.10
             int nId = vvNew[nUBucket][nUBucketPos];
             assert(mapInfo.count(nId) == 1);
             CAddrInfo& info = mapInfo[nId];

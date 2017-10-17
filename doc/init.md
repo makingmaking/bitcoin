@@ -38,6 +38,7 @@ controls who can access it through RPC.
 By default the cookie is stored in the data directory, but it's location can be overridden
 with the option '-rpccookiefile'.
 
+<<<<<<< HEAD
 This allows for running bitcoind without having to do any manual configuration.
 
 `conf`, `pid`, and `wallet` accept relative paths which are interpreted as
@@ -45,6 +46,11 @@ relative to the data directory. `wallet` *only* supports relative paths.
 
 For an example configuration file that describes the configuration settings,
 see `contrib/debian/examples/bitcoin.conf`.
+=======
+
+For an example configuration file that describes the configuration settings,
+see contrib/debian/examples/bitcoin.conf.
+>>>>>>> refs/remotes/origin/0.10
 
 3. Paths
 ---------------------------------
@@ -98,6 +104,7 @@ it will automatically start on reboot.
 
 NOTE: This script is incompatible with CentOS 5 and Amazon Linux 2014 as they
 use old versions of Upstart and do not supply the start-stop-daemon utility.
+<<<<<<< HEAD
 
 4d) CentOS
 
@@ -117,9 +124,15 @@ This Launch Agent will cause bitcoind to start whenever the user logs in.
 NOTE: This approach is intended for those wanting to run bitcoind as the current user.
 You will need to modify org.bitcoin.bitcoind.plist if you intend to use it as a
 Launch Daemon with a dedicated bitcoin user.
+=======
+>>>>>>> refs/remotes/origin/0.10
 
 5. Auto-respawn
 -----------------------------------
 
 Auto respawning is currently only configured for Upstart and systemd.
 Reasonable defaults have been chosen but YMMV.
+<<<<<<< HEAD
+=======
+
+>>>>>>> refs/remotes/origin/0.10

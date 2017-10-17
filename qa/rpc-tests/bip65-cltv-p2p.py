@@ -66,8 +66,12 @@ class BIP65Test(ComparisonTestFramework):
 
     def get_tests(self):
 
+<<<<<<< HEAD
         self.coinbase_blocks = self.nodes[0].generate(2)
         height = 3  # height of the next block to build
+=======
+        self.coinbase_blocks = self.nodes[0].setgenerate(True, 2)
+>>>>>>> refs/remotes/origin/0.10
         self.tip = int ("0x" + self.nodes[0].getbestblockhash() + "L", 0)
         self.nodeaddress = self.nodes[0].getnewaddress()
         self.last_block_time = time.time()
@@ -75,27 +79,41 @@ class BIP65Test(ComparisonTestFramework):
         ''' 98 more version 3 blocks '''
         test_blocks = []
         for i in xrange(98):
+<<<<<<< HEAD
             block = create_block(self.tip, create_coinbase(height), self.last_block_time + 1)
+=======
+            block = create_block(self.tip, create_coinbase(2), self.last_block_time + 1)
+>>>>>>> refs/remotes/origin/0.10
             block.nVersion = 3
             block.rehash()
             block.solve()
             test_blocks.append([block, True])
             self.last_block_time += 1
             self.tip = block.sha256
+<<<<<<< HEAD
             height += 1
+=======
+>>>>>>> refs/remotes/origin/0.10
         yield TestInstance(test_blocks, sync_every_block=False)
 
         ''' Mine 749 version 4 blocks '''
         test_blocks = []
         for i in xrange(749):
+<<<<<<< HEAD
             block = create_block(self.tip, create_coinbase(height), self.last_block_time + 1)
+=======
+            block = create_block(self.tip, create_coinbase(2), self.last_block_time + 1)
+>>>>>>> refs/remotes/origin/0.10
             block.nVersion = 4
             block.rehash()
             block.solve()
             test_blocks.append([block, True])
             self.last_block_time += 1
             self.tip = block.sha256
+<<<<<<< HEAD
             height += 1
+=======
+>>>>>>> refs/remotes/origin/0.10
         yield TestInstance(test_blocks, sync_every_block=False)
 
         '''
@@ -107,7 +125,11 @@ class BIP65Test(ComparisonTestFramework):
         cltv_invalidate(spendtx)
         spendtx.rehash()
 
+<<<<<<< HEAD
         block = create_block(self.tip, create_coinbase(height), self.last_block_time + 1)
+=======
+        block = create_block(self.tip, create_coinbase(2), self.last_block_time + 1)
+>>>>>>> refs/remotes/origin/0.10
         block.nVersion = 4
         block.vtx.append(spendtx)
         block.hashMerkleRoot = block.calc_merkle_root()
@@ -116,7 +138,10 @@ class BIP65Test(ComparisonTestFramework):
 
         self.last_block_time += 1
         self.tip = block.sha256
+<<<<<<< HEAD
         height += 1
+=======
+>>>>>>> refs/remotes/origin/0.10
         yield TestInstance([[block, True]])
 
         '''
@@ -128,7 +153,11 @@ class BIP65Test(ComparisonTestFramework):
         cltv_invalidate(spendtx)
         spendtx.rehash()
 
+<<<<<<< HEAD
         block = create_block(self.tip, create_coinbase(height), self.last_block_time + 1)
+=======
+        block = create_block(self.tip, create_coinbase(1), self.last_block_time + 1)
+>>>>>>> refs/remotes/origin/0.10
         block.nVersion = 4
         block.vtx.append(spendtx)
         block.hashMerkleRoot = block.calc_merkle_root()
@@ -140,38 +169,63 @@ class BIP65Test(ComparisonTestFramework):
         ''' Mine 199 new version blocks on last valid tip '''
         test_blocks = []
         for i in xrange(199):
+<<<<<<< HEAD
             block = create_block(self.tip, create_coinbase(height), self.last_block_time + 1)
+=======
+            block = create_block(self.tip, create_coinbase(1), self.last_block_time + 1)
+>>>>>>> refs/remotes/origin/0.10
             block.nVersion = 4
             block.rehash()
             block.solve()
             test_blocks.append([block, True])
             self.last_block_time += 1
             self.tip = block.sha256
+<<<<<<< HEAD
             height += 1
         yield TestInstance(test_blocks, sync_every_block=False)
 
         ''' Mine 1 old version block '''
         block = create_block(self.tip, create_coinbase(height), self.last_block_time + 1)
+=======
+        yield TestInstance(test_blocks, sync_every_block=False)
+
+        ''' Mine 1 old version block '''
+        block = create_block(self.tip, create_coinbase(1), self.last_block_time + 1)
+>>>>>>> refs/remotes/origin/0.10
         block.nVersion = 3
         block.rehash()
         block.solve()
         self.last_block_time += 1
         self.tip = block.sha256
+<<<<<<< HEAD
         height += 1
         yield TestInstance([[block, True]])
 
         ''' Mine 1 new version block '''
         block = create_block(self.tip, create_coinbase(height), self.last_block_time + 1)
+=======
+        yield TestInstance([[block, True]])
+
+        ''' Mine 1 new version block '''
+        block = create_block(self.tip, create_coinbase(1), self.last_block_time + 1)
+>>>>>>> refs/remotes/origin/0.10
         block.nVersion = 4
         block.rehash()
         block.solve()
         self.last_block_time += 1
         self.tip = block.sha256
+<<<<<<< HEAD
         height += 1
         yield TestInstance([[block, True]])
 
         ''' Mine 1 old version block, should be invalid '''
         block = create_block(self.tip, create_coinbase(height), self.last_block_time + 1)
+=======
+        yield TestInstance([[block, True]])
+
+        ''' Mine 1 old version block, should be invalid '''
+        block = create_block(self.tip, create_coinbase(1), self.last_block_time + 1)
+>>>>>>> refs/remotes/origin/0.10
         block.nVersion = 3
         block.rehash()
         block.solve()

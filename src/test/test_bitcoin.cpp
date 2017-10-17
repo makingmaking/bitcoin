@@ -32,6 +32,7 @@ CWallet* pwalletMain;
 extern bool fPrintToConsole;
 extern void noui_connect();
 
+<<<<<<< HEAD
 BasicTestingSetup::BasicTestingSetup(const std::string& chainName)
 {
         ECC_Start();
@@ -40,6 +41,18 @@ BasicTestingSetup::BasicTestingSetup(const std::string& chainName)
         fPrintToDebugLog = false; // don't want to write to debug.log file
         fCheckBlockIndex = true;
         SelectParams(chainName);
+=======
+struct TestingSetup {
+    CCoinsViewDB *pcoinsdbview;
+    boost::filesystem::path pathTemp;
+    boost::thread_group threadGroup;
+
+    TestingSetup() {
+        SetupEnvironment();
+        fPrintToDebugLog = false; // don't want to write to debug.log file
+        fCheckBlockIndex = true;
+        SelectParams(CBaseChainParams::UNITTEST);
+>>>>>>> refs/remotes/origin/0.10
         noui_connect();
 }
 

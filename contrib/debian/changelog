@@ -1,9 +1,12 @@
+<<<<<<< HEAD
 bitcoin (0.11.0-precise1) precise; urgency=medium
 
   * New upstream release.
 
  -- Matt Corallo (BlueMatt) <matt@mattcorallo.com>  Tue, 14 Jul 2015 14:39:00 -1000
 
+=======
+>>>>>>> refs/remotes/origin/0.10
 bitcoin (0.10.2-precise1) precise; urgency=medium
 
   * New upstream release.

@@ -1296,6 +1296,7 @@ CSubNet::CSubNet(const std::string &strSubnet, bool fAllowLookup)
     // Normalize network according to netmask
     for(int x=0; x<16; ++x)
         network.ip[x] &= netmask[x];
+<<<<<<< HEAD
 }
 
 CSubNet::CSubNet(const CNetAddr &addr):
@@ -1303,6 +1304,8 @@ CSubNet::CSubNet(const CNetAddr &addr):
 {
     memset(netmask, 255, sizeof(netmask));
     network = addr;
+=======
+>>>>>>> refs/remotes/origin/0.10
 }
 
 bool CSubNet::Match(const CNetAddr &addr) const

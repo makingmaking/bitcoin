@@ -1,6 +1,10 @@
 Mac OS X Build Instructions and Notes
 ====================================
+<<<<<<< HEAD
 This guide will show you how to build bitcoind (headless client) for OS X.
+=======
+This guide will show you how to build bitcoind(headless client) for OS X.
+>>>>>>> refs/remotes/origin/0.10
 
 Notes
 -----

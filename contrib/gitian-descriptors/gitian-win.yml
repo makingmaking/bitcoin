@@ -26,7 +26,11 @@ files: []
 script: |
   WRAP_DIR=$HOME/wrapped
   HOSTS="x86_64-w64-mingw32 i686-w64-mingw32"
+<<<<<<< HEAD
   CONFIGFLAGS="--enable-reduce-exports"
+=======
+  CONFIGFLAGS=""
+>>>>>>> refs/remotes/origin/0.10
   FAKETIME_HOST_PROGS="g++ ar ranlib nm windres strip"
   FAKETIME_PROGS="date makensis zip"
 
@@ -84,8 +88,11 @@ script: |
   pushd temp
   tar xf ../$SOURCEDIST
   find bitcoin-* | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | gzip -9n > ../$SOURCEDIST
+<<<<<<< HEAD
   mkdir -p $OUTDIR/src
   cp ../$SOURCEDIST $OUTDIR/src
+=======
+>>>>>>> refs/remotes/origin/0.10
   popd
 
   ORIGPATH="$PATH"

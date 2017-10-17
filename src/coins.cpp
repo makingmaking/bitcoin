@@ -246,7 +246,11 @@ double CCoinsViewCache::GetPriority(const CTransaction &tx, int nHeight) const
     return tx.ComputePriority(dResult);
 }
 
+<<<<<<< HEAD
 CCoinsModifier::CCoinsModifier(CCoinsViewCache& cache_, CCoinsMap::iterator it_, size_t usage) : cache(cache_), it(it_), cachedCoinUsage(usage) {
+=======
+CCoinsModifier::CCoinsModifier(CCoinsViewCache& cache_, CCoinsMap::iterator it_) : cache(cache_), it(it_) {
+>>>>>>> refs/remotes/origin/0.10
     assert(!cache.hasModifier);
     cache.hasModifier = true;
 }

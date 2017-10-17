@@ -34,10 +34,23 @@ Check out the source code in the following directory hierarchy.
 
 * * *
 
+<<<<<<< HEAD
 ###Setup and perform Gitian builds
 
  Setup Gitian descriptors:
 
+=======
+###update Gitian
+
+ In order to take advantage of the new caching features in Gitian, be sure to update to a recent version (e9741525c or higher is recommended)
+
+###perform Gitian builds
+
+ From a directory containing the bitcoin source, gitian-builder and gitian.sigs
+  
+    export SIGNER=(your Gitian key, ie bluematt, sipa, etc)
+	export VERSION=(new version, e.g. 0.8.0)
+>>>>>>> refs/remotes/origin/0.10
 	pushd ./bitcoin
 	export SIGNER=(your Gitian key, ie bluematt, sipa, etc)
 	export VERSION=(new version, e.g. 0.8.0)
@@ -71,6 +84,7 @@ Check out the source code in the following directory hierarchy.
 
 ###Optional: Seed the Gitian sources cache and offline git repositories
 
+<<<<<<< HEAD
 By default, Gitian will fetch source files as needed. To cache them ahead of time:
 
 	make -C ../bitcoin/depends download SOURCES_PATH=`pwd`/cache/common
@@ -85,6 +99,30 @@ The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
 ###Build (and optionally verify) Bitcoin Core for Linux, Windows, and OS X:
 
+=======
+###fetch and build inputs: (first time, or when dependency versions change)
+
+	mkdir -p inputs
+
+ Register and download the Apple SDK: (see OS X Readme for details)
+
+ https://developer.apple.com/downloads/download.action?path=Developer_Tools/xcode_4.6.3/xcode4630916281a.dmg
+
+ Using a Mac, create a tarball for the 10.7 SDK and copy it to the inputs directory:
+
+	tar -C /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/ -czf MacOSX10.7.sdk.tar.gz MacOSX10.7.sdk
+
+###Optional: Seed the Gitian sources cache
+
+  By default, Gitian will fetch source files as needed. For offline builds, they can be fetched ahead of time:
+
+	make -C ../bitcoin/depends download SOURCES_PATH=`pwd`/cache/common
+
+  Only missing files will be fetched, so this is safe to re-run for each build.
+
+###Build Bitcoin Core for Linux, Windows, and OS X:
+
+>>>>>>> refs/remotes/origin/0.10
 	./bin/gbuild --commit bitcoin=v${VERSION} ../bitcoin/contrib/gitian-descriptors/gitian-linux.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../bitcoin/contrib/gitian-descriptors/gitian-linux.yml
 	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../bitcoin/contrib/gitian-descriptors/gitian-linux.yml
@@ -98,6 +136,7 @@ The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
 	./bin/gbuild --commit bitcoin=v${VERSION} ../bitcoin/contrib/gitian-descriptors/gitian-osx.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../bitcoin/contrib/gitian-descriptors/gitian-osx.yml
+<<<<<<< HEAD
 	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../bitcoin/contrib/gitian-descriptors/gitian-osx.yml
 	mv build/out/bitcoin-*-osx-unsigned.tar.gz inputs/bitcoin-osx-unsigned.tar.gz
 	mv build/out/bitcoin-*.tar.gz build/out/bitcoin-*.dmg ../
@@ -110,6 +149,18 @@ The gbuild invocations below <b>DO NOT DO THIS</b> by default.
   3. windows 32-bit and 64-bit unsigned installers and dist zips (bitcoin-${VERSION}-win[32|64]-setup-unsigned.exe, bitcoin-${VERSION}-win[32|64].zip)
   4. OS X unsigned installer and dist tarball (bitcoin-${VERSION}-osx-unsigned.dmg, bitcoin-${VERSION}-osx64.tar.gz)
   5. Gitian signatures (in gitian.sigs/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/
+=======
+	mv build/out/bitcoin-*-unsigned.tar.gz inputs/bitcoin-osx-unsigned.tar.gz
+	mv build/out/bitcoin-*.tar.gz build/out/bitcoin-*.dmg ../
+	popd
+  Build output expected:
+
+  1. source tarball (bitcoin-${VERSION}.tar.gz)
+  2. linux 32-bit and 64-bit binaries dist tarballs (bitcoin-${VERSION}-linux[32|64].tar.gz)
+  3. windows 32-bit and 64-bit installers and dist zips (bitcoin-${VERSION}-win[32|64]-setup.exe, bitcoin-${VERSION}-win[32|64].zip)
+  4. OS X unsigned installer (bitcoin-${VERSION}-osx-unsigned.dmg)
+  5. Gitian signatures (in gitian.sigs/${VERSION}-<linux|win|osx-unsigned>/(your Gitian key)/
+>>>>>>> refs/remotes/origin/0.10
 
 ###Next steps:
 
@@ -123,6 +174,7 @@ Commit your signature to gitian.sigs:
 	git push  # Assuming you can push to the gitian.sigs tree
 	popd
 
+<<<<<<< HEAD
   Wait for Windows/OS X detached signatures:
 
 	Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
@@ -130,9 +182,18 @@ Commit your signature to gitian.sigs:
 
   Create (and optionally verify) the signed OS X binary:
 
+=======
+  Wait for OS X detached signature:
+	Once the OS X build has 3 matching signatures, Gavin will sign it with the apple App-Store key.
+	He will then upload a detached signature to be combined with the unsigned app to create a signed binary.
+
+  Create the signed OS X binary:
+
+>>>>>>> refs/remotes/origin/0.10
 	pushd ./gitian-builder
 	./bin/gbuild -i --commit signature=v${VERSION} ../bitcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../bitcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+<<<<<<< HEAD
 	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../bitcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
 	mv build/out/bitcoin-osx-signed.dmg ../bitcoin-${VERSION}-osx.dmg
 	popd
@@ -148,6 +209,12 @@ Commit your signature to gitian.sigs:
 	popd
 
 Commit your signature for the signed OS X/Windows binaries:
+=======
+	mv build/out/bitcoin-osx-signed.dmg ../bitcoin-${VERSION}-osx.dmg
+	popd
+
+Commit your signature for the signed OS X binary:
+>>>>>>> refs/remotes/origin/0.10
 
 	pushd gitian.sigs
 	git add ${VERSION}-osx-signed/${SIGNER}
@@ -175,14 +242,22 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 - Update bitcoin.org version
 
   - First, check to see if the Bitcoin.org maintainers have prepared a
+<<<<<<< HEAD
     release: https://github.com/bitcoin-dot-org/bitcoin.org/labels/Releases
+=======
+    release: https://github.com/bitcoin/bitcoin.org/labels/Releases
+>>>>>>> refs/remotes/origin/0.10
 
       - If they have, it will have previously failed their Travis CI
         checks because the final release files weren't uploaded.
         Trigger a Travis CI rebuild---if it passes, merge.
 
   - If they have not prepared a release, follow the Bitcoin.org release
+<<<<<<< HEAD
     instructions: https://github.com/bitcoin-dot-org/bitcoin.org#release-notes
+=======
+    instructions: https://github.com/bitcoin/bitcoin.org#release-notes
+>>>>>>> refs/remotes/origin/0.10
 
   - After the pull request is merged, the website will automatically show the newest version within 15 minutes, as well
     as update the OS download links. Ping @saivann/@harding (saivann/harding on Freenode) in case anything goes wrong

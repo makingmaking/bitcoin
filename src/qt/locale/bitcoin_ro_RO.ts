@@ -154,6 +154,13 @@
     <message>
         <source>Change passphrase</source>
         <translation>Schimbare frază de acces</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Enter the old and new passphrase to the wallet.</source>
+        <translation>Introduceţi vechea şi noua parolă pentru portofel.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Confirm wallet encryption</source>
@@ -166,10 +173,13 @@
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Sigur doriţi să criptaţi portofelul dvs.?</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Bitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
         <translation>Bitcoin se va închide acum pentru a termina procesul de criptare. Ţineţi minte că criptarea portofelului nu vă poate proteja în totalitate de furtul monedelor de către programe dăunătoare care vă infectează calculatorul.</translation>
+=======
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -188,8 +198,13 @@
         <translation>Introduceţi noua parolă a portofelului electronic.&lt;br/&gt;Vă rugăm să folosiţi o parolă de&lt;b&gt;minimum 10 caractere aleatoare&lt;/b&gt;, sau &lt;b&gt;minimum 8 cuvinte&lt;/b&gt;.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
         <translation>Introduceţi vechea şi noua parolă pentru portofel.</translation>
+=======
+        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>Bitcoin se va închide acum pentru a termina procesul de criptare. Ţineţi minte că criptarea portofelului nu vă poate proteja în totalitate de furtul monedelor de către programe dăunătoare care vă infectează calculatorul.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -314,6 +329,13 @@
         <translation>Trimite monede către o adresă Bitcoin</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Modify configuration options for Bitcoin</source>
+        <translation>Modifică opţiunile de configurare pentru Bitcoin</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Backup wallet to another location</source>
         <translation>Creează o copie de rezervă a portofelului într-o locaţie diferită</translation>
     </message>
@@ -432,10 +454,13 @@
     <message>
         <source>No block source available...</source>
         <translation>Nici o sursă de bloc disponibilă...</translation>
+<<<<<<< HEAD
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation><numerusform>S-a procesat %n bloc din istoricul tranzacţiilor.</numerusform><numerusform>S-au procesat %n blocuri din istoricul tranzacţiilor.</numerusform><numerusform>S-au procesat %n de blocuri din istoricul tranzacţiilor.</numerusform></translation>
+=======
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -485,11 +510,16 @@
         <source>Up to date</source>
         <translation>Actualizat</translation>
     </message>
+    <message numerus="yes">
+        <source>Processed %n blocks of transaction history.</source>
+        <translation><numerusform>S-a procesat %n bloc din istoricul tranzacţiilor.</numerusform><numerusform>S-au procesat %n blocuri din istoricul tranzacţiilor.</numerusform><numerusform>S-au procesat %n de blocuri din istoricul tranzacţiilor.</numerusform></translation>
+    </message>
     <message>
         <source>Catching up...</source>
         <translation>Se actualizează...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Date: %1
 </source>
         <translation>Data: %1
@@ -500,6 +530,14 @@
 </source>
         <translation>Sumă: %1
 </translation>
+=======
+        <source>Sent transaction</source>
+        <translation>Tranzacţie expediată</translation>
+    </message>
+    <message>
+        <source>Incoming transaction</source>
+        <translation>Tranzacţie recepţionată</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Type: %1
@@ -714,6 +752,7 @@
         <translation>nimic</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This label turns red if the transaction size is greater than 1000 bytes.</source>
         <translation>Această etichetă devine roşie în cazul în care dimensiunea tranzacţiei este mai mare de 1000 de octeţi.</translation>
     </message>
@@ -726,6 +765,8 @@
         <translation>Această etichetă devine roşie, dacă orice beneficiar primeşte o sumă mai mică decât %1.</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Can vary +/- %1 satoshi(s) per input.</source>
         <translation>Poate varia +/- %1 satoshi pentru fiecare intrare.</translation>
     </message>
@@ -738,12 +779,26 @@
         <translation>nu</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
+        <translation>Această etichetă devine roşie, în cazul în care dimensiunea tranzacţiei este mai mare de 1000 de octeţi.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Can vary +/- 1 byte per input.</source>
         <translation>Poate varia +/- 1 octet pentru fiecare intrare.</translation>
     </message>
     <message>
         <source>Transactions with higher priority are more likely to get included into a block.</source>
         <translation>Tranzacţiile cu prioritate mai mare sînt mai susceptibile de fi incluse într-un bloc.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>This label turns red, if the priority is smaller than "medium".</source>
+        <translation>Această etichetă devine roşie dacă prioritatea e mai mică decît "medie".</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>(no label)</source>
@@ -865,6 +920,33 @@
     <message>
         <source>command-line options</source>
         <translation>Opţiuni linie de comandă</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>UI options</source>
+        <translation>Opţiuni UI</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Setează limba, de exemplu: "de_DE" (implicit: sistem local)</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>Începe minimizat</translation>
+    </message>
+    <message>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>Setare rădăcină certificat SSL pentru cerere de plată (implicit: -sistem- )</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Afişează pe ecran splash la pornire (implicit: 1)</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>Alege dosarul de date la pornire (implicit: 0)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
 </context>
 <context>
@@ -944,6 +1026,17 @@
         <translation>Principal</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Automatically start Bitcoin after logging in to the system.</source>
+        <translation>Porneşte automat Bitcoin după pornirea calculatorului.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Bitcoin on system login</source>
+        <translation>Porneşte Bitcoin la pornirea sistemului</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Size of &amp;database cache</source>
         <translation>Mărimea bazei de &amp;date cache</translation>
     </message>
@@ -968,6 +1061,7 @@
         <translation>Adresa IP a serverului proxy (de exemplu: IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
         <translation>Minimizează fereastra în locul părăsirii programului în momentul închiderii ferestrei. Cînd acestă opţiune e activă, aplicaţia se va opri doar în momentul selectării comenzii 'Închide aplicaţia' din menu.</translation>
     </message>
@@ -976,6 +1070,8 @@
         <translation>Limba interfeţei utilizatorului poate fi setată aici. Această setare va avea efect după repornirea Nucleului Bitcoin.</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
         <translation>URL-uri terţe părţi (de exemplu, un explorator de bloc), care apar în tab-ul tranzacţiilor ca elemente de meniu contextual. %s în URL este înlocuit cu hash de tranzacţie. URL-urile multiple sînt separate prin bară verticală |.</translation>
     </message>
@@ -1000,10 +1096,13 @@
         <translation>Reţea</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Start Bitcoin Core on system login</source>
         <translation>Porneşte Nucleul Bitcoin la pornirea sistemului</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
         <translation>(0 = automat, &lt;0 = lasă atîtea nuclee libere)</translation>
     </message>
@@ -1066,6 +1165,13 @@
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
         <translation>&amp;Minimizare în tray în loc de taskbar</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
+        <translation>Ascunde fereastra în locul părăsirii programului în momentul închiderii ferestrei. Cînd acestă opţiune e activă, aplicaţia se va opri doar în momentul selectării comenzii 'Închide aplicaţia' din menu.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>M&amp;inimize on close</source>
@@ -1078,6 +1184,13 @@
     <message>
         <source>User Interface &amp;language:</source>
         <translation>&amp;Limbă interfaţă utilizator</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
+        <translation>Limba interfeţei utilizatorului poate fi setată aici. Această setare va avea efect după repornirea Bitcoin.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1185,6 +1298,7 @@
     <message>
         <source>Spendable:</source>
         <translation>Cheltuibil:</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Recent transactions</source>
@@ -1201,6 +1315,28 @@
     <message>
         <source>Current total balance in watch-only addresses</source>
         <translation>Soldul dvs. total în adresele doar-supraveghere</translation>
+=======
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>Tranzacţii recente</translation>
+    </message>
+    <message>
+        <source>Unconfirmed transactions to watch-only addresses</source>
+        <translation>Tranzacţii neconfirmate la adresele doar-supraveghere</translation>
+    </message>
+    <message>
+        <source>Mined balance in watch-only addresses that has not yet matured</source>
+        <translation>Balanţă minată în adresele doar-supraveghere care nu s-a maturizat încă</translation>
+    </message>
+    <message>
+        <source>Current total balance in watch-only addresses</source>
+        <translation>Soldul dvs. total în adresele doar-supraveghere</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>nesincronizat</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
 </context>
 <context>
@@ -1222,6 +1358,13 @@
         <translation>Cererea de plată din reţea nu se potriveşte cu clientul din reţea</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Payment request has expired.</source>
+        <translation>Cererea de plată a expirat.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Payment request is not initialized.</source>
         <translation>Cererea de plată nu este iniţializată.</translation>
     </message>
@@ -1252,18 +1395,24 @@
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
         <translation>Fişierul cerere de plată nu poate fi citit! Cauza poate fi un fişier cerere de plată nevalid.</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Payment request expired.</source>
         <translation>Cererea de plată a expirat.</translation>
+=======
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation>Cererile de plată neverificate prin script-uri personalizate de plată nu sînt suportate.</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Invalid payment request.</source>
         <translation>Cerere de plată nevalidă.</translation>
+=======
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Refund from %1</source>
@@ -1272,6 +1421,13 @@
     <message>
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
         <translation>Cererea de plată %1 este prea mare (%2 octeţi, permis %3 octeţi).</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Payment request DoS protection</source>
+        <translation>Protecţie DoS cerere de plată</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
@@ -1301,6 +1457,13 @@
         <translation>Agent utilizator</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Address/Hostname</source>
+        <translation>Adresă/Nume gazdă</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Ping Time</source>
         <translation>Timp ping</translation>
     </message>
@@ -1332,6 +1495,17 @@
         <translation>%1 s</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>NETWORK</source>
+        <translation>REŢEA</translation>
+    </message>
+    <message>
+        <source>UNKNOWN</source>
+        <translation>NECUNOSCUT</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>None</source>
         <translation>Niciuna</translation>
     </message>
@@ -1516,14 +1690,26 @@
     <message>
         <source>Debug log file</source>
         <translation>Fişier jurnal depanare</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Deschide fişierul jurnal depanare din directorul curent. Aceasta poate dura cîteva secunde pentru fişierele mai mari.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Clear console</source>
         <translation>Curăţă consola</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to the Bitcoin Core RPC console.</source>
         <translation>Bun venit la consola Nucleului Bitcoin RPC.</translation>
+=======
+        <source>Welcome to the Bitcoin RPC console.</source>
+        <translation>Bun venit la consola bitcoin RPC.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1569,6 +1755,13 @@
         <source>Unknown</source>
         <translation>Necunoscut</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Fetching...</source>
+        <translation>Preluare...</translation>
+    </message>
+>>>>>>> refs/remotes/origin/0.10
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -1806,12 +1999,21 @@
         <translation>Alegeţi...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>per kilobyte</source>
         <translation>per kilooctet</translation>
     </message>
     <message>
         <source>Hide</source>
         <translation>Ascunde</translation>
+=======
+        <source>Minimize</source>
+        <translation>Minimizare</translation>
+    </message>
+    <message>
+        <source>per kilobyte</source>
+        <translation>per kilooctet</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>total at least</source>
@@ -1928,6 +2130,13 @@
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
         <translation>Totalul depăşeşte soldul contului dacă se include şi plata taxei de %1.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Duplicate address found, can only send to each address once per send operation.</source>
+        <translation>S-a descoperit o adresă duplicat.Se poate trimite către fiecare adresă doar o singură dată per operaţiune.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Transaction creation failed!</source>
@@ -1938,6 +2147,7 @@
         <translation>Tranzacţia a fost respinsă! Acest lucru se poate întîmpla dacă o parte din monedele tale din portofel au fost deja cheltuite, la fel ca şi cum aţi fi folosit o copie a wallet.dat şi monedele au fost cheltuite în copie, dar nu au fost marcate ca şi cheltuite şi aici.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request expired.</source>
         <translation>Cererea de plată a expirat.</translation>
     </message>
@@ -1948,6 +2158,10 @@
     <message>
         <source>The recipient address is not valid. Please recheck.</source>
         <translation>Adresa destinatarului nu este validă, vă rugăm să o verificaţi.</translation>
+=======
+        <source>Pay only the minimum fee of %1</source>
+        <translation>Plăteşte doar taxa minimă de %1</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Warning: Invalid Bitcoin address</source>
@@ -2025,12 +2239,29 @@
         <translation>Mesaj:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a label for this address to add it to the list of used addresses</source>
         <translation>Introduceţi eticheta pentru ca această adresa să fie introdusă în lista de adrese folosite</translation>
     </message>
     <message>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
         <translation>un mesaj a fost ataşat la bitcoin: URI care va fi stocat cu tranzacţia pentru referinţa dvs. Notă: Acest mesaj nu va fi trimis către reţeaua bitcoin.</translation>
+=======
+        <source>This is a verified payment request.</source>
+        <translation>Aceasta este o cerere de plată verificată.</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to the list of used addresses</source>
+        <translation>Introduceţi eticheta pentru ca această adresa să fie introdusă în lista de adrese folosite</translation>
+    </message>
+    <message>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <translation>un mesaj a fost ataşat la bitcoin: URI care va fi stocat cu tranzacţia pentru referinţa dvs. Notă: Acest mesaj nu va fi trimis către reţeaua bitcoin.</translation>
+    </message>
+    <message>
+        <source>This is an unverified payment request.</source>
+        <translation>Aceasta este o cerere de plata neverificată.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Pay To:</source>
@@ -2063,6 +2294,13 @@
         <translation>&amp;Semnează mesaj</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Puteţi semna mesaje cu adresa dvs. pentru a demostra ca sînteti proprietarul lor. Aveţi grijă să nu semnaţi nimic vag, deoarece atacurile de tip phishing vă pot păcăli să le transferaţi identitatea. Semnaţi numai declaraţiile detaliate cu care sînteti de acord.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>The Bitcoin address to sign the message with</source>
         <translation>Adresa cu care semnaţi mesajul</translation>
     </message>
@@ -2115,6 +2353,13 @@
         <translation>&amp;Verifică mesaj</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
+        <translation>Introduceţi adresa de semnatură, mesajul (asiguraţi-vă că aţi copiat spaţiile, taburile etc. exact) şi semnatura dedesubt pentru a verifica mesajul. Aveţi grijă să nu citiţi mai mult în semnatură decît mesajul în sine, pentru a evita să fiţi păcăliţi de un atac de tip man-in-the-middle.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>The Bitcoin address the message was signed with</source>
         <translation>Introduceţi o adresă Bitcoin</translation>
     </message>
@@ -2374,6 +2619,13 @@
         <translation>Tip</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Address</source>
+        <translation>Adresă</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Immature (%1 confirmations, will be available after %2)</source>
         <translation>Imatur (%1 confirmări, va fi disponibil după %2)</translation>
     </message>
@@ -2452,10 +2704,21 @@
     <message>
         <source>Type of transaction.</source>
         <translation>Tipul tranzacţiei.</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
         <translation>Indiferent dacă sau nu o adresă doar-suăpraveghere este implicată în această tranzacţie.</translation>
+=======
+    </message>
+    <message>
+        <source>Whether or not a watch-only address is involved in this transaction.</source>
+        <translation>Indiferent dacă sau nu o adresă doar-suăpraveghere este implicată în această tranzacţie.</translation>
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>Adresa de destinaţie a tranzacţiei.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -2686,6 +2949,13 @@
     <message>
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Rulează în fundal ca un demon şi acceptă comenzi</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Utilizează reţeaua de test</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
@@ -2700,20 +2970,46 @@
         <translation>Distribuit sub licenţa de programe MIT/X11, vezi fişierul însoţitor COPYING sau &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Execută comanda cînd o tranzacţie a portofelului se schimbă (%s în cmd este înlocuit de TxID)</translation>
     </message>
     <message>
+=======
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>Iniţiază modul de test regresie, care foloseşte un lanţ special în care blocurile pot fi rezolvate instantaneu.</translation>
+    </message>
+    <message>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Execută comanda cînd o tranzacţie a portofelului se schimbă (%s în cmd este înlocuit de TxID)</translation>
+    </message>
+    <message>
+        <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
+        <translation>În acest mod -genproclimit controlează cîte blocuri sînt generate imediat.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
         <translation>Setează numărul de thread-uri de verificare a script-urilor (%u la %d, 0 = auto, &lt;0 = lasă atîtea nuclee libere, implicit: %d)</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
         <translation>Aceasta este o versiune de test preliminară - vă asumaţi riscul folosind-o - nu folosiţi pentru minerit sau aplicaţiile comercianţilor</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
         <translation>Nu se poate lega la %s pe acest calculator. Nucleul Bitcoin probabil deja rulează.</translation>
+=======
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
+        <translation>Nu se poate lega la %s pe acest calculator. Nucleul Bitcoin probabil deja rulează.</translation>
+    </message>
+    <message>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Atenţie: setarea -paytxfee este foarte mare! Aceasta este taxa tranzacţiei pe care o veţi plăti dacă trimiteţi o tranzacţie.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2724,10 +3020,21 @@
         <translation>Atenţie: Aparent, nu sîntem de acord cu toţi partenerii noştri! Va trebui să faceţi o actualizare, sau alte noduri necesită actualizare.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
         <translation>Atenţie: fişierul wallet.dat este corupt, date salvate! Fişierul original wallet.dat a fost salvat ca wallet.{timestamp}.bak in %s; dacă balansul sau tranzactiile sînt incorecte ar trebui să restauraţi dintr-o copie de siguranţă.</translation>
     </message>
     <message>
+=======
+        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
+        <translation>Atenţie: eroare la citirea fişierului wallet.dat! Toate cheile sînt citite corect, dar datele tranzactiei sau anumite intrări din agenda sînt incorecte sau lipsesc.</translation>
+    </message>
+    <message>
+        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
+        <translation>Atenţie: fişierul wallet.dat este corupt, date salvate! Fişierul original wallet.dat a fost salvat ca wallet.{timestamp}.bak in %s; dacă balansul sau tranzactiile sînt incorecte ar trebui să restauraţi dintr-o copie de siguranţă.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>(default: 1)</source>
         <translation>(iniţial: 1)</translation>
     </message>
@@ -2760,6 +3067,13 @@
         <translation>Opţiuni Depanare/Test:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
+        <translation>Descoperă propria adresă IP (inţial: 1)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Do not load the wallet and disable wallet RPC calls</source>
         <translation>Nu încarcă portofelul şi dezactivează solicitările portofel RPC</translation>
     </message>
@@ -2792,6 +3106,13 @@
         <translation>Nu s-a reuşit ascultarea pe orice port. Folosiţi -listen=0 dacă vreţi asta.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
+        <translation>Dacă &lt;category&gt; nu este furnizat, produce toate informaţiile de depanare.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Importing...</source>
         <translation>Import...</translation>
     </message>
@@ -2812,6 +3133,13 @@
         <translation>Se conectează doar la noduri în reţeaua &lt;net&gt; (ipv4, ipv6 sau onion)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation>Reconstruirea indexului lanţului de bloc din fişierele actuale blk000???.dat</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
         <translation>Setează mărimea bazei de date cache în megaocteţi (%d la %d, implicit: %d)</translation>
     </message>
@@ -2824,6 +3152,13 @@
         <translation>Specifică fişierul portofel (în dosarul de date)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>This is intended for regression testing tools and app development.</source>
+        <translation>Este folosită pentru programe de testare a regresiei în algoritmi şi dezvoltare de alte aplicaţii.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Use UPnP to map the listening port (default: %u)</source>
         <translation>Foloseşte mapare UPnP pentru asculatere port (implicit: %u)</translation>
     </message>
@@ -2856,6 +3191,13 @@
         <translation>Permite conexiunile JSON-RPC din sursa specificată. Valid pentru &lt;ip&gt; sînt IP singulare (ex. 1.2.3.4), o reţea/mască-reţea (ex. 1.2.3.4/255.255.255.0) sau o reţea/CIDR (ex. 1.2.3.4/24). Această opţiune poate fi specificată de mai multe ori</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
+        <translation>A apărut o eroare la setarea adresei RPC %s portul %u pentru ascultare: %s</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
         <translation>Nu se poate obţine blocarea folderului cu date %s. Nucleul Bitcoin probabil deja rulează.</translation>
     </message>
@@ -2876,10 +3218,13 @@
         <translation>Acceptă cererile publice REST (implicit: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Choose data directory on startup (default: 0)</source>
         <translation>Alege dosarul de date la pornire (implicit: 0)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Connect through SOCKS5 proxy</source>
         <translation>Conectare prin proxy SOCKS5</translation>
     </message>
@@ -2890,6 +3235,17 @@
     <message>
         <source>Error reading from database, shutting down.</source>
         <translation>Eroare la citirea bazei de date. Oprire.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation>Eroare: Argument nesuportat -tor găsit, folosiţi -onion.</translation>
+    </message>
+    <message>
+        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (în BTC/kB) de adăugat la tranzacţiile pe care le trimiteţi(implicit: %s)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Information</source>
@@ -2924,8 +3280,29 @@
         <translation>Trebuie să specificaţi un port cu -whitebind: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>RPC server options:</source>
         <translation>Opţiuni server RPC:</translation>
+=======
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>Opţiuni RPC SSL: (vedeţi Wiki Bitcoin pentru intrucţiunile de setare SSL)</translation>
+    </message>
+    <message>
+        <source>RPC server options:</source>
+        <translation>Opţiuni server RPC:</translation>
+    </message>
+    <message>
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>RPC suportă pentru HTTP conexiuni persistente (implicit: %d)</translation>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>Aleator sccapă 1 din fiecare &lt;n&gt; mesaje ale reţelei</translation>
+    </message>
+    <message>
+        <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
+        <translation>Aleator aproximează 1 din fiecare &lt;n&gt; mesaje ale reţelei</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -2936,6 +3313,7 @@
         <translation>Trimitere tranzacţii ca tranzacţii taxă-zero dacă este posibil (implicit: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set SSL root certificates for payment request (default: -system-)</source>
         <translation>Setare rădăcină certificat SSL pentru cerere de plată (implicit: -sistem- )</translation>
     </message>
@@ -2950,6 +3328,10 @@
     <message>
         <source>Show splash screen on startup (default: 1)</source>
         <translation>Afişează pe ecran splash la pornire (implicit: 1)</translation>
+=======
+        <source>Show all debugging options (usage: --help -help-debug)</source>
+        <translation>Arată toate opţiunile de depanare (uz: --help -help-debug)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
@@ -2960,10 +3342,13 @@
         <translation>Nu s-a reuşit semnarea tranzacţiei</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Start minimized</source>
         <translation>Începe minimizat</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>This is experimental software.</source>
         <translation>Acesta este un program experimental.</translation>
     </message>
@@ -2982,10 +3367,21 @@
     <message>
         <source>Transaction too large</source>
         <translation>Tranzacţie prea mare</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
         <translation>Nu se poate lega la %s pe acest calculator. (Legarea a întors eroarea %s)</translation>
+=======
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %s)</source>
+        <translation>Nu se poate lega la %s pe acest calculator. (Legarea a întors eroarea %s)</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
+        <translation>Foloseşte UPnP pentru a vedea porturile (implicit: 1 cînd ascultă)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -3000,6 +3396,21 @@
         <translation>Avertisment</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Warning: This version is obsolete, upgrade required!</source>
+        <translation>Atenţie: această versiune este depăşită, este necesară actualizarea!</translation>
+    </message>
+    <message>
+        <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
+        <translation>Avertisment: Argument nesuportat -benchmark ignorat, folosiţi -debug=bench.</translation>
+    </message>
+    <message>
+        <source>Warning: Unsupported argument -debugnet ignored, use -debug=net.</source>
+        <translation>Avertisment: Argument nesuportat -debugnet ignorat, folosiţi -debug=net.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Zapping all transactions from wallet...</source>
         <translation>Şterge toate tranzacţiile din portofel...</translation>
     </message>
@@ -3026,6 +3437,13 @@
     <message>
         <source>Rescan the block chain for missing wallet transactions</source>
         <translation>Rescanează lanţul de bloc pentru tranzacţiile portofel lipsă</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Foloseşte OpenSSL (https) pentru conexiunile JSON-RPC</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>This help message</source>
@@ -3044,6 +3462,13 @@
         <translation>Eroare la încărcarea wallet.dat: Portofel corupt</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
+        <translation>Goleşte baza de date a activităţii din memoria pool în jurnal pe disc la fiecare &lt;n&gt; megaocteţi (implicit: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
         <translation>Produce toate informaţiile de depanare (implicit: %u &lt;category&gt; furnizată este opţională)</translation>
     </message>
@@ -3052,10 +3477,24 @@
         <translation>(implicit: %s)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Acceptable ciphers (default: %s)</source>
+        <translation>Cifruri acceptabile (implicit: %s)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Error loading wallet.dat</source>
         <translation>Eroare la încărcarea wallet.dat</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Force safe mode (default: %u)</source>
+        <translation>Forţează mod sigur (implicit: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Generate coins (default: %u)</source>
         <translation>Generează monede (implicit: %u)</translation>
     </message>
@@ -3068,6 +3507,17 @@
         <translation>Adresa -proxy nevalidă: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Server certificate file (default: %s)</source>
+        <translation>Fişierul certificat al serverului (implicit: %s)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: %s)</source>
+        <translation>Cheia privată a serverului (implicit: %s)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Set minimum block size in bytes (default: %u)</source>
         <translation>Setare mărime minimă bloc în octeţi (implicit: %u)</translation>
     </message>

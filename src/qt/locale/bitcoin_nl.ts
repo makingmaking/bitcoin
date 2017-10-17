@@ -185,11 +185,19 @@
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+<<<<<<< HEAD
         <translation>Voer een nieuw wachtwoord in voor uw portemonnee.&lt;br/&gt;Gebruik een wachtwoord van &lt;b&gt;tien of meer willekeurige karakters&lt;/b&gt;, of &lt;b&gt;acht of meer woorden&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
         <translation>Voer het oude en nieuwe wachtwoord in voor uw portemonnee.</translation>
+=======
+        <translation>Voer een nieuw wachtwoord in voor uw portomonee.&lt;br/&gt;Gebruik een wachtwoord van &lt;b&gt;tien of meer willekeurige karakters&lt;/b&gt;, of &lt;b&gt;acht of meer woorden&lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>Bitcoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoudt dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw bitcoins stelen.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -432,10 +440,13 @@
     <message>
         <source>No block source available...</source>
         <translation>Geen bron voor blokken beschikbaar...</translation>
+<<<<<<< HEAD
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation><numerusform>%n blok aan transactie geschiedenis verwerkt.</numerusform><numerusform>%n blokken aan transactie geschiedenis verwerkt.</numerusform></translation>
+=======
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -485,6 +496,13 @@
         <source>Up to date</source>
         <translation>Bijgewerkt</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message numerus="yes">
+        <source>Processed %n blocks of transaction history.</source>
+        <translation><numerusform>%n Blok transactie geschiedenis verwerkt.</numerusform><numerusform>%n Blokken transactie geschiedenis verwerkt.</numerusform></translation>
+    </message>
+>>>>>>> refs/remotes/origin/0.10
     <message>
         <source>Catching up...</source>
         <translation>Aan het bijwerken...</translation>
@@ -1290,6 +1308,13 @@
         <translation>Betalingsverzoek %1 is te groot (%2 bytes, toegestaan ​​%3 bytes).</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Payment request DoS protection</source>
+        <translation>Betalingsaanvraag DoS bescherming</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Error communicating with %1: %2</source>
         <translation>Fout bij communiceren met %1: %2</translation>
     </message>
@@ -1840,6 +1865,17 @@
     <message>
         <source>collapse fee-settings</source>
         <translation>Transactiekosteninstellingen verbergen</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Minimize</source>
+        <translation>Minimaliseer</translation>
+>>>>>>> refs/remotes/origin/0.10
+    </message>
+    <message>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Als de aangepaste toeslag is ingesteld op 1000 satoshis en de transactie is maar 250 bytes, dan wordt bij "per kilobyte" 250 satoshis aan toeslag berekend, terwijl er bij "tenminste" 1000 satoshis worden berekend. Voor transacties die groter zijn dan een kilobyte, wordt in beide gevallen per kilobyte de toeslag berekend.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -1850,10 +1886,13 @@
         <translation>Als de aangepaste toeslag is ingesteld op 1000 satoshis en de transactie is maar 250 bytes, dan wordt bij "per kilobyte" 250 satoshis aan toeslag berekend, terwijl er bij "totaal tenminste" 1000 satoshis worden berekend. Voor transacties die groter zijn dan een kilobyte, wordt in beide gevallen per kilobyte de toeslag berekend.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Hide</source>
         <translation>Verbergen</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>total at least</source>
         <translation>totaal ten minste</translation>
     </message>
@@ -2544,6 +2583,13 @@
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
         <translation>Of er een alleen-bekijken adres is betrokken bij deze transactie.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>Ontvangend adres van transactie.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -2790,10 +2836,21 @@
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Verwijder alle transacties van de portemonnee en herstel alleen de delen van de blockchain door -rescan tijdens het opstarten</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>Uitgegeven onder de MIT software licentie, zie het bijgevoegde bestand COPYING of &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
+=======
+    </message>
+    <message>
+        <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
+        <translation>Uitgegeven onder de MIT software licentie, zie het bijgevoegde bestand COPYING of &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
+    </message>
+    <message>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>Schakel regressietest-modus in, die een speciale blokketen gebruikt waarin blokken onmiddellijk opgelost kunnen worden.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
@@ -2914,6 +2971,13 @@
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
         <translation>Verbind alleen met nodes in netwerk &lt;net&gt; (ipv4, ipv6 of onion)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation>Blokketen opnieuw opbouwen met behulp van huidige blk000??.dat-bestanden</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
@@ -2964,6 +3028,13 @@
         <translation>Sta JSON-RPC verbindingen toe vanuit een gespecificeerde bron. Geldig voor &lt;ip&gt; zijn een enkel IP (bijv. 1.2.3.4), een netwerk/netmask (bijv. 1.2.3.4/255.255.255.0) of een netwerk/CIDR (bijv. 1.2.3.4/24). Deze optie kan meerdere keren gespecificeerd worden.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
+        <translation>Er is een fout opgetreden tijdens het opzetten van het RPC adres %s poort %u voor luisteren: %s</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
         <translation>Bind aan opgegeven adres en keur peers die ermee verbinden goed. Gebruik [host]:poort notatie voor IPv6</translation>
     </message>
@@ -2976,6 +3047,13 @@
         <translation>Kan geen lock verkrijgen op gegevensmap %s. Bitcoin Core draait waarschijnlijk al.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
+        <translation>Doorlopend tarief-limiet op gratis transacties toepassen tot &lt;n&gt;*1000 bytes per minuut (standaard: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
         <translation>Creër nieuwe bestanden met standaard systeem bestandsrechten in plaats van umask 077 (alleen effectief met uitgeschakelde portemonnee functionaliteit)</translation>
     </message>
@@ -2984,10 +3062,28 @@
         <translation>Fout: luisteren naar binnenkomende verbindingen mislukt (luisteren gaf foutmelding %s)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
+        <translation>Fout: er is een niet-ondersteund argument -socks aangetroffen. Het instellen van de SOCKS-versie is niet langer mogelijk. Alleen SOCKS5-proxy's worden ondersteund.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>Voer commando uit zodra een waarschuwing is ontvangen of wanneer we een erg lange fork detecteren (%s in commando wordt vervangen door bericht)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Toeslagen (in BTC/Kb) kleiner dan dit worden beschouwd als geen vergoeding (voor doorgeven) (standaard: %s)</translation>
+    </message>
+    <message>
+        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Toeslagen (in BTC/Kb) kleiner dan dit worden beschouwd als geen vergoeding transactieaanmaak (standaard: %s)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
         <translation>Als paytxfee niet is ingesteld, het pakket voldoende vergoeding zodat transacties beginnen bevestiging gemiddeld binnen in blokken (default: %u)</translation>
     </message>
@@ -3001,10 +3097,24 @@
 (default: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
+        <translation>Maximale totale kosten om te gebruiken in een enkele portemonnee transactie , vaststellen van een te laag kan grote transacties af te breken (default: %s)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>Query voor peer- adressen via DNS- lookup , als laag op adressen  (default: 1 unless -connect)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
+        <translation>Vereisen een hoge prioriteit voor het doorgeven van gratis of tegen lage vergoeding transacties  (default:%u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
         <translation>Stel maximumgrootte in bytes in voor hoge-prioriteits-/lage-transactiekosten-transacties (standaard: %d)</translation>
     </message>
@@ -3013,14 +3123,18 @@
         <translation>Stel het aantal threads in voor het genereren van coins indien ingesteld (-1 = alle kernen, standaard: %d)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The transaction amount is too small to send after the fee has been deducted</source>
         <translation>Het transactiebedrag is te klein om te versturen nadat de vergoeding in mindering is gebracht</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Dit product bevat software dat ontwikkeld is door het OpenSSL Project voor gebruik in de OpenSSL Toolkit &lt;https://www.openssl.org/&gt; en cryptografische software geschreven door Eric Young en UPnP software geschreven door Thomas Bernard.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>Goedgekeurde peers kunnen niet ge-DoS-banned worden en hun transacties worden altijd doorgestuurd, zelfs als ze reeds in de mempool aanwezig zijn, nuttig voor bijv. een gateway</translation>
     </message>
@@ -3035,16 +3149,59 @@
     <message>
         <source>Activating best chain...</source>
         <translation>Beste reeks activeren...</translation>
+=======
+        <source>To use bitcoind, or the -server option to bitcoin-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</source>
+        <translation>Om bitcoind of de -server optie naar bitcoin-gt te gebruiken, dient u een rpcwachtwoord in te stellen in het configuratiebestand:
+ %s
+Wij raden u aan om het volgende wachtwoord willekeurig te gebruiken: 
+rpcuser=bitcoinrpc 
+rpcpassword=%s 
+(u hoeft dit wachtwoord niet te onthouden)
+De gebruikersnaam en het wachtwoorden moeten NIET hetzelfde zijn. 
+Indien het bestand niet bestaat, maak het bestand aan met bestandsrechten: alleen lezen voor eigenaar.
+Het is ook aan te raden om een alarmnotificatie in te stellen, zodat u op de hoogte bent van de problemen;
+Voorbeeld: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</translation>
+    </message>
+    <message>
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>Let op: -maxtxfee is erg hoog ingesteld! Transactiekosten van dergelijke groottes kunnen in een enkele transactie worden betaald.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
+        <translation>Waarschuwing: Controleer dat de datum en tijd van uw computer correct zijn ingesteld! Bij een onjuist ingestelde klok zal Bitcoin Core niet goed werken.</translation>
+    </message>
+    <message>
+        <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
+        <translation>Goedgekeurde peers kunnen niet ge-DoS-banned worden en hun transacties worden altijd doorgestuurd, zelfs als ze reeds in de mempool aanwezig zijn, nuttig voor bijv. een gateway</translation>
+    </message>
+    <message>
+        <source>Accept public REST requests (default: %u)</source>
+        <translation>Accepteer publieke REST-requests (standaard: %u)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Cannot resolve -whitebind address: '%s'</source>
         <translation>Kan -whitebind adres niet herleiden: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Choose data directory on startup (default: 0)</source>
         <translation>Kies de gegevensmap tijdens het opstarten (standaard: 0)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Connect through SOCKS5 proxy</source>
         <translation>Verbind door SOCKS5 proxy</translation>
     </message>
@@ -3053,6 +3210,13 @@
         <translation>Auteursrecht (C) 2009-%i De Bitcoin Core Ontwikkelaars</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Could not parse -rpcbind value %s as network address</source>
+        <translation>Niet mogelijk om -rpcbind waarde %s te verwerken als netwerk adres</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>
         <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Bitcoin Core</translation>
     </message>
@@ -3061,6 +3225,17 @@
         <translation>Fout bij het lezen van de database, afsluiten. </translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation>Fout: Niet ondersteund argument -tor gevonden, gebruik -onion.</translation>
+    </message>
+    <message>
+        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Transactiekosten (in BTC/kB) om toe te voegen aan transacties die u verstuurd (standaard: %s)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Information</source>
         <translation>Informatie</translation>
     </message>
@@ -3095,6 +3270,13 @@
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
         <translation>Verplicht een poort met -whitebind op te geven: '%s'</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Node relay options:</source>
+        <translation>Node relay opties:</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Node relay options:</source>
@@ -3105,8 +3287,17 @@
         <translation>RPC server opties:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Stuur trace/debug-info naar de console in plaats van het debug.log bestand</translation>
+=======
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>RPC ondersteuning voor HTTP persisten verbindingen (default: %d)</translation>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>Laat willekeurig 1 elke &lt;n&gt; netwerkberichten vallen</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
@@ -3119,6 +3310,10 @@
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
         <translation>Stel taal in, bijvoorbeeld ''de_DE" (standaard: systeeminstellingen)</translation>
+    </message>
+    <message>
+        <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
+        <translation>Verstuur transacties zonder verzendkosten indien mogelijk (standaard: %u)</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
@@ -3165,12 +3360,21 @@
         <translation>Transactie te groot</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>UI Options:</source>
         <translation>UI Opties:</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
         <translation>Niet in staat om aan %s te binden op deze computer (bind gaf error %s)</translation>
+=======
+        <source>Unable to bind to %s on this computer (bind returned error %s)</source>
+        <translation>Niet in staat om aan %s te binden op deze computer (bind gaf error %s)</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
+        <translation>Gebruik UPnP om de luisterende poort te mappen (standaard: 1 als er wordt geluisterd)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -3179,10 +3383,25 @@
     <message>
         <source>Wallet needed to be rewritten: restart Bitcoin Core to complete</source>
         <translation>Portemonnee moest herschreven worden: Herstart Bitcoin Core om te voltooien</translation>
+<<<<<<< HEAD
+=======
     </message>
     <message>
         <source>Warning</source>
         <translation>Waarschuwing</translation>
+>>>>>>> refs/remotes/origin/0.10
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>Waarschuwing</translation>
+    </message>
+    <message>
+        <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
+        <translation>Waarschuwing: Niet ondersteund argument -benchmark genegeerd, gebruik -debug=bench.</translation>
+    </message>
+    <message>
+        <source>Warning: Unsupported argument -debugnet ignored, use -debug=net.</source>
+        <translation>Waarschuwing: Niet ondersteund argument -debugnet genegeerd, gebruik -debug=net.</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
@@ -3233,10 +3452,24 @@
         <translation>(1 = behoudt tx meta data bijv. account eigenaar en betalingsverzoek informatie, 2. sla tx meta data niet op)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
+        <translation>Leeg database-activiteit uit de geheugen pool naar schijf log elke &lt;n&gt; megabytes (standaard: %u) </translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
         <translation>Hoe grondig de blokverificatie van -checkblocks is (0-4, standaard: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
+        <translation>Log transactieprioriteit en -kosten per kB bij het mijnen van blokken (standaard: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
         <translation>Onderhoud een volledige transactieindex, gebruikt door de getrawtransaction rpc call (standaard: %u)</translation>
     </message>
@@ -3251,6 +3484,10 @@
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
         <translation>Gebruik een aparte SOCKS5 proxy om 'Tor hidden services' te bereiken (standaard: %s)</translation>
+    </message>
+    <message>
+        <source>Acceptable ciphers (default: %s)</source>
+        <translation>Geaccepteerde versleutelingen (standaard: %s)</translation>
     </message>
     <message>
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
@@ -3271,6 +3508,13 @@
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
         <translation>IP-adressen toevoegen in de debuguitvoer (standaard: %u)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Ongeldig -proxy adres: '%s'</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
@@ -3307,6 +3551,17 @@
     <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
         <translation>Gegevensdrager transacties relay en de mijnen (default: %u)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Relay non-P2SH multisig (default: %u)</source>
+        <translation>Relay non-P2SH multisig (default: %u)</translation>
+    </message>
+    <message>
+        <source>Run a thread to flush wallet periodically (default: %u)</source>
+        <translation>Draai een proces om de wallet periodiek te flushen (default: %u)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Relay non-P2SH multisig (default: %u)</source>
@@ -3339,6 +3594,10 @@
     <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>
         <translation>Besteed onbevestigd wisselgeld bij het versturen van transacties (standaard: %u)</translation>
+    </message>
+    <message>
+        <source>Stop running after importing blocks from disk (default: %u)</source>
+        <translation>Stop uitvoeren na het importeren van blokken van de schijf (standaard: %u)</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>

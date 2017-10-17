@@ -447,7 +447,7 @@
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n týždeň</numerusform><numerusform>%n týždne</numerusform><numerusform>%n týždňov</numerusform></translation>
+        <translation><numerusform>%n týždňom</numerusform><numerusform>%n týždňami</numerusform><numerusform>%n týždňami</numerusform></translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -484,6 +484,10 @@
     <message>
         <source>Up to date</source>
         <translation>Aktualizovaný</translation>
+    </message>
+    <message numerus="yes">
+        <source>Processed %n blocks of transaction history.</source>
+        <translation><numerusform>Spracovaný %n blok transakčnej histórie.</numerusform><numerusform>Spracované %n bloky transakčnej histórie.</numerusform><numerusform>Spracovaných %n blokov transakčnej histórie.</numerusform></translation>
     </message>
     <message>
         <source>Catching up...</source>
@@ -718,6 +722,7 @@
         <translation>žiadne</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This label turns red if the transaction size is greater than 1000 bytes.</source>
         <translation>Tento popis sčervenie ak veľkosť transakcie presiahne 1000 bajtov.</translation>
     </message>
@@ -730,6 +735,8 @@
         <translation>Tento popis sčervenie ak ktorýkoľvek príjemca dostane sumu menšiu ako %1.</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Can vary +/- %1 satoshi(s) per input.</source>
         <translation>Môže sa líšiť o +/- %1 satoshi pre každý vstup</translation>
     </message>
@@ -1217,6 +1224,13 @@
     <message>
         <source>Current total balance in watch-only addresses</source>
         <translation>Aktuálny celkový zostatok pre adries ktoré sa iba sledujú</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>nesynchronizované</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
 </context>
 <context>
@@ -1270,10 +1284,13 @@
         <translation>Súbor s výzvou na zaplatenie sa nedá čítať alebo spracovať! To môže byť spôsobené aj neplatným súborom s výzvou.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request expired.</source>
         <translation>Vypršala platnosť požiadavky na platbu.</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation>Program nepodporuje neoverené platobné výzvy na vlastná skripty.</translation>
     </message>
@@ -1290,6 +1307,13 @@
         <translation>Požiadavka na platbu %1 je príliš veľká (%2 bajtov, povolené je %3 bajtov).</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Payment request DoS protection</source>
+        <translation>Ochrana pred zahltením požiadavkami na platbu</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Error communicating with %1: %2</source>
         <translation>Chyba komunikácie s %1: %2 </translation>
     </message>
@@ -1317,8 +1341,13 @@
         <translation>Aplikácia</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Node/Service</source>
         <translation>Uzol/Služba</translation>
+=======
+        <source>Address/Hostname</source>
+        <translation>Adresa/Názov počítača</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Ping Time</source>
@@ -1442,10 +1471,13 @@
         <translation>Aktuálny počet blokov</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Otvoriť Bitcoin log súbor pre ladenie z aktuálneho dátového adresára. Toto môže trvať niekoľko sekúnd pre veľké súbory.</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Received</source>
         <translation>Prijaté</translation>
     </message>
@@ -1478,6 +1510,17 @@
         <translation>Služby</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Starting Height</source>
+        <translation>Počiatočná výška</translation>
+    </message>
+    <message>
+        <source>Sync Height</source>
+        <translation>Synchronizovaná výška</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Ban Score</source>
         <translation>Skóre zákazu</translation>
     </message>
@@ -1506,10 +1549,13 @@
         <translation>Čas odozvy</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Time Offset</source>
         <translation>Časový posun</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Last block time</source>
         <translation>Čas posledného bloku</translation>
     </message>
@@ -1554,8 +1600,13 @@
         <translation>Vymazať konzolu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to the Bitcoin Core RPC console.</source>
         <translation>Vitajte v RPC konzole pre Jadro Bitcoin.</translation>
+=======
+        <source>Welcome to the Bitcoin RPC console.</source>
+        <translation>Vitajte v Bitcoin RPC konzole.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1601,6 +1652,13 @@
         <source>Unknown</source>
         <translation>neznámy</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Fetching...</source>
+        <translation>Získava sa...</translation>
+    </message>
+>>>>>>> refs/remotes/origin/0.10
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -1842,6 +1900,17 @@
         <translation>zbaliť nastavenia poplatkov</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Minimize</source>
+        <translation>Minimalizovať</translation>
+    </message>
+    <message>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ak je poplatok nastavený na 1000 satoshi a transakcia je veľká len 250 bajtov, potom "za kilobajt" zaplatí poplatok 250 satoshi, ale "aspoň" zaplatí 1000 satoshi. Pre transakcie väčšie ako kilobajt platia oba spôsoby za každý kilobajt.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>per kilobyte</source>
         <translation>za kilobajt</translation>
     </message>
@@ -1850,10 +1919,13 @@
         <translation>Ak je poplatok nastavený na 1000 satoshi a transakcia je veľká len 250 bajtov, potom "za kilobajt" zaplatí poplatok 250 satoshi, ale "spolu aspoň" zaplatí 1000 satoshi. Pre transakcie väčšie ako kilobajt platia oba spôsoby za každý kilobajt.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Hide</source>
         <translation>Skryť</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>total at least</source>
         <translation>spolu aspoň</translation>
     </message>
@@ -1990,6 +2062,7 @@
         <translation>Transakcia bola zamietnutá! Toto sa môže stať ak niektoré coins vo vašej peňaženke už boli minuté, ako keď použijete kópiu wallet.dat a coins boli minuté z kópie ale neoznačené ako minuté tu.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
         <translation>Poplatok vyšší ako %1 je považovaný za šialene vysoký.</translation>
     </message>
@@ -1998,10 +2071,17 @@
         <translation>Vypršala platnosť požiadavky na platbu.</translation>
     </message>
     <message>
+=======
+        <source>A fee higher than %1 is considered an insanely high fee.</source>
+        <translation>Poplatok vyšší ako %1 je považovaný za šialene vysoký.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Pay only the minimum fee of %1</source>
         <translation>Zaplatiť minimálny poplatok %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The recipient address is not valid. Please recheck.</source>
         <translation>Adresa príjemcu je neplatná. Prosím, overte ju.</translation>
     </message>
@@ -2010,6 +2090,8 @@
         <translation>Našla sa duplicitná adresa: každú adresu je možné použiť len raz.</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Warning: Invalid Bitcoin address</source>
         <translation>Varovanie: Nesprávna Bitcoin adresa</translation>
     </message>
@@ -2181,6 +2263,10 @@
     <message>
         <source>&amp;Verify Message</source>
         <translation>O&amp;veriť správu...</translation>
+    </message>
+    <message>
+        <source>The Bitcoin address the message was signed with</source>
+        <translation>Adresa Bitcoin, ktorou bola podpísaná správa</translation>
     </message>
     <message>
         <source>The Bitcoin address the message was signed with</source>
@@ -2510,6 +2596,10 @@
         <translation>Iba sledovanie</translation>
     </message>
     <message>
+        <source>watch-only</source>
+        <translation>Iba sledovanie</translation>
+    </message>
+    <message>
         <source>(n/a)</source>
         <translation>(n/a)</translation>
     </message>
@@ -2528,6 +2618,13 @@
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
         <translation>Či sú ale nie sú, adresy iba na sledovanie zahrnuté v tejto transakcii.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>Cieľová adresa transakcie.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -2774,6 +2871,13 @@
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>Distribuované pod softvérovou licenciou MIT, viď sprievodný súbor COPYING alebo &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>Vojsť do režimu regresného testovania, ktorý používa špeciálnu reťaz v ktorej môžu byť bloky v okamihu vyriešené.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
@@ -2800,6 +2904,13 @@ The network does not appear to fully agree! Some miners appear to be experiencin
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
         <translation>Varovanie: Zjavne sa úplne nezhodujeme s našimi peer-mi! Možno potrebujete prejsť na novšiu verziu alebo ostatné uzly potrebujú vyššiu verziu.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
+        <translation>Varovanie: chyba pri čítaní wallet.dad! Všetky kľúče sú čitateľné ale transakčné dáta alebo záznamy v adresári môžu byť nesprávne.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
@@ -2892,6 +3003,13 @@ The network does not appear to fully agree! Some miners appear to be experiencin
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
         <translation>Pripojiť iba k uzlom v sieti &lt;net&gt; (ipv4, ipv6, alebo onion)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation>Znovu vytvoriť zoznam blokov zo súčasných blk000??.dat súborov</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
@@ -2904,6 +3022,10 @@ The network does not appear to fully agree! Some miners appear to be experiencin
     <message>
         <source>Specify wallet file (within data directory)</source>
         <translation>Označ súbor peňaženky (v priečinku s dátami)</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: %u)</source>
+        <translation>Použiť UPnP pre mapovanie počúvajúceho portu (predvolené: %u)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
@@ -2938,6 +3060,13 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Povoliť JSON-RPC pripojenia zo zadaného zdroja. Pre &lt;ip&gt; sú platné jednoduché IP (napr. 1.2.3.4), sieť/netmask (napr. 1.2.3.4/255.255.255.0) alebo sieť/CIDR (napr. 1.2.3.4/24). Táto možnosť môže byť zadaná niekoľko krát</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
+        <translation>Pri nastavovaní RPC adresy %s na porte %u pre počúvanie došlo k chybe: %s</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
         <translation>Spojiť s danou adresou a povolenými partnerskými zariadeniami ktoré sa tam pripájajú. Použite zápis [host]:port pre IPv6</translation>
     </message>
@@ -2958,10 +3087,28 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Chyba: Počúvanie prichádzajúcich spojení zlyhalo (vrátená chyba je %s)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
+        <translation>Chyba: Nájdený nepodporovaný argument -socks. Nastavenie SOCKS verzie nie je už možné, podporované sú už iba proxy SOCKS5.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>Vykonať príkaz po prijatí patričného varovania alebo uvidíme veľmi dlhé rozdvojenie siete (%s v cmd je nahradené správou)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Poplatky (v BTC/Kb) nižšie ako toľkoto sa považujú za nulové pri postupovaní transakcií (predvolené: %s)</translation>
+    </message>
+    <message>
+        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Poplatky (v BTC/Kb) nižšie ako toľkoto sa považujú za nulové pri vytváraní transakcií (predvolené: %s)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
         <translation>Ak nie je nastavené paytxfee, pridať dostatočný poplatok aby sa transakcia začala potvrdzovať priemerne v rámci bloku (predvolené: %u)</translation>
     </message>
@@ -2974,8 +3121,21 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Maximálna veľkosť dát v transakciách nosných dát, ktoré prenášame a ťažíme (predvolené: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>Dotaz na partnerské adresy pomocou vyhľadávania DNS v prípade nedostatku adries (predvolené: 1, pokiaľ -connect)</translation>
+=======
+        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
+        <translation>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</translation>
+    </message>
+    <message>
+        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
+        <translation>Dotaz na partnerské adresy pomocou vyhľadávania DNS v prípade nedostatku adries (predvolené: 1, pokiaľ -connect)</translation>
+    </message>
+    <message>
+        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
+        <translation>Vyžadovať vysokú prioritu pre postúpenie transakcií s nízkymi poplatkami (predvolené:%u)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
@@ -2990,12 +3150,21 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Tento produkt obsahuje softvér vyvinutý projektom OpenSSL pre použitie sady nástrojov OpenSSL &lt;https://www.openssl.org/&gt; a kryptografického softvéru napísaného Eric Young a UPnP softvér napísaný Thomas Bernard.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>Uzle na zoznam povolených nemôžu byť DoS zakázané a ich transakcie vždy postúpené ďalej, aj v prípade, ak sú už pamäťovej fronte. Užitočné napr. pre brány</translation>
     </message>
     <message>
         <source>(default: %u)</source>
         <translation>(predvolené: %u)</translation>
+=======
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>Upozornenie: -maxtxfee je nastavené príliš vysoko! Takto vysoké poplatky by mali byť zaplatené za jednu transakciu.</translation>
+    </message>
+    <message>
+        <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
+        <translation>Uzle na zoznam povolených nemôžu byť DoS zakázané a ich transakcie vždy postúpené ďalej, aj v prípade, ak sú už pamäťovej fronte. Užitočné napr. pre brány</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Accept public REST requests (default: %u)</source>
@@ -3006,16 +3175,27 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Nedá sa vyriešiť -whitebind adresa: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Choose data directory on startup (default: 0)</source>
         <translation>Zvoľte dátový priečinok pri štarte (prednastavené: 0)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Connect through SOCKS5 proxy</source>
         <translation>Pripojiť cez proxy server SOCKS5</translation>
     </message>
     <message>
         <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+<<<<<<< HEAD
         <translation>Autorské práva (C) 2009-%i Vývojári jadra Bitcoin</translation>
+=======
+        <translation>Copyright (C) 2009-%i Vývojári jadra Bitcoin</translation>
+    </message>
+    <message>
+        <source>Could not parse -rpcbind value %s as network address</source>
+        <translation>Nedá sa analyzovať -rpcbind hodnota %s ako sieťová adresa</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>
@@ -3026,6 +3206,17 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Chyba pri načítaní z databázy, ukončuje sa.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation>Chyba: nájdený nepodporovaný argument -tor, použite -onion.</translation>
+    </message>
+    <message>
+        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Poplatok (v BTC/kB), ktorý sa pridá k transakciám, ktoré odosielate (predvolený: %s)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Information</source>
         <translation>Informácia</translation>
     </message>
@@ -3044,6 +3235,25 @@ The network does not appear to fully agree! Some miners appear to be experiencin
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
         <translation>Neplatná suma pre -paytxfee=&lt;amount&gt;: '%s' (musí byť aspoň %s)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Invalid netmask specified in -whitelist: '%s'</source>
+        <translation>Nadaná neplatná netmask vo -whitelist: '%s'</translation>
+    </message>
+    <message>
+        <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
+        <translation>V pamäti udržiavať najviac &lt;n&gt; nepotvrdených transakcií (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Need to specify a port with -whitebind: '%s'</source>
+        <translation>Je potrebné zadať port s -whitebind: '%s'</translation>
+    </message>
+    <message>
+        <source>Node relay options:</source>
+        <translation>Prenosové možnosti uzla:</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
@@ -3062,8 +3272,17 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Prenosové možnosti uzla:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>RPC server options:</source>
         <translation>Možnosti servra RPC:</translation>
+=======
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>Podpora RPC pre trvalé HTTP spojenia (predvolené: %d)</translation>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>Náhodne zahadzuj 1 z každých &lt;n&gt; sieťových správ</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
@@ -3078,6 +3297,7 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Poslať ako transakcie bez poplatku, ak je to možné (predvolené: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set SSL root certificates for payment request (default: -system-)</source>
         <translation>Nastaviť koreňový certifikát pre výzvy na platbu (prednastavené: -system-)</translation>
     </message>
@@ -3086,6 +3306,8 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Nastaviť jazyk, napríklad "sk_SK" (predvolené: systémový)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Show all debugging options (usage: --help -help-debug)</source>
         <translation>Zobraziť všetky možnosti ladenia (použitie: --help --help-debug)</translation>
     </message>
@@ -3102,10 +3324,13 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Podpísanie správy zlyhalo</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Start minimized</source>
         <translation>Spustiť minimalizované</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>This is experimental software.</source>
         <translation>Toto je experimentálny softvér.</translation>
     </message>
@@ -3126,12 +3351,21 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Transakcia príliš veľká</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>UI Options:</source>
         <translation>Možnosti používateľského rozhrania:</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
         <translation>Na tomto počítači sa nedá vytvoriť väzba %s (vytvorenie väzby vrátilo chybu %s)</translation>
+=======
+        <source>Unable to bind to %s on this computer (bind returned error %s)</source>
+        <translation>Na tomto počítači sa nedá vytvoriť väzba %s (vytvorenie väzby vrátilo chybu %s)</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
+        <translation>Skúsiť použiť UPnP pre mapovanie počúvajúceho portu (default: 1 when listening)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -3142,6 +3376,21 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Upozornenie</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Warning: This version is obsolete, upgrade required!</source>
+        <translation>Upozornenie: Táto verzia je zastaraná, vyžaduje sa aktualizácia!</translation>
+    </message>
+    <message>
+        <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
+        <translation>Upozornenie: Nepodporovaný argument -benchmark bol ignorovaný, použite -debug=bench.</translation>
+    </message>
+    <message>
+        <source>Warning: Unsupported argument -debugnet ignored, use -debug=net.</source>
+        <translation>Upozornenie: Nepodporovaný argument -debugnet bol ignorovaný, použite -debug=net.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Zapping all transactions from wallet...</source>
         <translation>Zmazať všetky transakcie z peňaženky...</translation>
     </message>
@@ -3194,6 +3443,13 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Ako dôkladné je -checkblocks overenie blokov (0-4, predvolené: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
+        <translation>Zaznamenať prioritu transakcie a poplatok za kB pri ťažení blokov (predvolené: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
         <translation>Udržiavať kompletný transakčný index, využíva getrawtransaction rpc volanie (predvolené: %u)</translation>
     </message>
@@ -3214,6 +3470,13 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>(predvolené: %s)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Acceptable ciphers (default: %s)</source>
+        <translation>Prijateľné šifry (predvolené: %s)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
         <translation>Vždy sa dotazovať adresy partnerských uzlov cez vyhľadávanie DNS (predvolené: %u)</translation>
     </message>
@@ -3266,6 +3529,17 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Prenášať non-P2SH multi-podpis (predvolené: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Server certificate file (default: %s)</source>
+        <translation>Certifikačný súbor servera (predvolené: %s)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: %s)</source>
+        <translation>Privátny kľúč servera (predvolené: %s)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
         <translation>Nastaviť veľkosť kľúča fronty na &lt;n&gt; (predvolené: %u)</translation>
     </message>

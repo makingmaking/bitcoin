@@ -52,6 +52,7 @@ CTxMemPoolEntry::GetPriority(unsigned int currentHeight) const
 // descendants.
 bool CTxMemPool::UpdateForDescendants(txiter updateIt, int maxDescendantsToVisit, cacheMap &cachedDescendants, const std::set<uint256> &setExclude)
 {
+<<<<<<< HEAD
     // Track the number of entries (outside setExclude) that we'd need to visit
     // (will bail out if it exceeds maxDescendantsToVisit)
     int nChildrenToVisit = 0;
@@ -89,10 +90,66 @@ bool CTxMemPool::UpdateForDescendants(txiter updateIt, int maxDescendantsToVisit
                 }
             }
             if (nChildrenToVisit > maxDescendantsToVisit) {
+=======
+private:
+    boost::circular_buffer<CFeeRate> feeSamples;
+    boost::circular_buffer<double> prioritySamples;
+
+    template<typename T> std::vector<T> buf2vec(boost::circular_buffer<T> buf) const
+    {
+        std::vector<T> vec(buf.begin(), buf.end());
+        return vec;
+    }
+
+public:
+    CBlockAverage() : feeSamples(100), prioritySamples(100) { }
+
+    void RecordFee(const CFeeRate& feeRate) {
+        feeSamples.push_back(feeRate);
+    }
+
+    void RecordPriority(double priority) {
+        prioritySamples.push_back(priority);
+    }
+
+    size_t FeeSamples() const { return feeSamples.size(); }
+    size_t GetFeeSamples(std::vector<CFeeRate>& insertInto) const
+    {
+        BOOST_FOREACH(const CFeeRate& f, feeSamples)
+            insertInto.push_back(f);
+        return feeSamples.size();
+    }
+    size_t PrioritySamples() const { return prioritySamples.size(); }
+    size_t GetPrioritySamples(std::vector<double>& insertInto) const
+    {
+        BOOST_FOREACH(double d, prioritySamples)
+            insertInto.push_back(d);
+        return prioritySamples.size();
+    }
+
+    /**
+     * Used as belt-and-suspenders check when reading to detect
+     * file corruption
+     */
+    static bool AreSane(const CFeeRate fee, const CFeeRate& minRelayFee)
+    {
+        if (fee < CFeeRate(0))
+            return false;
+        if (fee.GetFeePerK() > minRelayFee.GetFeePerK() * 10000)
+            return false;
+        return true;
+    }
+    static bool AreSane(const std::vector<CFeeRate>& vecFee, const CFeeRate& minRelayFee)
+    {
+        BOOST_FOREACH(CFeeRate fee, vecFee)
+        {
+            if (!AreSane(fee, minRelayFee))
+>>>>>>> refs/remotes/origin/0.10
                 return false;
             }
         }
     }
+<<<<<<< HEAD
     // setAllDescendants now contains all in-mempool descendants of updateIt.
     // Update and add to cached descendant map
     int64_t modifySize = 0;
@@ -104,12 +161,25 @@ bool CTxMemPool::UpdateForDescendants(txiter updateIt, int maxDescendantsToVisit
             modifyFee += cit->GetFee();
             modifyCount++;
             cachedDescendants[updateIt].insert(cit);
+=======
+    static bool AreSane(const double priority)
+    {
+        return priority >= 0;
+    }
+    static bool AreSane(const std::vector<double> vecPriority)
+    {
+        BOOST_FOREACH(double priority, vecPriority)
+        {
+            if (!AreSane(priority))
+                return false;
+>>>>>>> refs/remotes/origin/0.10
         }
     }
     mapTx.modify(updateIt, update_descendant_state(modifySize, modifyFee, modifyCount));
     return true;
 }
 
+<<<<<<< HEAD
 // vHashesToUpdate is the set of transaction hashes from a disconnected block
 // which has been re-added to the mempool.
 // for each entry, look for descendants that are outside hashesToUpdate, and
@@ -152,6 +222,72 @@ void CTxMemPool::UpdateTransactionsFromBlock(const std::vector<uint256> &vHashes
                 UpdateChild(it, childIter, true);
                 UpdateParent(childIter, it, true);
             }
+=======
+    void Write(CAutoFile& fileout) const
+    {
+        std::vector<CFeeRate> vecFee = buf2vec(feeSamples);
+        fileout << vecFee;
+        std::vector<double> vecPriority = buf2vec(prioritySamples);
+        fileout << vecPriority;
+    }
+
+    void Read(CAutoFile& filein, const CFeeRate& minRelayFee) {
+        std::vector<CFeeRate> vecFee;
+        filein >> vecFee;
+        if (AreSane(vecFee, minRelayFee))
+            feeSamples.insert(feeSamples.end(), vecFee.begin(), vecFee.end());
+        else
+            throw runtime_error("Corrupt fee value in estimates file.");
+        std::vector<double> vecPriority;
+        filein >> vecPriority;
+        if (AreSane(vecPriority))
+            prioritySamples.insert(prioritySamples.end(), vecPriority.begin(), vecPriority.end());
+        else
+            throw runtime_error("Corrupt priority value in estimates file.");
+        if (feeSamples.size() + prioritySamples.size() > 0)
+            LogPrint("estimatefee", "Read %d fee samples and %d priority samples\n",
+                     feeSamples.size(), prioritySamples.size());
+    }
+};
+
+class CMinerPolicyEstimator
+{
+private:
+    /**
+     * Records observed averages transactions that confirmed within one block, two blocks,
+     * three blocks etc.
+     */
+    std::vector<CBlockAverage> history;
+    std::vector<CFeeRate> sortedFeeSamples;
+    std::vector<double> sortedPrioritySamples;
+
+    int nBestSeenHeight;
+
+    /**
+     * nBlocksAgo is 0 based, i.e. transactions that confirmed in the highest seen block are
+     * nBlocksAgo == 0, transactions in the block before that are nBlocksAgo == 1 etc.
+     */
+    void seenTxConfirm(const CFeeRate& feeRate, const CFeeRate& minRelayFee, double dPriority, int nBlocksAgo)
+    {
+        // Last entry records "everything else".
+        int nBlocksTruncated = min(nBlocksAgo, (int) history.size() - 1);
+        assert(nBlocksTruncated >= 0);
+
+        // We need to guess why the transaction was included in a block-- either
+        // because it is high-priority or because it has sufficient fees.
+        bool sufficientFee = (feeRate > minRelayFee);
+        bool sufficientPriority = AllowFree(dPriority);
+        const char* assignedTo = "unassigned";
+        if (sufficientFee && !sufficientPriority && CBlockAverage::AreSane(feeRate, minRelayFee))
+        {
+            history[nBlocksTruncated].RecordFee(feeRate);
+            assignedTo = "fee";
+        }
+        else if (sufficientPriority && !sufficientFee && CBlockAverage::AreSane(dPriority))
+        {
+            history[nBlocksTruncated].RecordPriority(dPriority);
+            assignedTo = "priority";
+>>>>>>> refs/remotes/origin/0.10
         }
         if (!UpdateForDescendants(it, 100, mapMemPoolDescendantsToUpdate, setAlreadyIncluded)) {
             // Mark as dirty if we can't do the calculation.
@@ -442,11 +578,17 @@ void CTxMemPool::remove(const CTransaction &origTx, std::list<CTransaction>& rem
     // Remove transaction from memory pool
     {
         LOCK(cs);
+<<<<<<< HEAD
         setEntries txToRemove;
         txiter origit = mapTx.find(origTx.GetHash());
         if (origit != mapTx.end()) {
             txToRemove.insert(origit);
         } else if (fRecursive) {
+=======
+        std::deque<uint256> txToRemove;
+        txToRemove.push_back(origTx.GetHash());
+        if (fRecursive && !mapTx.count(origTx.GetHash())) {
+>>>>>>> refs/remotes/origin/0.10
             // If recursively removing but origTx isn't in the mempool
             // be sure to remove any children that are in the pool. This can
             // happen during chain re-orgs if origTx isn't re-accepted into
@@ -455,9 +597,29 @@ void CTxMemPool::remove(const CTransaction &origTx, std::list<CTransaction>& rem
                 std::map<COutPoint, CInPoint>::iterator it = mapNextTx.find(COutPoint(origTx.GetHash(), i));
                 if (it == mapNextTx.end())
                     continue;
+<<<<<<< HEAD
                 txiter nextit = mapTx.find(it->second.ptx->GetHash());
                 assert(nextit != mapTx.end());
                 txToRemove.insert(nextit);
+=======
+                txToRemove.push_back(it->second.ptx->GetHash());
+            }
+        }
+        while (!txToRemove.empty())
+        {
+            uint256 hash = txToRemove.front();
+            txToRemove.pop_front();
+            if (!mapTx.count(hash))
+                continue;
+            const CTransaction& tx = mapTx[hash].GetTx();
+            if (fRecursive) {
+                for (unsigned int i = 0; i < tx.vout.size(); i++) {
+                    std::map<COutPoint, CInPoint>::iterator it = mapNextTx.find(COutPoint(hash, i));
+                    if (it == mapNextTx.end())
+                        continue;
+                    txToRemove.push_back(it->second.ptx->GetHash());
+                }
+>>>>>>> refs/remotes/origin/0.10
             }
         }
         setEntries setAllRemoves;

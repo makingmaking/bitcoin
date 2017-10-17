@@ -7,7 +7,7 @@
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>نیا ایڈریس بنائیں</translation>
+        <translation>نیا پتہ بنائیں</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -43,7 +43,15 @@
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>مٹا</translation>
+        <translation>مٹائیں</translation>
+    </message>
+    <message>
+        <source>Choose the address to send coins to</source>
+        <translation>کوئین وصول کرنے والے کا پتہ</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>کوئین بھیجنے  والے کا پتہ</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>

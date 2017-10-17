@@ -944,6 +944,10 @@
         <translation>A&amp;datbázis gyorsítótár mérete</translation>
     </message>
     <message>
+        <source>Size of &amp;database cache</source>
+        <translation>A&amp;datbázis gyorsítótár mérete</translation>
+    </message>
+    <message>
         <source>MB</source>
         <translation>MB</translation>
     </message>
@@ -960,10 +964,13 @@
         <translation>A proxy IP címe (pl.: IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Core.</source>
         <translation>Itt beállíthatod a kezelőfelület nyelvét. A beállítás a Bitcoin újraindítása után lép érvénybe.</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Reset all client options to default.</source>
         <translation>Minden kliensbeállítás alapértelmezettre állítása.</translation>
     </message>
@@ -976,16 +983,23 @@
         <translation>&amp;Hálózat</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Start Bitcoin Core on system login</source>
         <translation>A Bitcoin elindítása bejelentkezéskor</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>W&amp;allet</source>
         <translation>T&amp;árca</translation>
     </message>
     <message>
         <source>Expert</source>
+<<<<<<< HEAD
         <translation>Szakértő</translation>
+=======
+        <translation>szakértő</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
@@ -1125,6 +1139,17 @@
     <message>
         <source>Spendable:</source>
         <translation>Elkölthető:</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>A legutóbbi tranzakciók</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>Nincs szinkronban.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Recent transactions</source>
@@ -1157,6 +1182,13 @@
         <translation>User Agent</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Address/Hostname</source>
+        <translation>Cím/Hosztnév</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Ping Time</source>
         <translation>Ping idő</translation>
     </message>
@@ -1186,6 +1218,19 @@
     <message>
         <source>%1 s</source>
         <translation>%1 mp</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>None</source>
+        <translation>Semmi</translation>
+=======
+        <source>NETWORK</source>
+        <translation>HÁLÓZAT</translation>
+>>>>>>> refs/remotes/origin/0.10
+    </message>
+    <message>
+        <source>UNKNOWN</source>
+        <translation>ISMERETLEN</translation>
     </message>
     <message>
         <source>None</source>
@@ -1311,7 +1356,11 @@
     </message>
     <message>
         <source>Last Send</source>
+<<<<<<< HEAD
         <translation>Legutóbbi küldés</translation>
+=======
+        <translation>Legutóbb küldött</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Last Receive</source>
@@ -1399,7 +1448,11 @@
     </message>
     <message>
         <source>via %1</source>
+<<<<<<< HEAD
         <translation>%1 által</translation>
+=======
+        <translation>által %1</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>never</source>
@@ -1414,6 +1467,7 @@
         <translation>Kimenő</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Yes</source>
         <translation>Igen</translation>
     </message>
@@ -1425,6 +1479,15 @@
         <source>Unknown</source>
         <translation>Ismeretlen</translation>
     </message>
+=======
+        <source>Unknown</source>
+        <translation>Ismeretlen</translation>
+    </message>
+    <message>
+        <source>Fetching...</source>
+        <translation>Begyüjtés</translation>
+    </message>
+>>>>>>> refs/remotes/origin/0.10
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -1622,6 +1685,7 @@
         <translation>Válassz...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>per kilobyte</source>
         <translation>kilobájtonként</translation>
     </message>
@@ -1632,6 +1696,18 @@
     <message>
         <source>normal</source>
         <translation>normál</translation>
+=======
+        <source>Minimize</source>
+        <translation>Kicsinyítés</translation>
+    </message>
+    <message>
+        <source>per kilobyte</source>
+        <translation>kilobájtonként</translation>
+    </message>
+    <message>
+        <source>normal</source>
+        <translation>normal</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>fast</source>
@@ -1726,6 +1802,10 @@
         <translation>Figyelmeztetés: Érvénytelen Bitcoin cím</translation>
     </message>
     <message>
+        <source>Warning: Invalid Bitcoin address</source>
+        <translation>Figyelmeztetés: Érvénytelen Bitcoin cím</translation>
+    </message>
+    <message>
         <source>(no label)</source>
         <translation>(nincs címke)</translation>
     </message>
@@ -1794,7 +1874,11 @@
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
+<<<<<<< HEAD
         <translation>Ne állítsd le a számítógépet amíg ez az ablak el nem tűnik.</translation>
+=======
+        <translation>Ne álljon le a számítógép amíg ez az ablak el nem tűnik.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
 </context>
 <context>
@@ -1806,6 +1890,10 @@
     <message>
         <source>&amp;Sign Message</source>
         <translation>Üzenet aláírása...</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>Válassz egy korábban már használt címet</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2063,10 +2151,13 @@
         <translation>Offline</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Label</source>
         <translation>Címke</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Unconfirmed</source>
         <translation>Megerősítetlen:</translation>
     </message>
@@ -2381,10 +2472,13 @@
         <translation>Az adatbázist újra kell építeni -reindex használatával (módosítás -tindex).</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Choose data directory on startup (default: 0)</source>
         <translation>Adatkönyvtár kiválasztása induláskor (alapbeállítás: 0)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
         <translation>Copyright (C) 2009-%i A Bitcoin Core Fejlesztői</translation>
     </message>

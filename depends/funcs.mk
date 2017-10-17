@@ -60,7 +60,11 @@ $(1)_cached:=$(BASE_CACHE)/$(host)/$(1)/$(1)-$($(1)_version)-$($(1)_build_id).ta
 $(1)_all_sources=$($(1)_file_name) $($(1)_extra_sources)
 
 #stamps
+<<<<<<< HEAD
 $(1)_fetched=$(SOURCES_PATH)/download-stamps/.stamp_fetched-$(1)-$($(1)_file_name).hash
+=======
+$(1)_fetched=$$($(1)_source_dir)/download-stamps/.stamp_fetched-$(1)-$($(1)_file_name)
+>>>>>>> refs/remotes/origin/0.10
 $(1)_extracted=$$($(1)_extract_dir)/.stamp_extracted
 $(1)_preprocessed=$$($(1)_extract_dir)/.stamp_preprocessed
 $(1)_cleaned=$$($(1)_extract_dir)/.stamp_cleaned

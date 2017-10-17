@@ -1042,12 +1042,23 @@
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
+<<<<<<< HEAD
         <translation>Тасдиқланмаган ўтказмалар-фақат манзилларини кўриш</translation>
+=======
+        <translation>Тасдиқланмаган ўтказмалар-фақат кўринадиган манзилларда</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
         <translation>Жорий умумий баланс фақат кўринадиган манзилларда</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>out of sync</source>
+        <translation>Синхронлашдан ташқари</translation>
+    </message>
+>>>>>>> refs/remotes/origin/0.10
 </context>
 <context>
     <name>PaymentServer</name>
@@ -1068,6 +1079,13 @@
         <translation>Тўлов сўрови тармоғи мижоз тармоғига мос келмайди.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Payment request has expired.</source>
+        <translation>Тўлов сўрови тугади.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Payment request error</source>
         <translation>Тўлов сўрови хато</translation>
     </message>
@@ -1190,6 +1208,25 @@
     <message>
         <source>Direction</source>
         <translation>Йўналиш</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Версия</translation>
+    </message>
+    <message>
+        <source>User Agent</source>
+        <translation>Фойдаланувчи вакил</translation>
+    </message>
+    <message>
+        <source>Services</source>
+        <translation>Хизматлар</translation>
+    </message>
+    <message>
+        <source>Starting Height</source>
+        <translation>Узунликнинг бошланиши</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Version</source>
@@ -1316,8 +1353,13 @@
         <translation>Ташқи йўналиш</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Yes</source>
         <translation>Ҳа</translation>
+=======
+        <source>Unknown</source>
+        <translation>Номаълум</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>No</source>
@@ -1493,7 +1535,11 @@
     </message>
     <message>
         <source>Insufficient funds!</source>
+<<<<<<< HEAD
         <translation>Кам миқдор</translation>
+=======
+        <translation>Етарли бўлмаган миқдор</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Quantity:</source>
@@ -1540,6 +1586,13 @@
         <translation>Танлов</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Minimize</source>
+        <translation>Камайтириш</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>per kilobyte</source>
         <translation>Хар килобайтига</translation>
     </message>
@@ -1573,7 +1626,11 @@
     </message>
     <message>
         <source>Clear &amp;All</source>
+<<<<<<< HEAD
         <translation>Барчасини &amp; Тозалаш</translation>
+=======
+        <translation>Барчасини &amp;Тозалаш</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Balance:</source>
@@ -1696,7 +1753,15 @@
     </message>
     <message>
         <source>Message:</source>
+<<<<<<< HEAD
         <translation>Хабар</translation>
+=======
+        <translation>Хабар:</translation>
+    </message>
+    <message>
+        <source>This is a verified payment request.</source>
+        <translation>Бу тасдиқланган тўлов талаби.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     </context>
 <context>
@@ -1795,7 +1860,11 @@
     </message>
     <message>
         <source>Credit</source>
+<<<<<<< HEAD
         <translation>Кредит (қарз)</translation>
+=======
+        <translation>Кредит</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>not accepted</source>
@@ -1819,7 +1888,15 @@
     </message>
     <message>
         <source>Transaction ID</source>
-        <translation>ID</translation>
+        <translation>Ўтказма ID си</translation>
+    </message>
+    <message>
+        <source>Merchant</source>
+        <translation>Савдо</translation>
+    </message>
+    <message>
+        <source>Transaction</source>
+        <translation>Ўтказма</translation>
     </message>
     <message>
         <source>Merchant</source>
@@ -1892,10 +1969,13 @@
         <translation>Оффлайн</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Label</source>
         <translation>Ёрлиқ</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Unconfirmed</source>
         <translation>Тасдиқланмаган</translation>
     </message>
@@ -2078,7 +2158,11 @@
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
+<<<<<<< HEAD
         <translation>Хали бирорта хамён юкланмади</translation>
+=======
+        <translation>Хали бирорта хамён юкланмади.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
 </context>
 <context>
@@ -2124,6 +2208,10 @@
     <message>
         <source>Choose data directory on startup (default: 0)</source>
         <translation>Ишга тушиш вақтида маълумотлар директориясини танлаш (стандарт: 0)</translation>
+    </message>
+    <message>
+        <source>Connection options:</source>
+        <translation>Уланиш кўрсаткичлари:</translation>
     </message>
     <message>
         <source>Information</source>

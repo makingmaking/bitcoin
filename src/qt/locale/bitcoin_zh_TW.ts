@@ -351,11 +351,11 @@
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>付款</translation>
+        <translation>已傳送</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>收款</translation>
+        <translation>已接收</translation>
     </message>
     <message>
         <source>Show information about Bitcoin Core</source>
@@ -1326,6 +1326,13 @@
         <translation>付款要求 %1 過大 (%2 位元組, 上限 %3 位元組).</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Payment request DoS protection</source>
+        <translation>支付請求的分佈式阻斷服務攻擊DoS保護</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Error communicating with %1: %2</source>
         <translation>跟 %1 通訊時發生錯誤: %2</translation>
     </message>
@@ -1946,6 +1953,17 @@
         <translation>展開手續費設定</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Minimize</source>
+        <translation>縮小</translation>
+    </message>
+    <message>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>如果自訂手續費設定為 1000 satoshi, 而交易資料大小只有 250 個位元組的話，那麽選擇「每千位元組」就只會付 250 satoshi 的手續費，換做選「總共至少」就會付 1000 satoshi. 但是如果交易資料大小超過一千個位元組，那麽兩者都是每千位元組的費用。</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>per kilobyte</source>
         <translation>每千位元組</translation>
     </message>
@@ -1954,10 +1972,13 @@
         <translation>如果自訂手續費設定為 1000 satoshi, 而交易資料大小只有 250 個位元組的話，那麽選擇「每千位元組」就只會付 250 satoshi 的手續費，換做選「總共至少」就會付 1000 satoshi. 但是如果交易資料大小超過一千個位元組，那麽兩者都是每千位元組的費用。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Hide</source>
         <translation>隱藏</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>total at least</source>
         <translation>總共最少</translation>
     </message>
@@ -2070,6 +2091,13 @@
         <translation>複製找零金額</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Total Amount %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</source>
+        <translation>總金額 %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>or</source>
         <translation>或</translation>
     </message>
@@ -2094,18 +2122,24 @@
         <translation>交易被拒絕了！有時候會發生這種錯誤，是因為你錢包中的一些錢已經被花掉了。比如說你複製了錢包檔 wallet.dat, 然後用複製的錢包花掉了錢，你現在所用的原來的錢包中，卻沒有那筆錢已經花掉的紀錄。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
         <translation>高於 %1 的手續費會被認為是不合理。</translation>
     </message>
     <message>
         <source>Payment request expired.</source>
         <translation>付款的要求過期了。</translation>
+=======
+        <source>A fee higher than %1 is considered an insanely high fee.</source>
+        <translation>高於 %1 的手續費會被認為是不正常。</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
         <translation>只付最低手續費 %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Total Amount %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</source>
         <translation>總金額 %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</translation>
     </message>
@@ -2116,6 +2150,10 @@
     <message>
         <source>Duplicate address found: addresses should only be used once each.</source>
         <translation>發現有重複的位址: 每個位址只能出現一次。</translation>
+=======
+        <source>Estimated to begin confirmation within %1 block(s).</source>
+        <translation>預計可在 %1 個區塊內開始確認。</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Warning: Invalid Bitcoin address</source>
@@ -2957,6 +2995,13 @@
         <translation>這套軟體是依據 MIT 軟體授權條款散布，詳情請見附帶的 COPYING 檔案，或是以下網站:  &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>進入回歸測試模式，使用可以立即解出區塊的特殊區塊鏈。</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>當錢包有交易改變時要執行的指令(指令中的 %s 會被取代成交易識別碼)</translation>
     </message>
@@ -3217,16 +3262,33 @@
         <translation>-maxtxfee=&lt;amount&gt;: '%s' 的金額無效 (必須大於最低轉發手續費 %s 以避免交易無法確認)</translation>
     </message>
     <message>
+        <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
+        <translation>當沒有設定 paytxfee 時，自動包含可以讓交易能在平均 n 個區塊內開始確認的手續費(預設值: %u)</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>-maxtxfee=&lt;amount&gt;: '%s' 的金額無效 (必須大於最低轉發手續費 %s 以避免交易無法確認)</translation>
+    </message>
+    <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
         <translation>轉發和開採時，對只帶資料的交易的大小上限(預設值: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
+        <translation>一次錢包交易允許付出最高的總手續費，設定太低的話，可能會無法進行資料量大的交易(預設值: %s)</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>是否允許在節點位址數目不足時，使用域名查詢來搜尋節點 (預設值: 當沒用 -connect 時為 1)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
         <translation>對每個代理連線使用隨機產生的憑證。這個選項會開啟 Tor 的串流隔離(預設值: %u)</translation>
+=======
+        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
+        <translation>沒有手續費或手續費比較低的交易是否必須要是高優先權才會轉發(預設值: %u)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
@@ -3241,14 +3303,48 @@
         <translation>扣除手續費後的交易金額太少而不能傳送</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>此產品也包含了由 OpenSSL Project 所開發的 OpenSSL Toolkit 軟體 &lt;https://www.openssl.org/&gt;, 和由 Eric Young 撰寫的加解密軟體，以及由 Thomas Bernard 所撰寫的 UPnP 軟體。</translation>
+=======
+        <source>To use bitcoind, or the -server option to bitcoin-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</source>
+        <translation>要使用 bitcoind, 或是對 bitcoin-qt 指定 -server 選項，你必須要在以下設定檔中設定 RPC 密碼(選項: rpcpassword):
+%s
+建議你使用以下隨機產生的密碼:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(你不用記住這個密碼)
+注意使用者名稱(rpcuser)和密碼(rpcpassword)不可以相同！
+如果設定檔還不存在，請在新增時，設定檔案權限為"只有主人才能讀取"。
+也建議你設定警示通知，這樣發生問題時你才會被通知到；
+比如說設定: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</translation>
+    </message>
+    <message>
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>警告: -maxtxfee 設定了很高的金額！這可是一次交易就有可能付出的最高手續費。</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
+        <translation>警告: 請檢查電腦日期和時間是否正確！位元幣核心沒辦法在時鐘不準的情況下正常運作。</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>在白名單中的節點不會因為偵測到阻斷服務攻擊而被停用。來自這些節點的交易也一定會被轉發，即使說交易本來就在記憶池裡了也一樣。適用於像是閘道伺服器。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
         <translation>回到非修剪的模式需要用 -reindex 參數來重建資料庫。這會導致重新下載整個區塊鏈。</translation>
     </message>
@@ -3257,14 +3353,19 @@
         <translation>(預設值: %u)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Accept public REST requests (default: %u)</source>
         <translation>接受公開的REST請求 (預設值: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Activating best chain...</source>
         <translation>啟用最佳鏈結...</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Cannot resolve -whitebind address: '%s'</source>
         <translation>沒辦法解析 -whitebind 指定的位址: '%s'</translation>
     </message>
@@ -3287,6 +3388,21 @@
     <message>
         <source>Error reading from database, shutting down.</source>
         <translation>讀取資料庫時發生錯誤，要關閉了。</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Error: A fatal internal error occurred, see debug.log for details</source>
+        <translation>錯誤：發生了致命的內部錯誤，細節請看 debug.log</translation>
+    </message>
+    <message>
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation>錯誤: 找到不再支援的 -tor 參數，請改用 -onion 參數。</translation>
+    </message>
+    <message>
+        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>交易付款時每千位元組(kB)的交易手續費 (預設值: %s)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Information</source>
@@ -3329,20 +3445,40 @@
         <translation>節點轉發選項:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>RPC SSL 選項: (SSL 設定程序請見 Bitcoin Wiki)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>RPC server options:</source>
         <translation>RPC 伺服器選項:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Rebuild block chain index from current blk000??.dat files on startup</source>
         <translation>啟動時從目前的區塊檔 blk000??.dat 重建區塊鏈的索引</translation>
     </message>
     <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
         <translation>接收並顯示對等網路(P2P)警示 (預設值: %u)</translation>
+=======
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>RPC 是否支援 HTTP 持久連線(預設值: %d)</translation>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>隨機丟掉 &lt;n&gt; 分之一的網路訊息</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
         <translation>因為系統的限制，將 -maxconnections 參數從 %d 降到了 %d</translation>
+    </message>
+    <message>
+        <source>Receive and display P2P network alerts (default: %u)</source>
+        <translation>接收並顯示 P2P 網路警示 (預設值: %u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3485,6 +3621,7 @@
         <translation>參數 -paytxfee 設定了很高的金額！這可是你交易付款時所要付的手續費。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</source>
         <translation>不要讓交易留在記憶體暫存池中超過 &lt;n&gt; 個小時(預設值: %u)</translation>
     </message>
@@ -3495,6 +3632,10 @@
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
         <translation>使用 -checkblocks 檢查區塊的仔細程度(0 到 4，預設值: %u)</translation>
+=======
+        <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
+        <translation>開採區塊的時候，紀錄交易的優先度以及每千位元組(kB)的手續費(預設值: %u)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>

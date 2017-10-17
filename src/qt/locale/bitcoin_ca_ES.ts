@@ -485,6 +485,10 @@
         <source>Up to date</source>
         <translation>Al dia</translation>
     </message>
+    <message numerus="yes">
+        <source>Processed %n blocks of transaction history.</source>
+        <translation><numerusform>S'ha processat %n bloc de l'historial de transacció.</numerusform><numerusform>S'han processat %n blocs de l'historial de transacció.</numerusform></translation>
+    </message>
     <message>
         <source>Catching up...</source>
         <translation>S'està posant al dia ...</translation>
@@ -874,6 +878,33 @@
         <source>command-line options</source>
         <translation>Opcions de la línia d'ordres</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>UI options</source>
+        <translation>Opcions de IU</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Defineix un idioma, per exemple «de_DE» (per defecte: preferències locals de sistema)</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>Inicia minimitzat</translation>
+    </message>
+    <message>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>Defineix certificats arrel SSL per a la sol·licitud de pagament (per defecte: -sistema-)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Mostra la finestra de benvinguda a l'inici (per defecte: 1)</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>Tria el directori de dades a l'inici (per defecte: 0)</translation>
+    </message>
+>>>>>>> refs/remotes/origin/0.10
 </context>
 <context>
     <name>Intro</name>
@@ -1290,6 +1321,13 @@
         <translation>La sol·licitud de pagament %1 és massa gran (%2 bytes, permès %3 bytes).</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Payment request DoS protection</source>
+        <translation>Protecció de DoS per a la sol·licitud de pagament</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Error communicating with %1: %2</source>
         <translation>Error en comunicar amb %1: %2</translation>
     </message>
@@ -1850,6 +1888,17 @@
         <translation>redueix els paràmetres de comissió</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Minimize</source>
+        <translation>Minimitza</translation>
+    </message>
+    <message>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comissió personalitzada es defineix a 1000 satoshis i la transacció és de només 250 bytes, llavors «per kilobyte» només es paguen 250 satoshis en una comissió, mentre que amb la de «com a mínim» es pagarien 1000 satoshis. Per a transaccions superiors al kilobyte, en tots dos casos es paga per kilobyte.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>per kilobyte</source>
         <translation>per kilobyte</translation>
     </message>
@@ -1858,10 +1907,13 @@
         <translation>Si la comissió personalitzada es defineix a 1000 satoshis i la transacció és de només 250 bytes, llavors «per kilobyte» només es paguen 250 satoshis en una comissió, mentre que amb la de «total com a mínim» es pagarien 1000 satoshis. Per a transaccions superiors al kilobyte, en tots dos casos es paga per kilobyte.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Hide</source>
         <translation>Amaga</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>total at least</source>
         <translation>total com a mínim</translation>
     </message>
@@ -1988,6 +2040,13 @@
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
         <translation>El total excedeix el teu balanç quan s'afegeix la comissió a la transacció %1.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Duplicate address found, can only send to each address once per send operation.</source>
+        <translation>S'ha trobat una adreça duplicada, tan sols es pot enviar a cada adreça un cop per ordre de enviament.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Transaction creation failed!</source>
@@ -1998,6 +2057,7 @@
         <translation>S'ha rebutjat la transacció! Això pot passar si alguna de les monedes del vostre moneder ja s'han gastat; per exemple, si heu fet servir una còpia de seguretat del fitxer wallet.dat i s'haguessin gastat monedes de la còpia però sense marcar-les-hi com a gastades.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
         <translation>Una comissió superior a %1 es considera una comissió absurdament alta.</translation>
     </message>
@@ -2008,18 +2068,27 @@
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation><numerusform>Estimat per començar la confirmació en %n bloc.</numerusform><numerusform>Estimat per començar la confirmació en %n blocs.</numerusform></translation>
+=======
+        <source>A fee higher than %1 is considered an insanely high fee.</source>
+        <translation>Una comissió superior a %1 es considera una comissió excessiva.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
         <translation>Paga només la comissió mínima de %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The recipient address is not valid. Please recheck.</source>
         <translation>L'adreça de destinatari no és vàlida. Torneu-la a comprovar.</translation>
     </message>
     <message>
         <source>Duplicate address found: addresses should only be used once each.</source>
         <translation>S'ha trobat una adreça duplicada: cal utilitzar les adreces només un cop cada vegada.</translation>
+=======
+        <source>Estimated to begin confirmation within %1 block(s).</source>
+        <translation>Estimat per a començar la confirmació en %1 bloc(s).</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Warning: Invalid Bitcoin address</source>
@@ -2562,8 +2631,13 @@
         <translation>Si està implicada o no una adreça només de lectura en la transacció.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>User-defined intent/purpose of the transaction.</source>
         <translation>Intenció/propòsit de la transacció definida per l'usuari.</translation>
+=======
+        <source>Destination address of transaction.</source>
+        <translation>Adreça del destinatari de la transacció.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -2810,6 +2884,13 @@
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>Distribuït sota llicència de programari MIT. Vegeu el fitxer acompanyant COPYING o &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>Entra en el mode de proves de regressió, que utilitza una cadena especial en què els blocs poden resoldre's al moment.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
@@ -2936,12 +3017,17 @@
         <translation>Només connecta als nodes de la xarxa &lt;net&gt; (ipv4, ipv6 o onion)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Prune cannot be configured with a negative value.</source>
         <translation>La poda no es pot configurar amb un valor negatiu.</translation>
     </message>
     <message>
         <source>Prune mode is incompatible with -txindex.</source>
         <translation>El mode de poda és incompatible amb -txindex.</translation>
+=======
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation>Reconstrueix l'índex de la cadena de blocs dels fitxers actuals blk000??.dat</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
@@ -2954,6 +3040,10 @@
     <message>
         <source>Specify wallet file (within data directory)</source>
         <translation>Especifica un fitxer de moneder (dins del directori de dades)</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: %u)</source>
+        <translation>Utilitza UPnP per a mapejar el port d'escolta (per defecte: %u)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
@@ -3004,6 +3094,10 @@
         <translation>No es pot obtenir un bloqueig del directori de dades %s. El Bitcoin Core probablement ja s'estigui executant.</translation>
     </message>
     <message>
+        <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
+        <translation>Limita contínuament la freqüència de les transaccions gratuïtes a &lt;n&gt;*1000 bytes per minut (per defecte: %u)</translation>
+    </message>
+    <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
         <translation>Crea fitxers nous amb els permisos per defecte del sistema, en comptes de l'umask 077 (només efectiu amb la funcionalitat de moneder inhabilitada)</translation>
     </message>
@@ -3032,12 +3126,33 @@
         <translation>Mida màxima de les dades en les transaccions de l'operador en què confiem i en les meves (per defecte: %u)</translation>
     </message>
     <message>
+        <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
+        <translation>Si no s'especifica una paytxfee (comissió de transacció de pagament), inclogueu suficient comissió per tal que les transaccions comencin a confirmar-se en una mitja de n blocs (per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>Import no vàlid per a -maxtxfee=&lt;amount&gt;: '%s' (cal que sigui com a mínim la comissió de minrelay de %s per evitar que les comissions s'encallin)</translation>
+    </message>
+    <message>
+        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
+        <translation>Mida màxima de les dades en les transaccions de l'operador en què confiem i en les meves (per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
+        <translation>Comissions totals màximes que s'utilitzaran en una transacció d'un únic moneder. Si es defineix un valor massa baix les transaccions més grans poden interrompre's (per defecte: %s)</translation>
+    </message>
+    <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>Consulta a adreces d'iguals a través de DNS, si es troba baix en adreces (per defecte: 1 a menys que -connect)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
         <translation>Genera a l'atzar credencials per a cada connexió proxy. Això habilita l'aïllament del flux de Tor (per defecte: %u)</translation>
+=======
+        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
+        <translation>Es requereix una prioritat alta per retransmetre transaccions gratuïtes o de baixa comissió (per defecte:%u)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
@@ -3046,6 +3161,7 @@
     <message>
         <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
         <translation>Defineix el nombre de fils per a la generació de moneda si està habilitat (-1 = tots els nuclis, per defecte: %d)</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
@@ -3054,12 +3170,50 @@
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Aquest producte inclou programari desenvolupat pel projecte OpenSSL per a ús a l'OpenSSL Toolkit &lt;https://www.openssl.org/&gt; i programari criptogràfic escrit per Eric Young i programari UPnP escrit per Thomas Bernard.</translation>
+=======
+    </message>
+    <message>
+        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
+        <translation>Aquest producte inclou programari desenvolupat pel projecte OpenSSL per a ús a l'OpenSSL Toolkit &lt;https://www.openssl.org/&gt; i programari criptogràfic escrit per Eric Young i programari UPnP escrit per Thomas Bernard.</translation>
+    </message>
+    <message>
+        <source>To use bitcoind, or the -server option to bitcoin-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</source>
+        <translation>Per utilitzar bitcoind, o l'opció de serviddor de bitcoin-qt, heu de definir una rpcpassword en el fitxer de configuració:
+%s
+Es recomana que utilitzeu la contrasenya aleatòria següent:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(no cal que recordeu la contrasenya)
+El nom d'usuari i la contrasenya NO han de ser els mateixos.
+Si el fitxer no existeix, creeu-ne un amb permisos de lectura només per al seu propietari.
+Es recomana definir alertnotify per tal de ser notificat de qualsevol problema;
+per exemple: alertnotify=echo %%s | mail -s "Avís de Bitcoin" admin@foo.com</translation>
+    </message>
+    <message>
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>Avís: s'ha especificat un -maxtxfee molt alt! Comissions tan grans podrien pagar-se en una única transacció.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
+        <translation>Avís: comproveu que la data i hora del vostre ordinador siguin correctes! Si el vostre rellotge no és correcte, el Bitcoin Core no funcionarà correctament.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>Els iguals en la llista blanca no poden ser bandejats per DoS i es transmetran sempre llurs transaccions, fins i tot si ja són a la mempool. Això és útil, p. ex., per a una passarel·la</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
         <translation>Cal que torneu a construir la base de dades fent servir -reindex per tornar al mode no podat. Això tornarà a baixar la cadena de blocs sencera</translation>
     </message>
@@ -3068,14 +3222,19 @@
         <translation>(per defecte: %u)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Accept public REST requests (default: %u)</source>
         <translation>Accepta sol·licituds REST públiques (per defecte: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Activating best chain...</source>
         <translation>S'està activant la millor cadena...</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Cannot resolve -whitebind address: '%s'</source>
         <translation>No es pot resoldre l'adreça -whitebind: «%s»</translation>
     </message>
@@ -3098,6 +3257,17 @@
     <message>
         <source>Error reading from database, shutting down.</source>
         <translation>Error en llegir la base de dades, tancant.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation>Error: s'ha trobat un argument -tor no acceptat. Feu servir -onion.</translation>
+    </message>
+    <message>
+        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Comissió en (BTC/kB) per afegir a les transaccions que envieu (per defecte: %s)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Information</source>
@@ -3140,12 +3310,28 @@
         <translation>Opcions de transmissió del node:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>Opcions RPC SSL: (veieu el wiki del Bitcoin per a instruccions de configuració de l'SSL)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>RPC server options:</source>
         <translation>Opcions del servidor RPC:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Rebuild block chain index from current blk000??.dat files on startup</source>
         <translation>Reconstrueix l'índex de la cadena de blocs dels fitxers blk000??.dat actuals a l'inici.</translation>
+=======
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>Suport RPC per a connexions HTTP persistents (per defecte: %d)</translation>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>Descarta a l'atzar 1 de cada &lt;n&gt; missatges de la xarxa</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
@@ -3160,6 +3346,7 @@
         <translation>Envia les transaccions com a transaccions de comissió zero sempre que sigui possible (per defecte: %u) </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set SSL root certificates for payment request (default: -system-)</source>
         <translation>Defineix certificats arrel SSL per a la sol·licitud de pagament (per defecte: -sistema-)</translation>
     </message>
@@ -3168,6 +3355,8 @@
         <translation>Defineix un idioma, per exemple «de_DE» (per defecte: preferències locals de sistema)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Show all debugging options (usage: --help -help-debug)</source>
         <translation>Mostra totes les opcions de depuració (ús: --help  --help-debug)</translation>
     </message>
@@ -3280,10 +3469,24 @@
         <translation>(1 = manté les metadades de les tx, p. ex., propietari del compte i informació de sol·licitud del pagament, 2 = prescindeix de les metadades de les tx)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
+        <translation>Buida l'activitat de la base de dades de la memòria disponible al registre del disc cada &lt;n&gt; megabytes (per defecte: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
         <translation>Com d'exhaustiva és la verificació de blocs del -checkblocks (0-4, per defecte: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
+        <translation>Enregistreu la prioritat de la transacció i la comissió per kB en minar blocs (per defecte: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
         <translation>Manté un índex complet de transaccions, utilitzat per la crida rpc getrawtransaction (per defecte: %u)</translation>
     </message>
@@ -3304,14 +3507,35 @@
         <translation>(per defecte: %s)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Acceptable ciphers (default: %s)</source>
+        <translation>Xifrats acceptables (per defecte: %s)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
         <translation>Demana sempre les adreces dels iguals a través de consultes DNS (per defecte: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Disable safemode, override a real safe mode event (default: %u)</source>
+        <translation>Inhabilita el mode segur, sobreescriu un esdeveniment de mode segur real (per defecte: %u) </translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Error loading wallet.dat</source>
         <translation>Error en carregar wallet.dat</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Force safe mode (default: %u)</source>
+        <translation>Força el mode segur (per defecte: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Generate coins (default: %u)</source>
         <translation>Genera monedes (per defecte: %u)</translation>
     </message>
@@ -3328,6 +3552,13 @@
         <translation>Adreça -proxy invalida: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
+        <translation>Limita la mida de la cau de signatura a &lt;n&gt; entrades (per defecte: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
         <translation>Escolta les connexions JSON-RPC en &lt;port&gt; (per defecte: %u o testnet: %u)</translation>
     </message>
@@ -3340,10 +3571,13 @@
         <translation>Manté com a màxim &lt;n&gt; connexions a iguals (per defecte: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Make the wallet broadcast transactions</source>
         <translation>Fes que el moneder faci difusió de les transaccions</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
         <translation>Memòria intermèdia màxima de recepció per connexió, &lt;n&gt;*1000 bytes (per defecte: %u)</translation>
     </message>
@@ -3352,6 +3586,13 @@
         <translation>Memòria intermèdia màxima d'enviament per connexió, &lt;n&gt;*1000 bytes (per defecte: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
+        <translation>Només accepta els punts de control integrats que coincideixen amb la cadena de blocs (per defecte: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Prepend debug output with timestamp (default: %u)</source>
         <translation>Posa davant de la sortida de depuració una marca horària (per defecte: %u)</translation>
     </message>
@@ -3364,6 +3605,21 @@
         <translation>Retransmet multisig no P2SH (per defecte: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Run a thread to flush wallet periodically (default: %u)</source>
+        <translation>Executa un fil per buidar el moneder periòdicament (per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: %s)</source>
+        <translation>Fitxer de certificat del servidor (per defecte: %s)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: %s)</source>
+        <translation>Clau privada del servidor (per defecte: %s)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
         <translation>Defineix la mida clau disponible a &lt;n&gt; (per defecte: %u)</translation>
     </message>
@@ -3376,6 +3632,13 @@
         <translation>Defineix el nombre de fils a crides de servei RPC (per defecte: %d)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Sets the DB_PRIVATE flag in the wallet db environment (default: %u)</source>
+        <translation>Defineix el senyalador DB_PRIVATE en l'entorn db del moneder (per defecte: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Specify configuration file (default: %s)</source>
         <translation>Especifica el fitxer de configuració (per defecte: %s)</translation>
     </message>
@@ -3392,6 +3655,13 @@
         <translation>Gasta el canvi no confirmat en enviar les transaccions (per defecte: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Stop running after importing blocks from disk (default: %u)</source>
+        <translation>Atura l'execució després d'importar blocs del disc (per defecte: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
         <translation>Llindar per a desconnectar els iguals de comportament qüestionable (per defecte: %u)</translation>
     </message>

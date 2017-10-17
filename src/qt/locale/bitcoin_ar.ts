@@ -300,6 +300,17 @@
     <message>
         <source>Importing blocks from disk...</source>
         <translation>استيراد كتل من القرص ...</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Reindexing blocks on disk...</source>
+        <translation>إعادة فهرسة الكتل على القرص</translation>
+    </message>
+    <message>
+        <source>Send coins to a Bitcoin address</source>
+        <translation>ارسل عملات الى عنوان بيتكوين</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>

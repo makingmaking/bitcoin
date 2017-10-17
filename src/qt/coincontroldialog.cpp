@@ -119,7 +119,11 @@ CoinControlDialog::CoinControlDialog(const PlatformStyle *platformStyle, QWidget
     // (un)select all
     connect(ui->pushButtonSelectAll, SIGNAL(clicked()), this, SLOT(buttonSelectAllClicked()));
 
+<<<<<<< HEAD
     // change coin control first column label due Qt4 bug.
+=======
+    // change coin control first column label due Qt4 bug. 
+>>>>>>> refs/remotes/origin/0.10
     // see https://github.com/bitcoin/bitcoin/issues/5716
     ui->treeWidget->headerItem()->setText(COLUMN_CHECKBOX, QString());
 

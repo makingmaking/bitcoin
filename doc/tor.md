@@ -87,6 +87,7 @@ If you only want to use Tor to reach onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:
 
 	./bitcoin -onion=127.0.0.1:9050 -externalip=57qr3yd1nyntf5k.onion -discover
+<<<<<<< HEAD
 
 3. Automatically listen on Tor
 --------------------------------
@@ -104,3 +105,5 @@ This new feature is enabled by default if Bitcoin Core is listening, and
 a connection to Tor can be made. It can be configured with the `-listenonion`,
 `-torcontrol` and `-torpassword` settings. To show verbose debugging
 information, pass `-debug=tor`.
+=======
+>>>>>>> refs/remotes/origin/0.10

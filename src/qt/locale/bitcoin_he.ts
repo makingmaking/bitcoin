@@ -2502,6 +2502,13 @@
         <translation>מחיקת כל העברות הארנק ולשחזר רק את החלקים המסוימים בשרשרת המקטעים באמצעות ‎-rescan עם ההפעלה</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>כניסה למצב בדיקת נסיגה, שמשתמש בשרשרת מיוחדת בה ניתן לפתור את המקטעים במהירות.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>ביצוע פקודה כאשר העברה בארנק משתנה (%s ב־cmd יוחלף ב־TxID)</translation>
     </message>
@@ -2702,6 +2709,13 @@
         <translation>אפשרויות ממסר מפרק:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>אפשרויות RPC SSL: (נא לעיין בוויקי של ביטקוין לקבלת הנחיות על הגדרת SSL)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>RPC server options:</source>
         <translation>הגדרות שרת RPC</translation>
     </message>

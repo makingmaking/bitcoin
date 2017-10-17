@@ -27,7 +27,11 @@ files:
 script: |
   WRAP_DIR=$HOME/wrapped
   HOSTS="x86_64-apple-darwin11"
+<<<<<<< HEAD
   CONFIGFLAGS="--enable-reduce-exports GENISOIMAGE=$WRAP_DIR/genisoimage"
+=======
+  CONFIGFLAGS="GENISOIMAGE=$WRAP_DIR/genisoimage"
+>>>>>>> refs/remotes/origin/0.10
   FAKETIME_HOST_PROGS=""
   FAKETIME_PROGS="ar ranlib date dmg genisoimage"
 

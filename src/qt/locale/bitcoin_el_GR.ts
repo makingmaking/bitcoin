@@ -938,10 +938,13 @@
         <translation>Διεύθυνση IP του διαμεσολαβητή (π.χ. 127.0.0.1  / IPv6: ::1)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
         <translation>Ελαχιστοποίηση αντί για έξοδο κατά το κλείσιμο του παραθύρου. Όταν αυτή η επιλογή είναι ενεργοποιημένη, η εφαρμογή θα κλείνει μόνο αν επιλεχθεί η Έξοδος στο μενού.</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
         <translation>URLs από τρίτους (π.χ. ένας εξερευνητής μπλοκ) τα οποία εμφανίζονται στην καρτέλα συναλλαγών ως στοιχεία μενού. Το %s στα URL αντικαθιστάται από την τιμή της κατατεμαχισμένης συναλλαγής.</translation>
     </message>
@@ -1160,6 +1163,13 @@
     <message>
         <source>Current total balance in watch-only addresses</source>
         <translation>Το τρέχον συνολικό υπόλοιπο σε διευθύνσεις παρακολούθησης μόνο</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>εκτός συγχρονισμού</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
 </context>
 <context>
@@ -1373,6 +1383,17 @@
         <translation>Υπηρεσίες</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Starting Height</source>
+        <translation>Αρχικό ύψος</translation>
+    </message>
+    <message>
+        <source>Sync Height</source>
+        <translation>Ύψος συγχονισμού</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Ban Score</source>
         <translation>Σκορ αποκλησμού</translation>
     </message>
@@ -1488,6 +1509,13 @@
         <source>Unknown</source>
         <translation>Άγνωστο(α)</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Fetching...</source>
+        <translation>Ανάκτηση...</translation>
+    </message>
+>>>>>>> refs/remotes/origin/0.10
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -1725,8 +1753,36 @@
         <translation>κανονικό</translation>
     </message>
     <message>
+        <source>per kilobyte</source>
+        <translation>ανά kilobyte</translation>
+    </message>
+    <message>
+        <source>total at least</source>
+        <translation>συνολικά τουλάχιστον</translation>
+    </message>
+    <message>
+        <source>Recommended:</source>
+        <translation>Προτεινόμενο: </translation>
+    </message>
+    <message>
+        <source>Custom:</source>
+        <translation>Προσαρμογή:</translation>
+    </message>
+    <message>
+        <source>Confirmation time:</source>
+        <translation>Χρόνος επικύρωσης:</translation>
+    </message>
+    <message>
+        <source>normal</source>
+        <translation>κανονικό</translation>
+    </message>
+    <message>
         <source>fast</source>
-        <translation>Γρήγορο</translation>
+        <translation>γρήγορο</translation>
+    </message>
+    <message>
+        <source>(confirmation may take longer)</source>
+        <translation>(η επικύρωση ίσως χρειαστεί περισσότερο χρόνο)</translation>
     </message>
     <message>
         <source>(confirmation may take longer)</source>
@@ -1896,6 +1952,13 @@
         <translation>Εισάγεται μία ετικέτα για αυτή την διεύθυνση για να προστεθεί στη λίστα με τις χρησιμοποιημένες διευθύνσεις</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>This is an unverified payment request.</source>
+        <translation>Αυτή είναι μία ανεπιβεβαίωτη αίτηση πληρωμής.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Pay To:</source>
         <translation>Πληρωμή σε:</translation>
     </message>
@@ -2539,6 +2602,13 @@
         <translation>Αποθηκευση σε συγκεκριμένη διεύθυνση. Χρησιμοποιήστε τα πλήκτρα [Host] : συμβολισμός θύρα για IPv6</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>Εισαγωγή δοκιμαστικής λειτουργίας παλινδρόμησης, που χρησιμοποιεί μια ειδική αλυσίδα στην οποία τα μπλοκ επιλύονται στιγμιαία.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Εκτέλεσε την εντολή όταν το καλύτερο μπλοκ αλλάξει(%s στην εντολή αντικαθίσταται από το hash του μπλοκ)</translation>
     </message>
@@ -2617,10 +2687,21 @@
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
         <translation>Μόνο σύνδεση σε κόμβους του δικτύου &lt;net&gt; (ipv4, ipv6 ή onion)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation>Εισαγωγή μπλοκ από εξωτερικό αρχείο blk000?.dat</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
         <translation>Επιλέξτε αρχείο πορτοφολιού (μέσα απο κατάλογο δεδομένων)</translation>
+    </message>
+    <message>
+        <source>This is intended for regression testing tools and app development.</source>
+        <translation>Αυτό προορίζεται για εργαλεία δοκιμών παλινδρόμησης και την ανάπτυξη εφαρμογών.</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -2647,8 +2728,17 @@
         <translation>Αδυναμία κλειδώματος του φακέλου δεδομένων %s. Πιθανώς το Bitcoin να είναι ήδη ενεργό.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Choose data directory on startup (default: 0)</source>
         <translation>Επιλογή φακέλου δεδομένων στην εκκίνηση (προεπιλεγμένο: 0)</translation>
+=======
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
+        <translation>Προειδοποίηση: Παρακαλώ ελέγξτε ότι η ημερομηνία και ώρα του υπολογιστή σας είναι σωστά ρυθμισμένες! Εάν το ρολόι σας είναι λάθος το Bitcoin Core δεν θα λειτουργήσει σωστά. </translation>
+    </message>
+    <message>
+        <source>Connect through SOCKS5 proxy</source>
+        <translation>Σύνδεση μέσω διαμεσολαβητή SOCKS5</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -2661,6 +2751,13 @@
     <message>
         <source>Error reading from database, shutting down.</source>
         <translation>Σφάλμα ανάγνωσης από τη βάση δεδομένων, γίνεται τερματισμός.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation>Σφάλμα: Μη συμβατή παράμετρος -tor. Χρησιμοποιήσε την παράμετρο -onion</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Information</source>
@@ -2683,6 +2780,15 @@
         <translation>Επιλογές αναμετάδοσης κόμβου: </translation>
     </message>
     <message>
+<<<<<<< HEAD
+        <source>RPC server options:</source>
+        <translation>Επιλογές διακομιστή RPC:</translation>
+=======
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>Ρυθμίσεις SSL: (ανατρέξτε στο Bitcoin Wiki για οδηγίες ρυθμίσεων SSL)</translation>
+>>>>>>> refs/remotes/origin/0.10
+    </message>
+    <message>
         <source>RPC server options:</source>
         <translation>Επιλογές διακομιστή RPC:</translation>
     </message>
@@ -2691,6 +2797,7 @@
         <translation>Αποστολή πληροφοριών εντοπισμού σφαλμάτων στην κονσόλα αντί του αρχείου debug.log</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set SSL root certificates for payment request (default: -system-)</source>
         <translation>Ορίστε SSL root certificates για αίτηση πληρωμής (default: -system-)</translation>
     </message>
@@ -2699,14 +2806,19 @@
         <translation>Όρισε γλώσσα, για παράδειγμα "de_DE"(προεπιλογή:τοπικές ρυθμίσεις)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Show all debugging options (usage: --help -help-debug)</source>
         <translation>Προβολή όλων των επιλογών εντοπισμού σφαλμάτων (χρήση: --help -help-debug)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show splash screen on startup (default: 1)</source>
         <translation>Εμφάνισε την οθόνη εκκίνησης κατά την εκκίνηση(προεπιλογή:1)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>Συρρίκνωση του αρχείο debug.log κατα την εκκίνηση του πελάτη (προεπιλογή: 1 όταν δεν-debug)</translation>
     </message>
@@ -2819,6 +2931,13 @@
         <translation>Δεν είναι έγκυρη η διεύθυνση διαμεσολαβητή: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Server certificate file (default: %s)</source>
+        <translation>Αρχείο πιστοποιητικού του διακομιστή  (προεπιλογή: %s)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
         <translation>Ορισμός λήξης χρονικού ορίου σε χιλιοστά του δευτερολέπτου(προεπιλογή: %d)</translation>
     </message>

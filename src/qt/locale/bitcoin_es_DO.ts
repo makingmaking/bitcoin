@@ -2245,26 +2245,46 @@
         <translation>Inválido por el monto -mintxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>Opciones RPC SSL: (Vea la Wiki de Bitcoin para las instrucciones de la configuración de SSL)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>RPC server options:</source>
         <translation>Opciones del sservidor RPC:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>Descartar aleatoriamente 1 de cada &lt;n&gt; mensajes de red</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Enviar información de trazas/depuración a la consola en lugar de al archivo debug.log</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set language, for example "de_DE" (default: system locale)</source>
         <translation>Establecer el idioma, por ejemplo, "es_ES" (predeterminado: configuración regional del sistema)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Show all debugging options (usage: --help -help-debug)</source>
         <translation>Mostrar todas las opciones de depuración (uso: --help -help-debug)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show splash screen on startup (default: 1)</source>
         <translation>Mostrar pantalla de bienvenida en el inicio (predeterminado: 1)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>Reducir el archivo debug.log al iniciar el cliente (predeterminado: 1 sin -debug)</translation>
     </message>
@@ -2296,6 +2316,10 @@
     <message>
         <source>Warning</source>
         <translation>Aviso</translation>
+    </message>
+    <message>
+        <source>on startup</source>
+        <translation>al iniciar</translation>
     </message>
     <message>
         <source>on startup</source>

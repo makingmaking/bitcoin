@@ -434,10 +434,13 @@
         <translation>Není dostupný žádný zdroj bloků...</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
         <source>Processed %n block(s) of transaction history.</source>
         <translation><numerusform>Zpracován %n blok transakční historie.</numerusform><numerusform>Zpracovány %n bloky transakční historie.</numerusform><numerusform>Zpracováno %n bloků transakční historie.</numerusform></translation>
     </message>
     <message numerus="yes">
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>%n hour(s)</source>
         <translation><numerusform>%n hodinu</numerusform><numerusform>%n hodiny</numerusform><numerusform>%n hodin</numerusform></translation>
     </message>
@@ -484,6 +487,10 @@
     <message>
         <source>Up to date</source>
         <translation>Aktuální</translation>
+    </message>
+    <message numerus="yes">
+        <source>Processed %n blocks of transaction history.</source>
+        <translation><numerusform>Zpracován %n blok transakční historie.</numerusform><numerusform>Zpracovány %n bloky transakční historie.</numerusform><numerusform>Zpracováno %n bloků transakční historie.</numerusform></translation>
     </message>
     <message>
         <source>Catching up...</source>
@@ -1290,6 +1297,13 @@
         <translation>Platební požadavek %1 je moc velký (%2 bajtů, povoleno %3 bajtů).</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Payment request DoS protection</source>
+        <translation>DoS ochrana platebního požadavku</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Error communicating with %1: %2</source>
         <translation>Chyba při komunikaci s %1: %2</translation>
     </message>
@@ -1850,6 +1864,17 @@
         <translation>sbal nastavení poplatků</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Minimize</source>
+        <translation>Skryj</translation>
+    </message>
+    <message>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Pokud je vlastní poplatek nastavený na 1000 satoshi a transakce má pouze 250 bajtů, tak „za kilobajt“ zaplatí poplatek jen 250 satoshi, zatímco „přinejmenším“ zaplatí 1000 satoshi. Pro transakce větší než kilobajt obě možnosti platí za kilobajt.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>per kilobyte</source>
         <translation>za kilobajt</translation>
     </message>
@@ -1858,10 +1883,13 @@
         <translation>Pokud je vlastní poplatek nastavený na 1000 satoshi a transakce má pouze 250 bajtů, tak „za kilobajt“ zaplatí poplatek jen 250 satoshi, zatímco „přinejmenším“ zaplatí 1000 satoshi. Pro transakce větší než kilobajt obě možnosti platí za kilobajt.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Hide</source>
         <translation>Skryj</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>total at least</source>
         <translation>přinejmenším</translation>
     </message>
@@ -1998,6 +2026,7 @@
         <translation>Transakce byla odmítnuta! Tohle může nastat, pokud nějaké mince z tvé peněženky už jednou byly utraceny, například pokud používáš kopii souboru wallet.dat a mince byly utraceny v druhé kopii, ale nebyly označeny jako utracené v této.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
         <translation>Poplatek vyšší než %1 je považován za absurdně vysoký.</translation>
     </message>
@@ -2010,16 +2039,27 @@
         <translation><numerusform>Potvrzování by podle odhadu mělo začít během %n bloku.</numerusform><numerusform>Potvrzování by podle odhadu mělo začít během %n bloků.</numerusform><numerusform>Potvrzování by podle odhadu mělo začít během %n bloků.</numerusform></translation>
     </message>
     <message>
+=======
+        <source>A fee higher than %1 is considered an insanely high fee.</source>
+        <translation>Poplatek vyšší než %1 je považován za absurdně vysoký.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Pay only the minimum fee of %1</source>
         <translation>Zaplatit pouze minimální poplatek %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The recipient address is not valid. Please recheck.</source>
         <translation>Adresa příjemce je neplatná – překontroluj ji prosím.</translation>
     </message>
     <message>
         <source>Duplicate address found: addresses should only be used once each.</source>
         <translation>Zaznamenána duplicitní adresa: každá adresa by ale měla být použita vždy jen jednou.</translation>
+=======
+        <source>Estimated to begin confirmation within %1 block(s).</source>
+        <translation>Potvrzování by podle odhadu mělo začít během %1 bloků.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Warning: Invalid Bitcoin address</source>
@@ -2562,8 +2602,13 @@
         <translation>Zda tato transakce zahrnuje i některou sledovanou adresu.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>User-defined intent/purpose of the transaction.</source>
         <translation>Uživatelsky určený účel transakce.</translation>
+=======
+        <source>Destination address of transaction.</source>
+        <translation>Cílová adresa transakce.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -2810,6 +2855,13 @@
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>Šířen pod softwarovou licencí MIT, viz přiložený soubor COPYING nebo &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>Přepnout do módu testování regresí, který používá speciální řetězec, ve kterém mohou být bloky okamžitě vyřešeny.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
@@ -2936,12 +2988,17 @@
         <translation>Připojovat se pouze k uzlům v &lt;net&gt; síti (ipv4, ipv6 nebo onion)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Prune cannot be configured with a negative value.</source>
         <translation>Prořezávání nemůže být zkonfigurováno s negativní hodnotou.</translation>
     </message>
     <message>
         <source>Prune mode is incompatible with -txindex.</source>
         <translation>Prořezávací režim není kompatibilní s -txindex.</translation>
+=======
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation>Znovu vytvořit index řetězce bloků z aktuálních blk000??.dat souborů</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
@@ -2954,6 +3011,10 @@
     <message>
         <source>Specify wallet file (within data directory)</source>
         <translation>Udej název souboru s peněženkou (v rámci datového adresáře)</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: %u)</source>
+        <translation>Použít UPnP k namapování naslouchacího portu (výchozí: %u)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
@@ -3004,6 +3065,10 @@
         <translation>Nedaří se mi získat zámek na datový adresář %s. Bitcoin Core pravděpodobně už jednou běží.</translation>
     </message>
     <message>
+        <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
+        <translation>Kontinuálně omezovat bezpoplatkové transakce na &lt;n&gt;*1000 bajtů za minutu (výchozí: %u)</translation>
+    </message>
+    <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
         <translation>Vytvářet nové soubory s výchozími systémovými právy namísto umask 077 (uplatní se, pouze pokud je vypnutá funkce peněženky)</translation>
     </message>
@@ -3032,12 +3097,33 @@
         <translation>Maximální velikost dat v transakcích nesoucích data, se kterou jsme ochotni je ještě přeposílat a těžit (výchozí: %u)</translation>
     </message>
     <message>
+        <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
+        <translation>Pokud paytxfee není nastaveno, platit dostatečný poplatek na to, aby začaly být transakce potvrzovány v průměru během n bloků (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>Neplatná částka pro -maxtxfee=&lt;amount&gt;: '%s' (musí být alespoň jako poplatek minrelay %s, aby transakce nezůstávaly trčet)</translation>
+    </message>
+    <message>
+        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
+        <translation>Maximální velikost dat v transakcích nesoucích data, se kterou jsme ochotni je ještě přeposílat a těžit (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
+        <translation>Horní hranice pro celkový poplatek za jednu transakci z peněženky; příliš nízká hodnota může zmařit velké transakce (výchozí: %s)</translation>
+    </message>
+    <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>Při nedostatku adres získat další protějšky z DNS (výchozí: 1, pokud není použito -connect)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
         <translation>Použít náhodné údaje pro každé proxy spojení. To umožní izolovat nesouvisející datové toky v Toru (výchozí: %u)</translation>
+=======
+        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
+        <translation>Vyžadovat vysokou prioritu pro přeposílání bezplatných nebo nízkopoplatkových transakcí (výchozí: %u)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
@@ -3046,6 +3132,7 @@
     <message>
         <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
         <translation>Nastavení počtu vláken pro těžení, je-li zapnuté (-1 = všechna jádra, výchozí: %d)</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
@@ -3054,12 +3141,51 @@
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v OpenSSL Toolkitu &lt;https://www.openssl.org/&gt; a kryptografický program od Erika Younga a program UPnP od Thomase Bernarda.</translation>
+=======
+    </message>
+    <message>
+        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
+        <translation>Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v OpenSSL Toolkitu &lt;https://www.openssl.org/&gt; a kryptografický program od Erika Younga a program UPnP od Thomase Bernarda.</translation>
+    </message>
+    <message>
+        <source>To use bitcoind, or the -server option to bitcoin-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</source>
+        <translation>K používání bitcoind nebo volby -server u bitcoin-qt musíš nastavit rpcpassword v konfiguračním souboru:
+%s
+Je vhodné použít následující náhodné heslo:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(není potřeba si ho pamatovat)
+rpcuser a rpcpassword NESMÍ být stejné.
+Pokud konfigurační soubor ještě neexistuje, vytvoř ho tak, aby ho mohl číst pouze vlastník.
+Je také doporučeno si nastavit alertnotify, abys byl upozorněn na případné problémy;
+například: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</translation>
+    </message>
+    <message>
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>Upozornění: -maxtxfee je nastaveno velmi vysoko! Takto vysoký poplatek může být zaplacen v jednotlivé transakci.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
+        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, Bitcoin Core nebude fungovat správně.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>Na protějšky na bílé listině se nevztahuje DoS klatba a jejich transakce jsou vždy přeposílány, i když už třeba jsou v mempoolu, což je užitečné např. pro bránu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
         <translation>K návratu k neprořezávacímu režimu je potřeba přestavět databázi použitím -reindex.  Také se znovu stáhne celý řetězec bloků</translation>
     </message>
@@ -3068,14 +3194,19 @@
         <translation>(výchozí: %u)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Accept public REST requests (default: %u)</source>
         <translation>Přijímat veřejné REST požadavky (výchozí: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Activating best chain...</source>
         <translation>Aktivuji nejlepší řetězec...</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Cannot resolve -whitebind address: '%s'</source>
         <translation>Nemohu přeložit -whitebind adresu: '%s'</translation>
     </message>
@@ -3098,6 +3229,17 @@
     <message>
         <source>Error reading from database, shutting down.</source>
         <translation>Chyba při čtení z databáze, ukončuji se.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation>Chyba: Argument -tor již není podporovaný, použij -onion.</translation>
+    </message>
+    <message>
+        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Poplatek (v BTC/kB), který se přidá ke každé odeslané transakci (výchozí: %s)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Information</source>
@@ -3140,12 +3282,28 @@
         <translation>Možnosti přeposílání:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>Možnosti SSL pro RPC: (viz instrukce nastavení SSL na Bitcoin Wiki)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>RPC server options:</source>
         <translation>Možnosti RPC serveru:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Rebuild block chain index from current blk000??.dat files on startup</source>
         <translation>Při startu znovu vytvořit index řetězce bloků z aktuálních blk000??.dat souborů</translation>
+=======
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>Podpora RPC pro perzistentní HTTP spojení (výchozí: %d)</translation>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>Náhodně zahazovat jednu z každých &lt;n&gt; síťových zpráv</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
@@ -3160,6 +3318,7 @@
         <translation>Posílat transakce pokud možno bez poplatků (výchozí: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set SSL root certificates for payment request (default: -system-)</source>
         <translation>Nastavit kořenové SSL certifikáty pro platební požadavky (výchozí: -system-)</translation>
     </message>
@@ -3168,6 +3327,8 @@
         <translation>Nastavit jazyk, například „de_DE“ (výchozí: systémové nastavení)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Show all debugging options (usage: --help -help-debug)</source>
         <translation>Zobrazit všechny možnosti ladění (užití: --help -help-debug)</translation>
     </message>
@@ -3280,10 +3441,24 @@
         <translation>(1 = ukládat transakční metadata, např. majitele účtu a informace o platebním požadavku, 2 = mazat transakční metadata)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
+        <translation>Promítnout databázovou aktivitu z paměťového prostoru do záznamu na disku každých &lt;n&gt; megabajtů (výchozí: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
         <translation>Jak moc důkladná má být verifikace bloků -checkblocks (0-4, výchozí: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
+        <translation>Zaznamenávat během těžení bloků prioritu transakce a poplatek za kB (výchozí: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
         <translation>Spravovat úplný index transakcí, který je využíván rpc voláním getrawtransaction (výchozí: %u)</translation>
     </message>
@@ -3304,14 +3479,35 @@
         <translation>(výchozí: %s)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Acceptable ciphers (default: %s)</source>
+        <translation>Akceptovatelné šifry (výchozí: %s)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
         <translation>Vždy získávat adresy dalších protějšků přes DNS (výchozí: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Disable safemode, override a real safe mode event (default: %u)</source>
+        <translation>Vypnout bezpečný režim (safemode), překrýt skutečnou událost bezpečného režimu (výchozí: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Error loading wallet.dat</source>
         <translation>Chyba při načítání wallet.dat</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Force safe mode (default: %u)</source>
+        <translation>Vynutit bezpečný mód (výchozí: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Generate coins (default: %u)</source>
         <translation>Těžit (výchozí: %u)</translation>
     </message>
@@ -3328,6 +3524,13 @@
         <translation>Neplatná -proxy adresa: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
+        <translation>Omezit velikost vyrovnávací paměti pro podpisy na &lt;n&gt; položek (výchozí: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
         <translation>Čekat na JSON-RPC spojení na &lt;portu&gt; (výchozí: %u nebo testnet: %u)</translation>
     </message>
@@ -3340,10 +3543,13 @@
         <translation>Povolit nejvýše &lt;n&gt; protějšků (výchozí: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Make the wallet broadcast transactions</source>
         <translation>Transakce z peněženky rozesílat</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
         <translation>Maximální velikost přijímacího bufferu pro každé spojení, &lt;n&gt;*1000 bajtů (výchozí: %u)</translation>
     </message>
@@ -3352,6 +3558,13 @@
         <translation>Maximální velikost odesílacího bufferu pro každé spojení, &lt;n&gt;*1000 bajtů (výchozí: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
+        <translation>Uznávat pouze řetězec bloků, který odpovídá vnitřním kontrolním bodům (výchozí: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Prepend debug output with timestamp (default: %u)</source>
         <translation>Připojit před ladicí výstup časové razítko (výchozí: %u)</translation>
     </message>
@@ -3364,6 +3577,21 @@
         <translation>Přeposílat ne-P2SH multisig (výchozí: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Run a thread to flush wallet periodically (default: %u)</source>
+        <translation>Spustit vlákno pročišťující periodicky peněženku (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: %s)</source>
+        <translation>Soubor se serverovým certifikátem (výchozí: %s)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: %s)</source>
+        <translation>Soubor se serverovým soukromým klíčem (výchozí: %s)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
         <translation>Nastavit zásobník klíčů na velikost &lt;n&gt; (výchozí: %u)</translation>
     </message>
@@ -3376,6 +3604,13 @@
         <translation>Nastavení počtu vláken pro servisní RPC volání (výchozí: %d)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Sets the DB_PRIVATE flag in the wallet db environment (default: %u)</source>
+        <translation>Nastavit příznak DB_PRIVATE v databázovém prostředí peněženky (výchozí: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Specify configuration file (default: %s)</source>
         <translation>Konfigurační soubor (výchozí: %s)</translation>
     </message>
@@ -3388,6 +3623,13 @@
         <translation>Utrácet i ještě nepotvrzené drobné při posílání transakcí (výchozí: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Stop running after importing blocks from disk (default: %u)</source>
+        <translation>Ukončit se po importu bloků z disku (výchozí: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
         <translation>Práh pro odpojování zlobivých protějšků (výchozí: %u)</translation>
     </message>

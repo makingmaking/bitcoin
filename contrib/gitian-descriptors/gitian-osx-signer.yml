@@ -13,6 +13,10 @@ remotes:
   "dir": "signature"
 files:
 - "bitcoin-osx-unsigned.tar.gz"
+<<<<<<< HEAD
+=======
+- "signature.tar.gz"
+>>>>>>> refs/remotes/origin/0.10
 script: |
   WRAP_DIR=$HOME/wrapped
   mkdir -p ${WRAP_DIR}

@@ -15,8 +15,11 @@ EXTRA_DIST += \
 	test/data/tx394b54bb.hex \
 	test/data/txcreate1.hex \
 	test/data/txcreate2.hex \
+<<<<<<< HEAD
 	test/data/txcreatedata1.hex \
 	test/data/txcreatedata2.hex \
+=======
+>>>>>>> refs/remotes/origin/0.10
 	test/data/txcreatesign.hex
 
 JSON_TEST_FILES = \
@@ -67,7 +70,10 @@ BITCOIN_TESTS =\
   test/reverselock_tests.cpp \
   test/rpc_tests.cpp \
   test/sanity_tests.cpp \
+<<<<<<< HEAD
   test/scheduler_tests.cpp \
+=======
+>>>>>>> refs/remotes/origin/0.10
   test/script_P2SH_tests.cpp \
   test/script_tests.cpp \
   test/scriptnum_tests.cpp \

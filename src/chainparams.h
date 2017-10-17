@@ -62,10 +62,23 @@ public:
     bool MiningRequiresPeers() const { return fMiningRequiresPeers; }
     /** Default value for -checkmempool and -checkblockindex argument */
     bool DefaultConsistencyChecks() const { return fDefaultConsistencyChecks; }
+<<<<<<< HEAD
     /** Policy: Filter transactions that do not match well-defined patterns */
     bool RequireStandard() const { return fRequireStandard; }
     int64_t MaxTipAge() const { return nMaxTipAge; }
     int64_t PruneAfterHeight() const { return nPruneAfterHeight; }
+=======
+    /** Allow mining of a min-difficulty block */
+    bool AllowMinDifficultyBlocks() const { return fAllowMinDifficultyBlocks; }
+    /** Skip proof-of-work check: allow mining of any difficulty block */
+    bool SkipProofOfWorkCheck() const { return fSkipProofOfWorkCheck; }
+    /** Make standard checks */
+    bool RequireStandard() const { return fRequireStandard; }
+    int64_t TargetTimespan() const { return nTargetTimespan; }
+    int64_t TargetSpacing() const { return nTargetSpacing; }
+    int64_t Interval() const { return nTargetTimespan / nTargetSpacing; }
+    int64_t MaxTipAge() const { return nMaxTipAge; }
+>>>>>>> refs/remotes/origin/0.10
     /** Make miner stop after a block is found. In RPC, don't return until nGenProcLimit blocks are generated */
     bool MineBlocksOnDemand() const { return fMineBlocksOnDemand; }
     /** In the future use NetworkIDString() for RPC fields */
@@ -84,14 +97,30 @@ protected:
     //! Raw pub key bytes for the broadcast alert signing key.
     std::vector<unsigned char> vAlertPubKey;
     int nDefaultPort;
+<<<<<<< HEAD
     long nMaxTipAge;
     uint64_t nPruneAfterHeight;
+=======
+    uint256 bnProofOfWorkLimit;
+    int nSubsidyHalvingInterval;
+    int nEnforceBlockUpgradeMajority;
+    int nRejectBlockOutdatedMajority;
+    int nToCheckBlockUpgradeMajority;
+    int64_t nTargetTimespan;
+    int64_t nTargetSpacing;
+    int nMinerThreads;
+    long nMaxTipAge;
+>>>>>>> refs/remotes/origin/0.10
     std::vector<CDNSSeedData> vSeeds;
     std::vector<unsigned char> base58Prefixes[MAX_BASE58_TYPES];
     std::string strNetworkID;
     CBlock genesis;
     std::vector<SeedSpec6> vFixedSeeds;
     bool fMiningRequiresPeers;
+<<<<<<< HEAD
+=======
+    bool fAllowMinDifficultyBlocks;
+>>>>>>> refs/remotes/origin/0.10
     bool fDefaultConsistencyChecks;
     bool fRequireStandard;
     bool fMineBlocksOnDemand;
@@ -99,6 +128,28 @@ protected:
     CCheckpointData checkpointData;
 };
 
+<<<<<<< HEAD
+=======
+/** 
+ * Modifiable parameters interface is used by test cases to adapt the parameters in order
+ * to test specific features more easily. Test cases should always restore the previous
+ * values after finalization.
+ */
+
+class CModifiableParams {
+public:
+    //! Published setters to allow changing values in unit test cases
+    virtual void setSubsidyHalvingInterval(int anSubsidyHalvingInterval) =0;
+    virtual void setEnforceBlockUpgradeMajority(int anEnforceBlockUpgradeMajority)=0;
+    virtual void setRejectBlockOutdatedMajority(int anRejectBlockOutdatedMajority)=0;
+    virtual void setToCheckBlockUpgradeMajority(int anToCheckBlockUpgradeMajority)=0;
+    virtual void setDefaultConsistencyChecks(bool aDefaultConsistencyChecks)=0;
+    virtual void setAllowMinDifficultyBlocks(bool aAllowMinDifficultyBlocks)=0;
+    virtual void setSkipProofOfWorkCheck(bool aSkipProofOfWorkCheck)=0;
+};
+
+
+>>>>>>> refs/remotes/origin/0.10
 /**
  * Return the currently selected parameters. This won't change after app
  * startup, except for unit tests.

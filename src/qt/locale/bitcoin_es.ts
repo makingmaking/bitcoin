@@ -3,7 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
+<<<<<<< HEAD
         <translation>Haz clic derecho para editar la dirección o etiqueta</translation>
+=======
+        <translation>Haz-clic para editar la dirección o etiqueta</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Create a new address</source>
@@ -47,11 +51,19 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
+<<<<<<< HEAD
         <translation>Elija la dirección para enviar monedas a</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
         <translation>Elija la dirección para recibir monedas con</translation>
+=======
+        <translation>Elije la dirección para enviar monedas a</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>Elije la dirección para recibir monedas con</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -152,6 +164,13 @@
         <translation>Cambiar contraseña</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter the old and new passphrase to the wallet.</source>
+        <translation>Introduce la antigua y la nueva contraseña a el monedero.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Confirm wallet encryption</source>
         <translation>Confirmar cifrado del monedero</translation>
     </message>
@@ -162,10 +181,13 @@
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>¿Estás seguro que deseas cifrar tu monedero ?</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Bitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
         <translation>Bitcoin Core se cerrará ahora para completar el procedo de encriptación. Recuerda que encriptar tu cartera no te protegerá completamente de la pérdida de bitcoins por infección de malware en tu computadora.</translation>
+=======
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -1286,6 +1308,13 @@
         <translation>La petición de pago %1 es demasiado grande (%2 bytes, permitidos %3 bytes).</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Payment request DoS protection</source>
+        <translation> Solicitud pago de protección DoS</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Error communicating with %1: %2</source>
         <translation>Error en la comunicación con %1: %2</translation>
     </message>
@@ -1844,6 +1873,17 @@
     <message>
         <source>collapse fee-settings</source>
         <translation>Colapsar ajustes de cuota</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Minimize</source>
+        <translation>Minimizar</translation>
+>>>>>>> refs/remotes/origin/0.10
+    </message>
+    <message>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la tarifa de aduana se establece en 1000 satoshis y la transacción está a disponible a solo  250 bytes, entonces "por kilobyte" sólo paga 250 satoshis de cuota, mientras que "por lo menos" paga 1.000 satoshis. Para las transacciones más grandes que un kilobyte ambos pagan por kilobyte.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -1854,10 +1894,13 @@
         <translation>Si la tarifa de aduana se establece en 1000 satoshis y la transacción está a sólo 250 bytes, entonces "por kilobyte" sólo paga 250 satoshis de cuota, mientras que "el mínimo total" pagaría 1.000 satoshis. Para las transacciones más grandes que un kilobyte ambos pagan por kilobyte</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Hide</source>
         <translation>Ocultar</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>total at least</source>
         <translation>total por lo menos</translation>
     </message>
@@ -2819,6 +2862,13 @@
         <translation>Distribuido bajo la licencia de software MIT, vea la copia del archivo adjunto o &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>Ingresar en el modo de prueba de regresión, que utiliza una cadena especial en la que los bloques se pueden resolver instantáneamente.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Ejecutar comando cuando una transacción del monedero cambia (%s en cmd se remplazará por TxID)</translation>
     </message>
@@ -3035,12 +3085,25 @@
         <translation>El tamaño máximo de los datos en las operaciones de transporte de datos que transmitimos y el mio (default: %u)</translation>
     </message>
     <message>
+        <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
+        <translation>Si el pago de comisión no está establecido, incluir la cuota suficiente para que las transacciones comiencen la confirmación en una media de n bloques ( por defecto :%u)</translation>
+    </message>
+    <message>
+        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
+        <translation>El tamaño máximo de los datos en las operaciones de transporte de datos que transmitimos y el mio (default: %u)</translation>
+    </message>
+    <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>Consulta de direcciones pares mediante búsqueda de DNS, si bajo en direcciones (por defecto: 1 a menos que - conectar)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
         <translation>Aleatorizar las credenciales para cada conexión proxy. Esto habilita la Tor stream isolation (por defecto: %u)</translation>
+=======
+        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
+        <translation>Se requiere alta prioridad para retransmitir transacciones gratis o de baja comisión (por defecto:%u)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
@@ -3049,6 +3112,7 @@
     <message>
         <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
         <translation>Ajuste el número de hilos para la generación de moneda si está habilitado  (-1 = all cores, default: %d)</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
@@ -3057,12 +3121,51 @@
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Este producto incluye software desarrollado por el OpenSSL Project para su uso en OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, software de cifrado escrito por Eric Young y software UPnP escrito por Thomas Bernard.</translation>
+=======
+    </message>
+    <message>
+        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
+        <translation>Este producto incluye software desarrollado por el OpenSSL Project para su uso en OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, software de cifrado escrito por Eric Young y software UPnP escrito por Thomas Bernard.</translation>
+    </message>
+    <message>
+        <source>To use bitcoind, or the -server option to bitcoin-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</source>
+        <translation>Para utilizar bitcoind, o la -opción servidor a bitcoin-qt, debes establecer una rpcpassword en el fichero de configuración:
+%s
+Se recomienda utilizar la siguiente contraseña aleatoria:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(no es necesario que recuerdes esta contraseña)
+El nombre de usuario y contraseña NO DEBEN ser la misma.
+Si no existe el archivo, crearlo con los permisos de archivos de propietarios de -sólo lectura-.
+También se recomienda establecer una notificación de alerta para ser notificado de problemas;
+por ejemplo: alertnotify=echo %% s | correo -s "Alerta Bitcoin" admin@foo.com
+</translation>
+    </message>
+    <message>
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>Advertencia: ¡-maxtxfee se establece muy alta! Esta gran tarifa podría ser pagada en una sola transacción .</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
+        <translation>Aviso: ¡Comprueba la fecha y hora de tu ordenador y verifica si es correcta! Si no es correcta Bitcoin Core no funcionará adecuadamente.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>A los equipos en lista blanca no se les pueden prohibir los ataques DoS y sus transacciones siempre son retransmitidas, incluso si ya están en el mempool, es útil por ejemplo para un gateway.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
         <translation>Necesitas reconstruir la base de datos utilizando -reindex para volver al modo sin recorte. Esto volverá a descargar toda la cadena de bloques</translation>
     </message>
@@ -3071,22 +3174,30 @@
         <translation>(por defecto: %u)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Accept public REST requests (default: %u)</source>
         <translation>Aceptar solicitudes públicas en FERIADOS (por defecto: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Activating best chain...</source>
         <translation>Activando la mejor cadena...</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Cannot resolve -whitebind address: '%s'</source>
         <translation>No se puede resolver -whitebind address: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Choose data directory on startup (default: 0)</source>
         <translation>Elegir directorio de datos al iniciar (predeterminado: 0)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Connect through SOCKS5 proxy</source>
         <translation>Conectar usando SOCKS5 proxy</translation>
     </message>
@@ -3095,12 +3206,31 @@
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
+        <source>Could not parse -rpcbind value %s as network address</source>
+        <translation>No se pudo analizar -rpcbind valor%s como dirección de red</translation>
+    </message>
+    <message>
         <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>
         <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de Bitcoin Core</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
         <translation>Error al leer la base de datos, cerrando.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Error: A fatal internal error occurred, see debug.log for details</source>
+        <translation>Un error interno fatal ocurrió, ver debug.log para detalles</translation>
+    </message>
+    <message>
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation>Error: Argumento encontrado -tor no soportado, utilice -onion</translation>
+    </message>
+    <message>
+        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Cuota (in BTC/kB) para añadir a las transacciones que envíes (por defecto: %s)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Information</source>
@@ -3143,16 +3273,36 @@
         <translation>Opciones de nodos de retransmisión:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>Opciones SSL de RPC: (véase la wiki de Bitcoin para las instrucciones de instalación de SSL)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>RPC server options:</source>
         <translation>Opciones de servidor RPC:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Rebuild block chain index from current blk000??.dat files on startup</source>
         <translation>Reconstruir el índice de la cadena de bloques en el arranque desde los actuales ficheros blk000??.dat</translation>
+=======
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>Soporte RPC para conexiones HTTP persistentes (por defecto: %d)</translation>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>Ignorar 1 de cada &lt;n&gt; mensajes de red al azar</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
         <translation>Recibir y mostrar alertas de red P2P (default: %u)</translation>
+    </message>
+    <message>
+        <source>Receive and display P2P network alerts (default: %u)</source>
+        <translation>Recibir y mostrar alertas de la red P2P (default: %u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3163,6 +3313,7 @@
         <translation>Mandar transacciones como comisión-cero si es posible (por defecto: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set SSL root certificates for payment request (default: -system-)</source>
         <translation>Establecer los certificados raíz SSL para solicitudes de pago (predeterminado: -system-)</translation>
     </message>
@@ -3171,6 +3322,8 @@
         <translation>Establecer el idioma, por ejemplo, "es_ES" (predeterminado: configuración regional del sistema)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Show all debugging options (usage: --help -help-debug)</source>
         <translation>Muestra todas las opciones de depuración (uso: --help -help-debug)</translation>
     </message>
@@ -3236,6 +3389,21 @@
         <translation>Aviso</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Warning: This version is obsolete, upgrade required!</source>
+        <translation>Aviso: Esta versión es obsoleta, actualización necesaria!</translation>
+    </message>
+    <message>
+        <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
+        <translation>Advertencia: Argumento no soportado -benchmark ignored, use -debug=bench.</translation>
+    </message>
+    <message>
+        <source>Warning: Unsupported argument -debugnet ignored, use -debug=net.</source>
+        <translation>Aviso: Argumento no sportado -debugnet anticuado, utilice -debug=net.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Zapping all transactions from wallet...</source>
         <translation>Eliminando todas las transacciones del monedero...</translation>
     </message>
@@ -3284,6 +3452,13 @@
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
+        <translation>Volcar la actividad de la base de datos de memoria al registro en disco cada &lt;n&gt; megabytes (predeterminado: %u)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
@@ -3368,6 +3543,21 @@
     <message>
         <source>Relay non-P2SH multisig (default: %u)</source>
         <translation>Relay non-P2SH multisig (default: %u)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Run a thread to flush wallet periodically (default: %u)</source>
+        <translation>Ejecutar un hilo para limpiar de la memoria el monedero periódicamente (predeterminado:  %u)</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: %s)</source>
+        <translation>Archivo de certificado del servidor (por defecto: %s)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: %s)</source>
+        <translation>Llave privada del servidor (por defecto: %s)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>

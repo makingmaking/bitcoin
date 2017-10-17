@@ -28,14 +28,22 @@ class BIP65Test(BitcoinTestFramework):
         cnt = self.nodes[0].getblockcount()
 
         # Mine some old-version blocks
+<<<<<<< HEAD
         self.nodes[1].generate(100)
+=======
+        self.nodes[1].setgenerate(True, 100)
+>>>>>>> refs/remotes/origin/0.10
         self.sync_all()
         if (self.nodes[0].getblockcount() != cnt + 100):
             raise AssertionError("Failed to mine 100 version=3 blocks")
 
         # Mine 750 new-version blocks
         for i in xrange(15):
+<<<<<<< HEAD
             self.nodes[2].generate(50)
+=======
+            self.nodes[2].setgenerate(True, 50)
+>>>>>>> refs/remotes/origin/0.10
         self.sync_all()
         if (self.nodes[0].getblockcount() != cnt + 850):
             raise AssertionError("Failed to mine 750 version=4 blocks")
@@ -43,7 +51,11 @@ class BIP65Test(BitcoinTestFramework):
         # TODO: check that new CHECKLOCKTIMEVERIFY rules are not enforced
 
         # Mine 1 new-version block
+<<<<<<< HEAD
         self.nodes[2].generate(1)
+=======
+        self.nodes[2].setgenerate(True, 1)
+>>>>>>> refs/remotes/origin/0.10
         self.sync_all()
         if (self.nodes[0].getblockcount() != cnt + 851):
             raise AssertionFailure("Failed to mine a version=4 blocks")
@@ -52,26 +64,42 @@ class BIP65Test(BitcoinTestFramework):
 
         # Mine 198 new-version blocks
         for i in xrange(2):
+<<<<<<< HEAD
             self.nodes[2].generate(99)
+=======
+            self.nodes[2].setgenerate(True, 99)
+>>>>>>> refs/remotes/origin/0.10
         self.sync_all()
         if (self.nodes[0].getblockcount() != cnt + 1049):
             raise AssertionError("Failed to mine 198 version=4 blocks")
 
         # Mine 1 old-version block
+<<<<<<< HEAD
         self.nodes[1].generate(1)
+=======
+        self.nodes[1].setgenerate(True, 1)
+>>>>>>> refs/remotes/origin/0.10
         self.sync_all()
         if (self.nodes[0].getblockcount() != cnt + 1050):
             raise AssertionError("Failed to mine a version=3 block after 949 version=4 blocks")
 
         # Mine 1 new-version blocks
+<<<<<<< HEAD
         self.nodes[2].generate(1)
+=======
+        self.nodes[2].setgenerate(True, 1)
+>>>>>>> refs/remotes/origin/0.10
         self.sync_all()
         if (self.nodes[0].getblockcount() != cnt + 1051):
             raise AssertionError("Failed to mine a version=4 block")
 
         # Mine 1 old-version blocks
         try:
+<<<<<<< HEAD
             self.nodes[1].generate(1)
+=======
+            self.nodes[1].setgenerate(True, 1)
+>>>>>>> refs/remotes/origin/0.10
             raise AssertionError("Succeeded to mine a version=3 block after 950 version=4 blocks")
         except JSONRPCException:
             pass
@@ -80,7 +108,11 @@ class BIP65Test(BitcoinTestFramework):
             raise AssertionError("Accepted a version=3 block after 950 version=4 blocks")
 
         # Mine 1 new-version blocks
+<<<<<<< HEAD
         self.nodes[2].generate(1)
+=======
+        self.nodes[2].setgenerate(True, 1)
+>>>>>>> refs/remotes/origin/0.10
         self.sync_all()
         if (self.nodes[0].getblockcount() != cnt + 1052):
             raise AssertionError("Failed to mine a version=4 block")

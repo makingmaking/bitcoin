@@ -408,10 +408,13 @@
     <message>
         <source>&amp;About Bitcoin Core</source>
         <translation>П&amp;ро Bitcoin Core</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Modify configuration options for Bitcoin Core</source>
         <translation>Редагувати параметри Bitcoin Core</translation>
+=======
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -750,6 +753,13 @@
         <translation>ні</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
+        <translation>Ця позначка буде червоною, якщо розмір транзакції вищий за 1000 байтів.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>This means a fee of at least %1 per kB is required.</source>
         <translation>Це означає, що необхідно внести комісію (щонайменше %1 за КБ).</translation>
     </message>
@@ -1322,6 +1332,13 @@
         <translation>Запит платежу %1 занадто великий (%2 байт, дозволено %3 байт).</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Payment request DoS protection</source>
+        <translation>Оплата потребує захисту DoS</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Error communicating with %1: %2</source>
         <translation>Помилка зв'язку з %1: %2</translation>
     </message>
@@ -1942,16 +1959,30 @@
         <translation>згорнути налаштування оплат</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Minimize</source>
+        <translation>Мінімізувати</translation>
+    </message>
+    <message>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Якщо комісія встановлюється в 1000 сатоші і розмір транзакції лише 250 байтів, то опція "за кілобайт" встановлює комісію в 250 сатоші, в той час, як "щонайменше" - в 1000 сатоші. Для транзакцій більших за кілобайт в обох випадках буде знято комісію за кілобайт.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>per kilobyte</source>
         <translation>за кілобайт</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation>Якщо комісія встановлюється в 1000 сатоші і розмір транзакції лише 250 байтів, то опція "за кілобайт" встановлює комісію в 250 сатоші, в той час, як "всього щонайменше" - в 1000 сатоші. Для транзакцій більших за кілобайт в обох випадках буде знято комісію за кілобайт.</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Hide</source>
         <translation>Приховати</translation>
+=======
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>total at least</source>
@@ -2066,10 +2097,24 @@
         <translation>Копіювати решту</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Total Amount %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</source>
+        <translation>Всього %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>or</source>
         <translation>або</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>The recipient address is not valid, please recheck.</source>
+        <translation>Адреса отримувача неправильна; будь ласка, перевірте її.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>The amount to pay must be larger than 0.</source>
         <translation>Кількість монет для відправлення повинна бути більше 0.</translation>
     </message>
@@ -2104,6 +2149,7 @@
     <message>
         <source>Pay only the minimum fee of %1</source>
         <translation>Платити тільки мінімальну комісію у розмірі %1</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Total Amount %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</source>
@@ -2112,6 +2158,8 @@
     <message>
         <source>The recipient address is not valid. Please recheck.</source>
         <translation>Адреса отримувача неправильна. Будь ласка, перевірте її.</translation>
+=======
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Duplicate address found: addresses should only be used once each.</source>
@@ -2952,6 +3000,13 @@
         <translation>Поширюється за ліцензією MIT, додаткова інформація міститься у файлі COPYING та за адресою &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>Ввійти в режим регресивного тестування, що використовує спеціальний ланцюг з миттєвим знаходженням блоків.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Виконати команду, коли транзакція гаманця зміниться (замість %s в команді буде підставлено ідентифікатор транзакції)</translation>
     </message>
@@ -3090,10 +3145,13 @@
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
         <translation>Підключатися тільки до вузлів в мережі &lt;net&gt; (ipv4, ipv6 або onion)</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Prune cannot be configured with a negative value.</source>
         <translation>Розмір скороченого ланцюжка блоків не може бути від'ємним. </translation>
+=======
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Prune mode is incompatible with -txindex.</source>
@@ -3200,16 +3258,33 @@
         <translation>Неприпустима сума для -maxtxfee = &lt;amount&gt;: «%s» ( плата повинна бути, принаймні %s, щоб запобігти зависанню транзакцій)</translation>
     </message>
     <message>
+        <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
+        <translation>Якщо параметр paytxfee не встановлено, включити комісію для отримання перших підтверджень транзакцій протягом n блоків (типово: %u)</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>Неприпустима сума для -maxtxfee = &lt;amount&gt;: «%s» ( плата повинна бути, принаймні %s, щоб запобігти зависанню транзакцій)</translation>
+    </message>
+    <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Максимальний розмір даних в транзакціях носіїв даних, що ми передаємо і добуваємо (за замовчуванням: %u)</translation>
+        <translation>Максимальний розмір даних в транзакціях носіїв даних, що ми передаємо і добуваємо (типово: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
+        <translation>Максимальна загальна комісія для використання в одній транзакції, установка занадто низької може скасувати великі транзакції (типово: %s)</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>Дізнаватися адреси учасників через DNS при замалій кількості відомих адрес (типово: 1 за відсутності -connect)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
         <translation>Надавати випадкові дані доступу для кожного проксі-з'єднання. Це дозволяє ввімкнути ізоляцію потоків Tor'у (типово: %u)</translation>
+=======
+        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
+        <translation>Вимагати високий пріоритет для ретрансляції транзакцій з низькою або нульовою комісією (типово: %u)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
@@ -3224,14 +3299,48 @@
         <translation>Залишок від суми транзакції зі сплатою комісії занадто малий </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Цей продукт включає в себе програмне забезпечення, розроблене в рамках проекту OpenSSL &lt;https://www.openssl.org/&gt;, криптографічне програмне забезпечення, написане Еріком Янгом, та функції для роботи з UPnP, написані Томасом Бернардом.</translation>
+=======
+        <source>To use bitcoind, or the -server option to bitcoin-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</source>
+        <translation>Для використання bitcoind, або bitcoin-qt з параметром -server, ви повинні встановити rpcpassword в файлі конфігурації:
+%s
+Рекомендується використати такий випадковий пароль:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(вам не треба запам'ятовувати цей пароль)
+Ім'я користувача та пароль ПОВИННІ бути різними.
+Якщо файлу не існує, створіть його, обмеживши доступ правом читання для власника.
+Також рекомендується використовувати alertnotify для того, щоб отримувати сповіщення про проблеми;
+наприклад: alertnotify=echo %%s | mail -s "Сповіщення Bitcoin" admin@foo.com
+</translation>
+    </message>
+    <message>
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>Увага: установлено дуже велике значення -maxtxfee! Такі великі комісії можуть бути сплачені в окремій транзакції.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
+        <translation>Увага: будь ласка, перевірте дату і час на своєму комп'ютері! Якщо ваш годинник йде неправильно, Bitcoin Core може працювати некоректно.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>Учасники, що знаходяться в білому списку, не можуть бути заблоковані за DoS та їхні транзакції завжди ретранслюватимуться (навіть якщо вони є в пам'яті), що може бути корисним, наприклад, для шлюзу</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
         <translation>Вам необхідно перебудувати базу даних з використанням -reindex для завантаження повного ланцюжка блоків.</translation>
     </message>
@@ -3240,14 +3349,19 @@
         <translation>(типово: %u)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Accept public REST requests (default: %u)</source>
         <translation>Приймати публічні REST-запити (типово: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Activating best chain...</source>
         <translation>Активація найкращого ланцюжка...</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Cannot resolve -whitebind address: '%s'</source>
         <translation>Не вдалося розпізнати адресу для -whitebind: «%s»</translation>
     </message>
@@ -3270,6 +3384,21 @@
     <message>
         <source>Error reading from database, shutting down.</source>
         <translation>Помилка читання бази даних, припиняю роботу.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Error: A fatal internal error occurred, see debug.log for details</source>
+        <translation>Помилка: Сталася фатальна помилка (детальніший опис наведено в debug.log)</translation>
+    </message>
+    <message>
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation>Помилка: Параметр -tor не підтримується, використовуйте -onion</translation>
+    </message>
+    <message>
+        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Комісія (в BTC/КБ), що додаватиметься до вихідних транзакцій (типово: %s)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Information</source>
@@ -3312,12 +3441,28 @@
         <translation>Параметри вузла ретрансляції:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>Параметри RPC SSL: (див. Bitcoin Wiki для налаштування SSL)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>RPC server options:</source>
         <translation>Параметри сервера RPC:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Rebuild block chain index from current blk000??.dat files on startup</source>
         <translation>При запуску перебудувати індекс ланцюжка блоків з поточних файлів blk000??.dat</translation>
+=======
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>Підтримка RPC для постійних HTTP-з'єднань (типово: %d)</translation>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>Випадковим чином відкидати 1 з &lt;n&gt; мережевих повідомлень</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
@@ -3328,12 +3473,17 @@
         <translation>Зменшення значення -maxconnections з %d до %d із-за обмежень системи.</translation>
     </message>
     <message>
+        <source>Receive and display P2P network alerts (default: %u)</source>
+        <translation>Отримувати та відображати попередження з мережі (типово: %u)</translation>
+    </message>
+    <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Відсилати налагоджувальну інформацію на консоль, а не у файл debug.log</translation>
     </message>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
         <translation>Не сплачувати комісію за надсилання транзакцій, якщо це можливо (типово: %u)</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
@@ -3342,6 +3492,8 @@
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
         <translation>Встановлення мови, наприклад "de_DE" (типово: системна)</translation>
+=======
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
@@ -3472,12 +3624,17 @@
         <translation>Не тримати транзакції в пам'яті довше &lt;n&gt; годин (типово: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>Помилка читання wallet.dat! Всі ключі прочитано коректно, але дані транзакцій чи записи адресної книги можуть бути пропущені або пошкоджені.</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
         <translation>Рівень ретельності перевірки блоків (0-4, типово: %u)</translation>
+=======
+        <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
+        <translation>Записувати в лог-файл пріоритет транзакції та комісію за кБ під час добування блоків (типово: %u)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>

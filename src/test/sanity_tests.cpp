@@ -4,11 +4,17 @@
 
 #include "compat/sanity.h"
 #include "key.h"
+<<<<<<< HEAD
 #include "test/test_bitcoin.h"
 
 #include <boost/test/unit_test.hpp>
 
 BOOST_FIXTURE_TEST_SUITE(sanity_tests, BasicTestingSetup)
+=======
+
+#include <boost/test/unit_test.hpp>
+BOOST_AUTO_TEST_SUITE(sanity_tests)
+>>>>>>> refs/remotes/origin/0.10
 
 BOOST_AUTO_TEST_CASE(basic_sanity)
 {

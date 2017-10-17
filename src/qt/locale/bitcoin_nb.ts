@@ -492,6 +492,13 @@
     <message>
         <source>Up to date</source>
         <translation>Oppdatert</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message numerus="yes">
+        <source>Processed %n blocks of transaction history.</source>
+        <translation><numerusform>Lastet %n blokk med transaksjonshistorikk.</numerusform><numerusform>Lastet %n blokker med transaksjonshistorikk.</numerusform></translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Catching up...</source>
@@ -1326,6 +1333,13 @@
         <translation>Betalingsforespørsel %1 er for stor (%2 bytes, tillatt %3 bytes).</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Payment request DoS protection</source>
+        <translation>Betalingsforespørsel DoS-beskyttelse</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Error communicating with %1: %2</source>
         <translation>Feil i kommunikasjonen med %1: %2</translation>
     </message>
@@ -2070,6 +2084,13 @@
         <translation>Kopier veksel</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Total Amount %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</source>
+        <translation>Totalt Beløp %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>or</source>
         <translation>eller</translation>
     </message>
@@ -2956,6 +2977,13 @@
         <translation>Distribuert under MIT programvarelisensen, se medfølgende fil COPYING eller &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>Gå til modus for regresjonstesting, som bruker en spesiell blokkjede der blokker kan bli løst momentant.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Kjør kommando når en lommeboktransaksjon endres (%s i kommando er erstattet med TxID)</translation>
     </message>
@@ -3220,16 +3248,33 @@
         <translation>Ugyldig beløp for -maxtxfee=&lt;amount&gt;: '%s' (må være minst minimum relé gebyr på %s for å hindre fastlåste transaksjoner)</translation>
     </message>
     <message>
+        <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
+        <translation>Hvis paytxfee ikke er angitt, inkluderer da nok i gebyr til at transaksjoner gjennomsnittligt bekreftes innen n blokker (standardverdi: %u)</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>Ugyldig beløp for -maxtxfee=&lt;amount&gt;: '%s' (må være minst minimum relé gebyr på %s for å hindre fastlåste transaksjoner)</translation>
+    </message>
+    <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
         <translation>Maksimal størrelse på data i databærende transaksjoner vi videresender og ufører graving på (standardverdi: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
+        <translation>Maksimal sum av gebyrer som kan brukes i en enkelt lommebokstransaksjon, settes den for lavt kan store transaksjoner bli avbrutt (standardverdi: %s)</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>Søk etter nodeadresser via DNS-oppslag, hvis vi har få adresser å koble til (standard: 1 med mindre -connect)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
         <translation>Bruk tilfeldig identitet for hver proxytilkobling. Dette muliggjør TOR stream isolasjon (standardverdi: %u)</translation>
+=======
+        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
+        <translation>Krev høy prioritet for å videreformidle transaksjoner som er gratis eller har lavt gebyr (standardverdi: %u)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
@@ -3244,14 +3289,48 @@
         <translation>Transaksjonsbeløpet er for lite til å sendes etter at gebyret er fratrukket</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Dette produktet inneholder programvare utviklet av OpenSSL Project for bruk i OpenSSL Toolkit &lt;https://www.openssl.org/&gt; og kryptografisk programvare skrevet av Eric Young og UPnP-programvare skrevet av Thomas Bernard.</translation>
+=======
+        <source>To use bitcoind, or the -server option to bitcoin-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</source>
+        <translation>For å bruke bitcoind, eller -server valget til bitcoin-qt, må du angi et rpcpassord i konfigurasjonsfilen:
+%s
+Det anbefales at du bruker det følgende tilfeldige passordet:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(du behøver ikke å huske passordet)
+Brukernavnet og passordet MÅ IKKE være like.
+Om filen ikke eksisterer, opprett den med eier-kun-les filrettigheter.
+Det er også anbefalt at å sette varselsmelding slik du får melding om problemer;
+for eksempel: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</translation>
+    </message>
+    <message>
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>Advarsel: -paytxfee er satt veldig høyt! Så stort gebyr kan bli betalt ved en enkelt transaksjon.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
+        <translation>Advarsel: Vennligst undersøk at din datamaskin har riktig dato og klokkeslett! Hvis klokken er stilt feil vil ikke Bitcoin Core fungere riktig.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>Hvitlistede noder kan ikke DoS-blokkeres, og deres transaksjoner videresendes alltid, selv om de allerede er i minnelageret. Nyttig f.eks. for en gateway.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
         <translation>Du må gjenoppbygge databasen ved hjelp av -reindex for å gå tilbake til ubeskåret modus. Dette vil laste ned hele blokkjeden på nytt.</translation>
     </message>
@@ -3260,14 +3339,19 @@
         <translation>(standardverdi: %u)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Accept public REST requests (default: %u)</source>
         <translation>Godta offentlige REST forespørsler (standardverdi: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Activating best chain...</source>
         <translation>Aktiverer beste kjede...</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Cannot resolve -whitebind address: '%s'</source>
         <translation>Kan ikke løse -whitebind-adresse: '%s'</translation>
     </message>
@@ -3290,6 +3374,21 @@
     <message>
         <source>Error reading from database, shutting down.</source>
         <translation>Feil ved lesing fra database, stenger ned.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Error: A fatal internal error occurred, see debug.log for details</source>
+        <translation>Feil: En fatal intern feil oppstod, se debug.log for detaljer</translation>
+    </message>
+    <message>
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation>Feil: Argumentet -tor er ikke støttet, bruk -onion.</translation>
+    </message>
+    <message>
+        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Gebyr (i BTC/kB) for å legge til i transaksjoner du sender (standardverdi: %s)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Information</source>
@@ -3332,20 +3431,40 @@
         <translation>Node alternativer for videresending:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>RPC SSL-valg: (se Bitcoin Wiki for oppsettsinstruksjoner for SSL)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>RPC server options:</source>
         <translation>Innstillinger for RPC-server:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Rebuild block chain index from current blk000??.dat files on startup</source>
         <translation>Gjenopprett blokkjedeindeks fra gjeldende blk000??.dat filer ved oppstart</translation>
     </message>
     <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
         <translation>Motta og vis P2P nettverksvarsler (standardvalg: %u)</translation>
+=======
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>RPC-støtte for persistente HTTP-forbindelser (standardverdi: %d)</translation>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>Slumpvis dropp 1 av hver &lt;n&gt; nettverksmeldinger</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
         <translation>Reduserer -maxconnections fra %d til %d, pga. systembegrensninger.</translation>
+    </message>
+    <message>
+        <source>Receive and display P2P network alerts (default: %u)</source>
+        <translation>Motta og vis P2P-nettverksvarsler (standardvalg: %u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3488,6 +3607,7 @@
         <translation>-paytxfee er satt veldig høyt! Dette er transaksjonsgebyret du betaler når du sender transaksjoner.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</source>
         <translation>Ikke hold transaksjoner i minnet lenger enn &lt;n&gt; timer (standard: %u)</translation>
     </message>
@@ -3498,6 +3618,10 @@
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
         <translation>Hvor grundig blokkverifiseringen til -checkblocks er (0-4, standardverdi: %u)</translation>
+=======
+        <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
+        <translation>Logg transaksjonsprioritet og gebyr per kB under blokkutvinning (standardverdi: %u)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>

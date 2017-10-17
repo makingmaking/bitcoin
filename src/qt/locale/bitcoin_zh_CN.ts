@@ -185,11 +185,19 @@
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+<<<<<<< HEAD
         <translation>请输入新的钱包密码. &lt;br/&gt;密码须包含&lt;b&gt;10个以上随机字符&lt;/b&gt;,或&lt;b&gt;8个以上单词&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
         <translation>请输入钱包的旧密码与新密码。</translation>
+=======
+        <translation>请输入新的钱包密码. &lt;br/&gt;密码须包含&lt;b&gt;10个以上字符&lt;/b&gt;,或&lt;b&gt;8个以上单词&lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>比特币客户端将关闭软件以完成加密过程。请您谨记：钱包加密并不是万能的，电脑中毒等原因仍可能导致您的比特币意外丢失。</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -489,6 +497,10 @@
         <source>Up to date</source>
         <translation>已是最新</translation>
     </message>
+    <message numerus="yes">
+        <source>Processed %n blocks of transaction history.</source>
+        <translation><numerusform>已处理 %n 个交易历史数据块。</numerusform></translation>
+    </message>
     <message>
         <source>Catching up...</source>
         <translation>更新中...</translation>
@@ -722,6 +734,7 @@
         <translation>无</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This label turns red if the transaction size is greater than 1000 bytes.</source>
         <translation>如果交易规模大于 1000 字节，此标签将变为红色。</translation>
     </message>
@@ -734,6 +747,8 @@
         <translation>如果任何接收人收到的金额小于 %1，此标签将变为红色。</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Can vary +/- %1 satoshi(s) per input.</source>
         <translation>可能会有 正负 %1 聪(satoshi)的偏差 </translation>
     </message>
@@ -1233,6 +1248,13 @@
     <message>
         <source>Current total balance in watch-only addresses</source>
         <translation>观察地址(watch-only address)中的当前总余额 </translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>数据同步中</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
 </context>
 <context>
@@ -1252,6 +1274,13 @@
     <message>
         <source>Payment request network doesn't match client network.</source>
         <translation>付款请求所在的网络与当前客户端所在的网络不匹配。</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Payment request has expired.</source>
+        <translation>支付请求已超时</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Payment request is not initialized.</source>
@@ -1286,10 +1315,13 @@
         <translation>付款请求文件无法读取！可能是付款请求文件不合格。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request expired.</source>
         <translation>支付请求已过期。</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation>不支持到自定义付款脚本的未验证付款请求。</translation>
     </message>
@@ -1306,6 +1338,13 @@
         <translation>支付请求 %1 太大 (%2 字节。只允许 %3 字节)。</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Payment request DoS protection</source>
+        <translation>支付请求防滥用保护</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Error communicating with %1: %2</source>
         <translation>%1: %2 通讯出错</translation>
     </message>
@@ -1476,10 +1515,13 @@
     <message>
         <source>Select a peer to view detailed information.</source>
         <translation>选择节点查看详细信息。</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Whitelisted</source>
         <translation>白名单</translation>
+=======
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Direction</source>
@@ -1898,6 +1940,17 @@
         <translation>收起  费用设置 </translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Minimize</source>
+        <translation>最小化</translation>
+    </message>
+    <message>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>如果自定义交易费设置为 1000聪而交易大小只有250字节，则“每千字节" 模式只支付250聪交易费， 而"最少"模式则支付1000聪。 大于1000字节的交易按每千字节付费。</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>per kilobyte</source>
         <translation>每kb</translation>
     </message>
@@ -1906,16 +1959,23 @@
         <translation>如果自定义交易费设置为 1000聪而交易大小只有250字节，则“每千字节" 模式只支付250聪交易费， 而"最少"模式则支付1000聪。 大于1000字节的交易按每千字节付费。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Hide</source>
         <translation>隐藏</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>total at least</source>
         <translation>最小额 </translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+<<<<<<< HEAD
         <translation>交易量小时只支付最小交易费是可以的。但是请注意，当交易量大到超出网络可处理时您的交易可能永远无法确认。</translation>
+=======
+        <translation>交易量小时只支付最小交易费是可以的。但是请注意，当交易量大时您的交易可能永远无法确认。</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2022,6 +2082,13 @@
         <translation>复制零钱</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Total Amount %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</source>
+        <translation>总金额 %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>or</source>
         <translation>或</translation>
     </message>
@@ -2046,6 +2113,7 @@
         <translation>错误：该交易被拒绝！发生这种错误的原因可能是：钱包中的比特币已经被用掉，有可能您复制了wallet.dat钱包文件，然后用复制的钱包文件支付了比特币，但是这个钱包文件中没有记录。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
         <translation>超过 %1 的交易费被认为是荒谬的高费率。</translation>
     </message>
@@ -2056,12 +2124,17 @@
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation><numerusform>预计 %n 个数据块后被确认。</numerusform></translation>
+=======
+        <source>A fee higher than %1 is considered an insanely high fee.</source>
+        <translation>高于 %1的交易费 将视为 过高的交易费。</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
         <translation>只支付最小费用 %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Total Amount %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</source>
         <translation>总金额 %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</translation>
     </message>
@@ -2072,6 +2145,10 @@
     <message>
         <source>Duplicate address found: addresses should only be used once each.</source>
         <translation>发现重复地址：每个地址应该只使用一次。</translation>
+=======
+        <source>Estimated to begin confirmation within %1 block(s).</source>
+        <translation>预计%1 个数据块后确认。</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Warning: Invalid Bitcoin address</source>
@@ -2211,6 +2288,10 @@
         <translation>用来对消息签名的地址 </translation>
     </message>
     <message>
+        <source>The Bitcoin address to sign the message with</source>
+        <translation>用来对消息签名的地址 </translation>
+    </message>
+    <message>
         <source>Choose previously used address</source>
         <translation>选择以前用过的地址</translation>
     </message>
@@ -2261,6 +2342,10 @@
     <message>
         <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
         <translation>请在下面输入接收者地址、消息（确保换行符、空格符、制表符等完全相同）和签名以验证消息。请仔细核对签名信息，以提防中间人攻击。请注意，这只是证明接收方签名的地址，它不能证明任何交易！</translation>
+    </message>
+    <message>
+        <source>The Bitcoin address the message was signed with</source>
+        <translation>消息使用的签名地址</translation>
     </message>
     <message>
         <source>The Bitcoin address the message was signed with</source>
@@ -2614,8 +2699,13 @@
         <translation>该交易中是否涉及  观察地址(watch-only address)。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>User-defined intent/purpose of the transaction.</source>
         <translation>用户定义的该交易的意图/目的。</translation>
+=======
+        <source>Destination address of transaction.</source>
+        <translation>交易目的地址。</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -2875,6 +2965,13 @@
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>进入回归测试模式，它采用一种特殊的可立即解决的区块链模拟情况。</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
@@ -3001,12 +3098,17 @@
         <translation>只连接 &lt;net&gt;网络中的节点 (ipv4, ipv6 或 onion) </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Prune cannot be configured with a negative value.</source>
         <translation>修剪不能配置一个负数。</translation>
     </message>
     <message>
         <source>Prune mode is incompatible with -txindex.</source>
         <translation>修剪模式与 -txindex 不兼容。</translation>
+=======
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation>重新为当前的blk000??.dat文件建立索引</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
@@ -3019,6 +3121,10 @@
     <message>
         <source>Specify wallet file (within data directory)</source>
         <translation>指定钱包文件（数据目录内）</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: %u)</source>
+        <translation>使用UPnp映射监听端口 (默认: %u) </translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
@@ -3057,6 +3163,13 @@
         <translation>允许来自指定地址的 JSON-RPC 连接。 &lt;ip&gt;为单一IP (如: 1.2.3.4), 网络/掩码 (如: 1.2.3.4/255.255.255.0), 网络/CIDR (如:  1.2.3.4/24)。该选项可多次指定。</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
+        <translation>设置RPC监听端口 %s:%u 时发生错误: %s</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
         <translation>绑定到指定地址和连接的白名单节点。 IPv6使用  [主机]:端口 格式 </translation>
     </message>
@@ -3069,22 +3182,49 @@
         <translation>无法获取数据目录的 %s. 比特币核心钱包可能已经在运行.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
         <translation>创建系统默认权限的文件，而不是 umask 077 (只在关闭钱包功能时有效) </translation>
     </message>
     <message>
         <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
         <translation>发现自己的 IP 地址（默认: 监听并且无 -externalip 或 -proxy 时为 1）</translation>
+=======
+        <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
+        <translation>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</translation>
+    </message>
+    <message>
+        <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
+        <translation>创建系统默认权限的文件，而不是 umask 077 (只在关闭钱包功能时有效) </translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
         <translation>错误：监听外部连接失败 (监听返回错误 %s) </translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
+        <translation>错误：不支持的 -socks 参数。不再支持设置SOCKS版本，现在只支持 SOCKS5代理。</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>当收到相关提醒或者我们看到一个长分叉时执行命令（%s 将替换为消息）</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>交易费(BTC/kb)比这更小的交易在转发时将被视为零费交易 (默认: %s) </translation>
+    </message>
+    <message>
+        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>交易费(BTC/kb)比这更小的交易在生成交易时将被视为零费交易 (默认: %s) </translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
         <translation>如果未设置交易费用，自动添加足够的交易费以确保交易在平均n个数据块内被确认 (默认: %u) </translation>
     </message>
@@ -3097,12 +3237,24 @@
         <translation>Maximum size of data in data carrier transactions we relay and mine (default: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
+        <translation>单笔钱包交易中最多使用的交易费，设置过低可能中止大笔交易 (默认: %s)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>通过DNS查询每个地址，如果短地址 (默认值: 1 除非 -连接)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
         <translation>为每个代理连接随机化凭据。这将启用 Tor 流隔离 (默认: %u)</translation>
+=======
+        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
+        <translation>对交易免费或低交易费请求高优先级 (默认:%u)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
@@ -3113,14 +3265,18 @@
         <translation>设置比特币生成线程数 ( -1=所有核, 默认: %d) </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The transaction amount is too small to send after the fee has been deducted</source>
         <translation>在交易费被扣除后发送的交易金额太小</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>白名单节点不能被DoS banned ，且转发所有来自他们的交易(即便这些交易已经存在于mempool中)，常用于网关 </translation>
     </message>
@@ -3139,6 +3295,46 @@
     <message>
         <source>Activating best chain...</source>
         <translation>正在激活最佳数据链...</translation>
+=======
+        <source>To use bitcoind, or the -server option to bitcoin-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</source>
+        <translation>要使用 bitcoind 或者 bitcoin-qt 中的 -server 选项，您必须在配置文件中设置一个密码：
+%s
+建议您使用下列随机密码：
+rpcuser=bitcoinrpc
+rpcpassword=%s
+（您不需要记住这个密码）
+用户名和密码不能相同。
+如果该文件不存在，创建一个文件并设置权限为仅创建者可读。
+此外，还建议您设置 alertnotify 以便您能注意到问题：
+例如 alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</translation>
+    </message>
+    <message>
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>警告：-maxtxfee 设置的太高了！每进行一笔交易时您都要花费这么多费用。</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
+        <translation>警告：请检查电脑的日期时间设置是否正确！时间错误可能会导致比特币客户端运行异常。</translation>
+    </message>
+    <message>
+        <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
+        <translation>白名单节点不能被DoS banned ，且转发所有来自他们的交易(即便这些交易已经存在于mempool中)，常用于网关 </translation>
+    </message>
+    <message>
+        <source>Accept public REST requests (default: %u)</source>
+        <translation>接受公共 REST 请求 (默认: %u)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Cannot resolve -whitebind address: '%s'</source>
@@ -3163,6 +3359,21 @@
     <message>
         <source>Error reading from database, shutting down.</source>
         <translation>读取数据库出错，关闭中。</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Error: A fatal internal error occurred, see debug.log for details</source>
+        <translation>错误：发生了致命的内部错误，详情见 debug.log 文件</translation>
+    </message>
+    <message>
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation>错误：发现了不支持的参数 -tor，请使用 -onion。</translation>
+>>>>>>> refs/remotes/origin/0.10
+    </message>
+    <message>
+        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>为付款交易添加交易费 (BTC/kb) (默认: %s) </translation>
     </message>
     <message>
         <source>Information</source>
@@ -3201,16 +3412,36 @@
         <translation>节点中继选项:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>RPC SSL选项：(见有关比特币设置用于SSL说明的维基百科)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>RPC server options:</source>
         <translation>RPC 服务器选项：</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Rebuild block chain index from current blk000??.dat files on startup</source>
         <translation>启动时重新为当前的 blk000??.dat 文件建立索引</translation>
+=======
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>RPC 支持 HTTP 持久连接 (默认: %d)</translation>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>随机每1个丢失测试&lt;n&gt;网络信息</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
         <translation>收到并且显示P2P网络的告警(默认:%u)</translation>
+    </message>
+    <message>
+        <source>Receive and display P2P network alerts (default: %u)</source>
+        <translation>接收并显示 P2P 网络告警 (默认: %u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3221,6 +3452,7 @@
         <translation>发送时尽可能 不支付交易费用 (默认: %u) </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set SSL root certificates for payment request (default: -system-)</source>
         <translation>设置SSL根证书的付款请求(默认：-系统-)</translation>
     </message>
@@ -3229,6 +3461,8 @@
         <translation>设置语言, 例如“zh-TW”（默认为系统语言）</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Show all debugging options (usage: --help -help-debug)</source>
         <translation>显示所有调试选项 (用法: --帮助 -帮助调试)</translation>
     </message>
@@ -3348,10 +3582,24 @@
         <translation>(1 = 保留 tx meta data , 如 account owner 和 payment request information, 2 = 不保留 tx meta data) </translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
+        <translation>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
         <translation>数据块验证 严密级别  -checkblocks (0-4, 默认: %u) </translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
+        <translation>挖矿时，记录交易优先级 和 每kb交易费 (默认: %u) </translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
         <translation>维护一份完整的交易索引, 用于 getrawtransaction RPC调用 (默认: %u)</translation>
     </message>
@@ -3372,10 +3620,28 @@
         <translation>(默认: %s) </translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Acceptable ciphers (default: %s)</source>
+        <translation>可接受的密码算法 (默认: %s) </translation>
+    </message>
+    <message>
+        <source>Disable safemode, override a real safe mode event (default: %u)</source>
+        <translation>禁止使用安全模式，重新写入一个真正的安全模式日志(默认: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Error loading wallet.dat</source>
         <translation>wallet.dat 钱包文件加载出错</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Force safe mode (default: %u)</source>
+        <translation>强制安全模式 (默认: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Generate coins (default: %u)</source>
         <translation>生成比特币 (默认: %u)</translation>
     </message>
@@ -3392,6 +3658,13 @@
         <translation>无效的代理地址：%s</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
+        <translation>签名缓冲区大小限制最多 &lt;n&gt; 条 (默认: %u) </translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
         <translation>使用 &lt;port&gt;端口监听 JSON-RPC 连接 (默认: %u ; testnet: %u) </translation>
     </message>
@@ -3404,10 +3677,13 @@
         <translation>保留最多 &lt;n&gt; 条节点连接 (默认: %u) </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Make the wallet broadcast transactions</source>
         <translation>钱包广播事务处理</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
         <translation>每个连接的最大接收缓存，&lt;n&gt;*1000 字节 (默认: %u)</translation>
     </message>
@@ -3416,6 +3692,13 @@
         <translation>每个连接的最大发送缓存，&lt;n&gt;*1000 字节 (默认: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
+        <translation>仅接受符合客户端检查点设置 的数据块链 (默认: %u) </translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Prepend debug output with timestamp (default: %u)</source>
         <translation>输出调试信息时，前面加上时间戳 (默认: %u)</translation>
     </message>
@@ -3428,6 +3711,21 @@
         <translation>是否转发 非P2SH格式的多签名交易 (默认: %u) </translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Run a thread to flush wallet periodically (default: %u)</source>
+        <translation>运行一个线程，定时清理钱包 (默认: %u)</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: %s)</source>
+        <translation>服务器证书文件 (默认: %s) </translation>
+    </message>
+    <message>
+        <source>Server private key (default: %s)</source>
+        <translation>服务器私钥 (默认: %s) </translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
         <translation>设置私钥池大小为 &lt;n&gt; (默认：%u) </translation>
     </message>
@@ -3440,6 +3738,13 @@
         <translation>设置RPC服务线程数 (默认: %d) </translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Sets the DB_PRIVATE flag in the wallet db environment (default: %u)</source>
+        <translation>Sets the DB_PRIVATE flag in the wallet db environment (default: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Specify configuration file (default: %s)</source>
         <translation>指定配置文件 (默认: %s) </translation>
     </message>
@@ -3456,6 +3761,13 @@
         <translation>付款时允许使用未确认的零钱 (默认: %u) </translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Stop running after importing blocks from disk (default: %u)</source>
+        <translation>从磁盘导入数据块后退出 (默认: %u) </translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
         <translation>断开 非礼节点的阀值 (默认: %u) </translation>
     </message>

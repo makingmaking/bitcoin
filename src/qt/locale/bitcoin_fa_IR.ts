@@ -30,6 +30,10 @@
         <translation>حذف آدرس های انتخاب شده از لیست</translation>
     </message>
     <message>
+        <source>Delete the currently selected address from the list</source>
+        <translation>حذف آدرس های انتخاب شده از لیست</translation>
+    </message>
+    <message>
         <source>Export the data in the current tab to a file</source>
         <translation>صدور داده نوار جاری به یک فایل</translation>
     </message>
@@ -62,12 +66,36 @@
         <translation>دریافت آدرس ها</translation>
     </message>
     <message>
+        <source>Choose the address to send coins to</source>
+        <translation>انتخاب آدرس جهت ارسال کوین ها</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>انتخاب آدرس جهت دریافت کوین ها از آن</translation>
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>انتخاب</translation>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>ارسال آدرس ها</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>دریافت آدرس ها</translation>
+    </message>
+    <message>
         <source>Copy &amp;Label</source>
         <translation>کپی برچسب</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
         <translation>ویرایش</translation>
+    </message>
+    <message>
+        <source>Export Address List</source>
+        <translation>صدور لیست آدرس</translation>
     </message>
     <message>
         <source>Export Address List</source>
@@ -188,9 +216,12 @@
         <translation>رمز عبور کیف پول با موفقیت تغییر کرد.</translation>
     </message>
 </context>
+<<<<<<< HEAD
 <context>
     <name>BanTableModel</name>
     </context>
+=======
+>>>>>>> refs/remotes/origin/0.10
 <context>
     <name>BitcoinGUI</name>
     <message>
@@ -1002,6 +1033,14 @@
     <message>
         <source>RPC server options:</source>
         <translation>گزینه های سرویس دهنده RPC:</translation>
+    </message>
+    <message>
+        <source>RPC server options:</source>
+        <translation>گزینه های سرویس دهنده RPC:</translation>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>حذف تصادفی 1 مورد از هر &lt;n&gt; مورد پیغام های شبکه</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>

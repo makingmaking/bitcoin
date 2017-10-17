@@ -680,6 +680,7 @@ void PaymentServer::netRequestFinished(QNetworkReply* reply)
     reply->deleteLater();
 
     // BIP70 DoS protection
+<<<<<<< HEAD
     if (!verifySize(reply->size())) {
         Q_EMIT message(tr("Payment request rejected"),
             tr("Payment request %1 is too large (%2 bytes, allowed %3 bytes).")
@@ -687,6 +688,16 @@ void PaymentServer::netRequestFinished(QNetworkReply* reply)
                 .arg(reply->size())
                 .arg(BIP70_MAX_PAYMENTREQUEST_SIZE),
             CClientUIInterface::MSG_ERROR);
+=======
+    if (reply->size() > BIP70_MAX_PAYMENTREQUEST_SIZE) {
+        QString msg = tr("Payment request %1 is too large (%2 bytes, allowed %3 bytes).")
+            .arg(reply->request().url().toString())
+            .arg(reply->size())
+            .arg(BIP70_MAX_PAYMENTREQUEST_SIZE);
+
+        qWarning() << QString("PaymentServer::%1:").arg(__func__) << msg;
+        emit message(tr("Payment request DoS protection"), msg, CClientUIInterface::MSG_ERROR);
+>>>>>>> refs/remotes/origin/0.10
         return;
     }
 
@@ -757,6 +768,7 @@ void PaymentServer::setOptionsModel(OptionsModel *optionsModel)
 void PaymentServer::handlePaymentACK(const QString& paymentACKMsg)
 {
     // currently we don't further process or store the paymentACK message
+<<<<<<< HEAD
     Q_EMIT message(tr("Payment acknowledged"), paymentACKMsg, CClientUIInterface::ICON_INFORMATION | CClientUIInterface::MODAL);
 }
 
@@ -806,4 +818,7 @@ bool PaymentServer::verifyAmount(const CAmount& requestAmount)
             .arg(MAX_MONEY);
     }
     return fVerified;
+=======
+    emit message(tr("Payment acknowledged"), paymentACKMsg, CClientUIInterface::ICON_INFORMATION | CClientUIInterface::MODAL);
+>>>>>>> refs/remotes/origin/0.10
 }

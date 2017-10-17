@@ -7,8 +7,14 @@
 # Test the BIP66 changeover logic
 #
 
+<<<<<<< HEAD
 from test_framework.test_framework import BitcoinTestFramework
 from test_framework.util import *
+=======
+from test_framework import BitcoinTestFramework
+from bitcoinrpc.authproxy import AuthServiceProxy, JSONRPCException
+from util import *
+>>>>>>> refs/remotes/origin/0.10
 import os
 import shutil
 
@@ -28,14 +34,22 @@ class BIP66Test(BitcoinTestFramework):
         cnt = self.nodes[0].getblockcount()
 
         # Mine some old-version blocks
+<<<<<<< HEAD
         self.nodes[1].generate(100)
+=======
+        self.nodes[1].setgenerate(True, 100)
+>>>>>>> refs/remotes/origin/0.10
         self.sync_all()
         if (self.nodes[0].getblockcount() != cnt + 100):
             raise AssertionError("Failed to mine 100 version=2 blocks")
 
         # Mine 750 new-version blocks
         for i in xrange(15):
+<<<<<<< HEAD
             self.nodes[2].generate(50)
+=======
+            self.nodes[2].setgenerate(True, 50)
+>>>>>>> refs/remotes/origin/0.10
         self.sync_all()
         if (self.nodes[0].getblockcount() != cnt + 850):
             raise AssertionError("Failed to mine 750 version=3 blocks")
@@ -43,7 +57,11 @@ class BIP66Test(BitcoinTestFramework):
         # TODO: check that new DERSIG rules are not enforced
 
         # Mine 1 new-version block
+<<<<<<< HEAD
         self.nodes[2].generate(1)
+=======
+        self.nodes[2].setgenerate(True, 1)
+>>>>>>> refs/remotes/origin/0.10
         self.sync_all()
         if (self.nodes[0].getblockcount() != cnt + 851):
             raise AssertionFailure("Failed to mine a version=3 blocks")
@@ -52,26 +70,42 @@ class BIP66Test(BitcoinTestFramework):
 
         # Mine 198 new-version blocks
         for i in xrange(2):
+<<<<<<< HEAD
             self.nodes[2].generate(99)
+=======
+            self.nodes[2].setgenerate(True, 99)
+>>>>>>> refs/remotes/origin/0.10
         self.sync_all()
         if (self.nodes[0].getblockcount() != cnt + 1049):
             raise AssertionError("Failed to mine 198 version=3 blocks")
 
         # Mine 1 old-version block
+<<<<<<< HEAD
         self.nodes[1].generate(1)
+=======
+        self.nodes[1].setgenerate(True, 1)
+>>>>>>> refs/remotes/origin/0.10
         self.sync_all()
         if (self.nodes[0].getblockcount() != cnt + 1050):
             raise AssertionError("Failed to mine a version=2 block after 949 version=3 blocks")
 
         # Mine 1 new-version blocks
+<<<<<<< HEAD
         self.nodes[2].generate(1)
+=======
+        self.nodes[2].setgenerate(True, 1)
+>>>>>>> refs/remotes/origin/0.10
         self.sync_all()
         if (self.nodes[0].getblockcount() != cnt + 1051):
             raise AssertionError("Failed to mine a version=3 block")
 
         # Mine 1 old-version blocks
         try:
+<<<<<<< HEAD
             self.nodes[1].generate(1)
+=======
+            self.nodes[1].setgenerate(True, 1)
+>>>>>>> refs/remotes/origin/0.10
             raise AssertionError("Succeeded to mine a version=2 block after 950 version=3 blocks")
         except JSONRPCException:
             pass
@@ -80,7 +114,11 @@ class BIP66Test(BitcoinTestFramework):
             raise AssertionError("Accepted a version=2 block after 950 version=3 blocks")
 
         # Mine 1 new-version blocks
+<<<<<<< HEAD
         self.nodes[2].generate(1)
+=======
+        self.nodes[2].setgenerate(True, 1)
+>>>>>>> refs/remotes/origin/0.10
         self.sync_all()
         if (self.nodes[0].getblockcount() != cnt + 1052):
             raise AssertionError("Failed to mine a version=3 block")

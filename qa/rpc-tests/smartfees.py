@@ -145,6 +145,7 @@ class EstimateFeeTest(BitcoinTestFramework):
         which we will use to generate our transactions.
         '''
         self.nodes = []
+<<<<<<< HEAD
         # Use node0 to mine blocks for input splitting
         self.nodes.append(start_node(0, self.options.tmpdir, ["-maxorphantx=1000",
                                                               "-relaypriority=0", "-whitelist=127.0.0.1"]))
@@ -181,9 +182,15 @@ class EstimateFeeTest(BitcoinTestFramework):
         # so the estimates would not be affected by the splitting transactions
         # Node1 mines small blocks but that are bigger than the expected transaction rate,
         # and allows free transactions.
+=======
+        self.nodes.append(start_node(0, self.options.tmpdir,
+                            ["-debug=mempool", "-debug=estimatefee", "-relaypriority=0"]))
+        # Node1 mines small-but-not-tiny blocks, and allows free transactions.
+>>>>>>> refs/remotes/origin/0.10
         # NOTE: the CreateNewBlock code starts counting block size at 1,000 bytes,
         # (17k is room enough for 110 or so transactions)
         self.nodes.append(start_node(1, self.options.tmpdir,
+<<<<<<< HEAD
                                      ["-blockprioritysize=1500", "-blockmaxsize=18000",
                                       "-maxorphantx=1000", "-relaypriority=0", "-debug=estimatefee"]))
         connect_nodes(self.nodes[1], 0)
@@ -192,6 +199,16 @@ class EstimateFeeTest(BitcoinTestFramework):
         # produces too small blocks (room for only 70 or so transactions)
         node2args = ["-blockprioritysize=0", "-blockmaxsize=12000", "-maxorphantx=1000", "-relaypriority=0"]
 
+=======
+                                ["-blockprioritysize=1500", "-blockmaxsize=2000",
+                                 "-debug=mempool", "-debug=estimatefee", "-relaypriority=0"]))
+        connect_nodes(self.nodes[1], 0)
+
+        # Node2 is a stingy miner, that
+        # produces very small blocks (room for only 3 or so transactions)
+        node2args = [ "-blockprioritysize=0", "-blockmaxsize=1500",
+                      "-debug=mempool", "-debug=estimatefee", "-relaypriority=0"]
+>>>>>>> refs/remotes/origin/0.10
         self.nodes.append(start_node(2, self.options.tmpdir, node2args))
         connect_nodes(self.nodes[0], 2)
         connect_nodes(self.nodes[2], 1)

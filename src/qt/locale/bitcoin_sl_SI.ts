@@ -47,11 +47,19 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
+<<<<<<< HEAD
         <translation>Izbira naslova, na katerega pošiljate plačilo</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
         <translation>Izbira naslova za prejem plačila</translation>
+=======
+        <translation>Izberite naslov, na katerega pošiljate plačilo</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>Izberite naslov za prejem plačila</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -59,6 +67,7 @@
     </message>
     <message>
         <source>Sending addresses</source>
+<<<<<<< HEAD
         <translation>Imenik naslovov za pošiljanje</translation>
     </message>
     <message>
@@ -72,6 +81,21 @@
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>To je imenik vaših ustvarjenih naslovov Bitcoin, na katere lahko prejemate plačila. Priporočljivo je, da za vsak nov priliv ustvarite nov prejemni naslov.</translation>
+=======
+        <translation>Seznam naslovov pošiljanja ...</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>Prejemni naslovi</translation>
+    </message>
+    <message>
+        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Tukaj so vaši Bitcoin naslovi za pošiljanje plačil. Vedno preverite znesek in prejemnikov naslov pred pošiljanjem kovancev.</translation>
+    </message>
+    <message>
+        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Tukaj so vaši Bitcoin naslovi za prejemanje plačil. Priporočljivo je uporabiti nov naslov za vsako novo plačilo.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -91,7 +115,11 @@
     </message>
     <message>
         <source>Exporting Failed</source>
+<<<<<<< HEAD
         <translation>Seznama naslovov ni bilo mogoče izvoziti.</translation>
+=======
+        <translation>Izvoz neuspešen</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
@@ -153,7 +181,7 @@
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Zamenjaj geslo</translation>
+        <translation>Spremeni geslo</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
@@ -161,13 +189,18 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+<<<<<<< HEAD
         <translation>Opozorilo: V primeru izgube gesla šifrirane denarnice, boste &lt;b&gt;IZGUBILI VSE BITCOINE V DENARNICI&lt;/b&gt;!</translation>
+=======
+        <translation>Opozorilo: V primeru izgube gesla šifrirane denarnice, boste &lt;b&gt;IZGUBILI VSE SVOJE BITCOINE&lt;/b&gt;!</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ali ste prepričani, da želite šifrirati vašo denarnico?</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Bitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
         <translation>Program se bo zaprl, da dokonča proces šifriranja. Zapomnite si, da šifriranje ne more popolnoma zaščititi vaše denarnice pred krajami in zlonamernimi programi, ki bi lahko bili nameščeni na vašem računalniku.</translation>
     </message>
@@ -178,6 +211,14 @@
     <message>
         <source>Warning: The Caps Lock key is on!</source>
         <translation>Opozorilo: imate vklopljene velike črke (Caps Lock)</translation>
+=======
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>POMEMBNO: Vse starejše varnostne kopije denarnice je potrebno zamenjati z novoizdelano, šifrirano, varnostno kopijo. Zaradi varnosti bodo stare varnostne kopije postale neuporabne takoj, ko začnete uporabljati novo, šifrirano denarnico.</translation>
+    </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Opozorilo: imate vklopljene velike črke (Caps Lock)!</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -188,6 +229,7 @@
         <translation>Vnesite novo geslo. Prosimo, da uporabite geslo sestavljeno iz &lt;b&gt;deset ali več&lt;/b&gt; naključnih znakov, ali &lt;b&gt;osem ali več&lt;/b&gt; besed.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
         <translation>Vnesite staro in novo geslo denarnice.</translation>
     </message>
@@ -206,6 +248,26 @@
     <message>
         <source>Wallet unlock failed</source>
         <translation>Denarnice ni bilo mogoče odkleniti.</translation>
+=======
+        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>Program se bo zaprl, da dokonča proces šifriranja. Zapomnite si, da šifriranje ne more popolnoma zaščititi vašo denarnico pred krajami in zlonamernimi programi, ki bi lahko bili nameščeni na vašem računalniku.</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed</source>
+        <translation>Šifriranje denarnice je spodletelo</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
+        <translation>Šifriranje denarnice je spodletelo zaradi notranje napake. Vaša denarnica ni bila šifrirana.</translation>
+    </message>
+    <message>
+        <source>The supplied passphrases do not match.</source>
+        <translation>Vnešeno geslo se ne ujema.</translation>
+    </message>
+    <message>
+        <source>Wallet unlock failed</source>
+        <translation>Odklepanje denarnice je spodletelo</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
@@ -213,6 +275,7 @@
     </message>
     <message>
         <source>Wallet decryption failed</source>
+<<<<<<< HEAD
         <translation>Denarnice ni bilo mogoče dešifrirati.</translation>
     </message>
     <message>
@@ -223,6 +286,15 @@
 <context>
     <name>BanTableModel</name>
     </context>
+=======
+        <translation>Dešifriranje denarnice je spodletelo</translation>
+    </message>
+    <message>
+        <source>Wallet passphrase was successfully changed.</source>
+        <translation>Geslo za dostop do denarnice je bilo uspešno zamenjano.</translation>
+    </message>
+</context>
+>>>>>>> refs/remotes/origin/0.10
 <context>
     <name>BitcoinGUI</name>
     <message>
@@ -247,11 +319,15 @@
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Transakcije</translation>
+        <translation>&amp;Plačila</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
+<<<<<<< HEAD
         <translation>Brskajte po zgodovini transakcij</translation>
+=======
+        <translation>Brskaj po zgodovini plačil</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -259,7 +335,11 @@
     </message>
     <message>
         <source>Quit application</source>
+<<<<<<< HEAD
         <translation>Ustavite program</translation>
+=======
+        <translation>Izhod iz programa</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,7 +383,11 @@
     </message>
     <message>
         <source>Importing blocks from disk...</source>
+<<<<<<< HEAD
         <translation>Uvažam bloke z diska ...</translation>
+=======
+        <translation>Uvažanje blokov z diska ...</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
@@ -311,6 +395,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
+<<<<<<< HEAD
         <translation>Izvedite plačilo na naslov Bitcoin</translation>
     </message>
     <message>
@@ -320,6 +405,21 @@
     <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Spremenite geslo za šifriranje denarnice</translation>
+=======
+        <translation>Pošlji kovance na Bitcoin naslov</translation>
+    </message>
+    <message>
+        <source>Modify configuration options for Bitcoin</source>
+        <translation>Urejanje nastavitev programa</translation>
+    </message>
+    <message>
+        <source>Backup wallet to another location</source>
+        <translation>Shrani kopijo denarnice na drugo lokacijo</translation>
+    </message>
+    <message>
+        <source>Change the passphrase used for wallet encryption</source>
+        <translation>Spremeni geslo za šifriranje denarnice</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -351,7 +451,11 @@
     </message>
     <message>
         <source>Show information about Bitcoin Core</source>
+<<<<<<< HEAD
         <translation>Oglejte si informacije o programu</translation>
+=======
+        <translation>Pokaži informacije o programu</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -363,6 +467,7 @@
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
+<<<<<<< HEAD
         <translation>Šifrirajte zasebne ključe, ki se nahajajo v denarnici</translation>
     </message>
     <message>
@@ -372,6 +477,17 @@
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
         <translation>Preverite, če je bilo prejeto sporočilo podpisano z določenim naslovom Bitcoin</translation>
+=======
+        <translation>Šifiraj zasebne ključe v denarnici</translation>
+    </message>
+    <message>
+        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <translation>Podpišite sporočilo za dokaz, da ste lastnik naslova</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <translation>Preverite, da je sporočilo bilo podpisano z danim naslovom</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>&amp;File</source>
@@ -395,15 +511,22 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+<<<<<<< HEAD
         <translation>Zahtevajte plačilo (ustvarite zahtevek s kodo QR in URI tipa bitcoin:)</translation>
+=======
+        <translation>Ustvarjanje zahtevka za plačilo (izdelava QR kode in bitcoin: URI naslova)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
         <translation>&amp;O programu</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Modify configuration options for Bitcoin Core</source>
         <translation>Spremenite programske nastavitve</translation>
+=======
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -425,6 +548,14 @@
         <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>Oglejte si seznam in kratek opis vseh opcij pri zagonu programa iz ukazne vrstice</translation>
     </message>
+    <message>
+        <source>&amp;Command-line options</source>
+        <translation>Opcije &amp;ukazne vrstice</translation>
+    </message>
+    <message>
+        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <translation>Prikaže seznam vseh opcij pri zagonu programa in kratek opis</translation>
+    </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
         <translation><numerusform>%n aktivna povezava v bitcoin omrežje</numerusform><numerusform>%n aktivni povezavi v bitcoin omrežje</numerusform><numerusform>%n aktivne povezave v bitcoin omrežje</numerusform><numerusform>%n aktivnih povezav v bitcoin omrežje</numerusform></translation>
@@ -436,6 +567,10 @@
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation><numerusform>%n obdelan blok zgodovine transakcij.</numerusform><numerusform>%n obdelana bloka zgodovine transakcij.</numerusform><numerusform>%n obdelani bloki zgodovine transakcij.</numerusform><numerusform>%n obdelanih blokov zgodovine transakcij.</numerusform></translation>
+    </message>
+    <message>
+        <source>No block source available...</source>
+        <translation>Ni virov za prenos blokov ...</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -467,7 +602,11 @@
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
+<<<<<<< HEAD
         <translation>Novejše transakcije še ne bodo vidne.</translation>
+=======
+        <translation>Transkacije za tem ne bodo še na voljo.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Error</source>
@@ -487,7 +626,11 @@
     </message>
     <message>
         <source>Catching up...</source>
+<<<<<<< HEAD
         <translation>Dohitevam omrežje ...</translation>
+=======
+        <translation>Pridobivanje...</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Date: %1
@@ -504,6 +647,7 @@
     <message>
         <source>Type: %1
 </source>
+<<<<<<< HEAD
         <translation>Vrsta: %1
 </translation>
     </message>
@@ -517,6 +661,12 @@
         <source>Address: %1
 </source>
         <translation>Naslov: %1
+=======
+        <translation>Datum: %1
+Znesek: %2
+Vrsta: %3
+Naslov: %4
+>>>>>>> refs/remotes/origin/0.10
 </translation>
     </message>
     <message>
@@ -555,7 +705,11 @@
     </message>
     <message>
         <source>Bytes:</source>
+<<<<<<< HEAD
         <translation>Št.bajtov:</translation>
+=======
+        <translation>Bajtov:</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Amount:</source>
@@ -658,8 +812,16 @@
         <translation>Kopiraj končni znesek</translation>
     </message>
     <message>
+        <source>Copy after fee</source>
+        <translation>Kopiraj Po proviziji</translation>
+    </message>
+    <message>
         <source>Copy bytes</source>
+<<<<<<< HEAD
         <translation>Kopiraj število bajtov</translation>
+=======
+        <translation>Kopiraj bajte</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Copy priority</source>
@@ -671,7 +833,11 @@
     </message>
     <message>
         <source>Copy change</source>
+<<<<<<< HEAD
         <translation>Kopiraj znesek vračila</translation>
+=======
+        <translation>Kopiraj vračilo</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>highest</source>
@@ -716,6 +882,7 @@
     <message>
         <source>none</source>
         <translation>nič</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>This label turns red if the transaction size is greater than 1000 bytes.</source>
@@ -728,6 +895,8 @@
     <message>
         <source>This label turns red if any recipient receives an amount smaller than %1.</source>
         <translation>Oznaka postane rdeča, če je znesek manjši od %1.</translation>
+=======
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
@@ -742,18 +911,38 @@
         <translation>ne</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This means a fee of at least %1 per kB is required.</source>
         <translation>To pomeni, da je zahtevana provizija v višini vsaj %1 na KiB.</translation>
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
         <translation>Lahko variira +/-1 bajt na vhod.</translation>
+=======
+        <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
+        <translation>Oznaka postane rdeča, če je transakcije večja od 1000 bajtov.</translation>
+    </message>
+    <message>
+        <source>Can vary +/- 1 byte per input.</source>
+        <translation>Se lahko razlikuje +/-1 bajt na vnos.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Transactions with higher priority are more likely to get included into a block.</source>
         <translation>Transakcije z višjo prioriteto imajo boljše možnosti za vključitev v blok.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>This label turns red, if the priority is smaller than "medium".</source>
+        <translation>Oznaka postane rdeča, če je prioriteta transakcije manjša od "srednje".</translation>
+    </message>
+    <message>
+        <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
+        <translation>Oznaka postane rdeča, če je znesek manjši od %1.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>(no label)</source>
         <translation>(brez oznake)</translation>
     </message>
@@ -778,7 +967,11 @@
     </message>
     <message>
         <source>The label associated with this address list entry</source>
+<<<<<<< HEAD
         <translation>Oznaka, pod katero je spodnji naslov naveden v vašem imeniku naslovov.</translation>
+=======
+        <translation>Oznaka povezana s tem vnosom seznama naslovov</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
@@ -806,7 +999,11 @@
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
+<<<<<<< HEAD
         <translation>Vnešeni naslov %1 je že v imeniku.</translation>
+=======
+        <translation>Vnešeni naslov "%1" je že v imeniku.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>The entered address "%1" is not a valid Bitcoin address.</source>
@@ -874,6 +1071,33 @@
         <source>command-line options</source>
         <translation>možnosti ukazne vrstice</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>UI options</source>
+        <translation>možnosti uporabniškega vmesnika</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Nastavi jezik, npr. "sl_SI" (privzeto: sistemsko nastavljeno)</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>Zaženi pomanjšano</translation>
+    </message>
+    <message>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>Nastavi korenske SSL certifikate za plačilni zahtevek (privzeto: -system-)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Ob zagonu prikaži uvodni zaslon (privzeto: 1)</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>Ob zagonu izberi mapo za shranjevanje podatkov (privzeto: 0)</translation>
+    </message>
+>>>>>>> refs/remotes/origin/0.10
 </context>
 <context>
     <name>Intro</name>
@@ -883,6 +1107,7 @@
     </message>
     <message>
         <source>Welcome to Bitcoin Core.</source>
+<<<<<<< HEAD
         <translation>Dobrodošli v programu Bitcoin Core.</translation>
     </message>
     <message>
@@ -892,6 +1117,17 @@
     <message>
         <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Program bo prenesel in shranil kopijo verige blokov. V izbrani podatkovni mapi bo shranjenih vsaj %1 GiB podatkov, ta količina pa bo sčasoma še naraščala. V tej mapi bo shranjena tudi denarnica.</translation>
+=======
+        <translation>Dobrodošli v Bitcoin Core.</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
+        <translation>To je prvi zagonom programa, zato izberite kje bo program Bitcoin Core shranjeval podatke.</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Program bo prenesel in shranil kopijo bitcoin verige blokov. V izbrano mapo bo shranjenih vsaj %1 GB podatkov, ta količina bo sčasoma še naraščala. Denarnica bo prav tako shranjena v to mapo.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -915,7 +1151,11 @@
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
+<<<<<<< HEAD
         <translation><numerusform>%n GiB prostega prostora na voljo</numerusform><numerusform>%n GiB prostega prostora na voljo</numerusform><numerusform>%n GiB prostega prostora na voljo</numerusform><numerusform>%n GiB prostega prostora na voljo</numerusform></translation>
+=======
+        <translation><numerusform>%n GB prostega prostora na voljo</numerusform><numerusform>%n GB prostega prostora na voljo</numerusform><numerusform>%n GB prostega prostora na voljo</numerusform><numerusform>%n GB prostega prostora na voljo</numerusform></translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     </context>
 <context>
@@ -926,7 +1166,11 @@
     </message>
     <message>
         <source>Open payment request from URI or file</source>
+<<<<<<< HEAD
         <translation>Vnesite zahtevek za plačilo iz URI ali pa ga naložite iz datoteke</translation>
+=======
+        <translation>Odpiranje zahteve o plačilu iz URI naslova ali datoteke</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>URI:</source>
@@ -934,11 +1178,19 @@
     </message>
     <message>
         <source>Select payment request file</source>
+<<<<<<< HEAD
         <translation>Izbiranje datoteke z zahtevkom za plačilo</translation>
     </message>
     <message>
         <source>Select payment request file to open</source>
         <translation>Izberite datoteko, ki vsebuje zahtevek za plačilo</translation>
+=======
+        <translation>Izbiranje datoteke plačilnega zahtevka</translation>
+    </message>
+    <message>
+        <source>Select payment request file to open</source>
+        <translation>Izbiranje datoteke plačilnega zahtevka</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
 </context>
 <context>
@@ -952,12 +1204,29 @@
         <translation>&amp;Glavno</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Size of &amp;database cache</source>
         <translation>Velikost &amp;predpomnilnika podatkovne baze</translation>
     </message>
     <message>
         <source>MB</source>
         <translation>MiB</translation>
+=======
+        <source>Automatically start Bitcoin after logging in to the system.</source>
+        <translation>Samodejen zagon programa po prijavi v sistem.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Bitcoin on system login</source>
+        <translation>&amp;Zaženi program ob prijavi v sistem</translation>
+    </message>
+    <message>
+        <source>Size of &amp;database cache</source>
+        <translation>Velikost &amp;predpomnilnika podatkovne zbirke</translation>
+    </message>
+    <message>
+        <source>MB</source>
+        <translation>MB</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
@@ -1000,6 +1269,22 @@
         <translation>Ponastavi vse nastavitve programa na privzete vrednosti.</translation>
     </message>
     <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>Naslovi URL tretjih oseb (npr. raziskovalec blokov), ki so navedeni v kontekstnem meniju seznama transakcij. Niz %s iz naslova URL je nadomeščen s hash vrednostjo transakcije. Več zaporednih naslovov URL je med seboj ločenih z znakom |.</translation>
+    </message>
+    <message>
+        <source>Third party transaction URLs</source>
+        <translation>URL nakazila tretjih oseb</translation>
+    </message>
+    <message>
+        <source>Active command-line options that override above options:</source>
+        <translation>Aktivne opcije iz ukazne vrstice, ki preglasijo zgornje opcije:</translation>
+    </message>
+    <message>
+        <source>Reset all client options to default.</source>
+        <translation>Ponastavi vse nastavitve programa na privzete vrednosti.</translation>
+    </message>
+    <message>
         <source>&amp;Reset Options</source>
         <translation>&amp;Ponastavi nastavitve</translation>
     </message>
@@ -1008,6 +1293,7 @@
         <translation>&amp;Omrežje</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically start Bitcoin Core after logging in to the system.</source>
         <translation>Ob uporabnikovi prijavi v sistem se bo program samodejno zagnal</translation>
     </message>
@@ -1018,6 +1304,10 @@
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
         <translation>(0 = samodejno, &lt;0 = toliko procesorskih jeder naj ostane prostih)</translation>
+=======
+        <source>(0 = auto, &lt;0 = leave that many cores free)</source>
+        <translation>(0 = samodejno, &lt;0 = toliko CPU jeder naj ostane prosto)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1029,6 +1319,7 @@
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
+<<<<<<< HEAD
         <translation>Omogoči upravljanje s kovanci</translation>
     </message>
     <message>
@@ -1038,6 +1329,17 @@
     <message>
         <source>&amp;Spend unconfirmed change</source>
         <translation>Omogoči &amp;trošenje drobiža iz še nepotrjenih plačil</translation>
+=======
+        <translation>Omogoči 'Coin &amp;Control' možnost</translation>
+    </message>
+    <message>
+        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
+        <translation>Če onemogočite trošenje nepotrjenega vračila, potem vračilo, to je denar, ki se po plačilu vrne v vašo denarnico, ne morete uporabljati dokler to plačilo ni potrjeno najmanj enkrat. Ta opcija vpliva tudi na to, kako bo izračunano dobroimetje.</translation>
+    </message>
+    <message>
+        <source>&amp;Spend unconfirmed change</source>
+        <translation>&amp;Trošenje nepotrjenega vračila</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
@@ -1056,8 +1358,20 @@
         <translation>&amp;Poveži se preko posredniškega strežnika SOCKS5 (privzeti strežnik):</translation>
     </message>
     <message>
+        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
+        <translation>Povezava v omrežje s pomočjo SOCKS5 posrednika.</translation>
+    </message>
+    <message>
+        <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
+        <translation>Povezava v omrežje s pomočjo SOCKS5 posrednika:</translation>
+    </message>
+    <message>
         <source>Proxy &amp;IP:</source>
+<<<<<<< HEAD
         <translation>Naslov &amp;IP posredniškega strežnika:</translation>
+=======
+        <translation>&amp;IP posredniškega strežnika:</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>&amp;Port:</source>
@@ -1065,7 +1379,11 @@
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
+<<<<<<< HEAD
         <translation>Vrata posredniškega strežnika (npr. 9050)</translation>
+=======
+        <translation>Vrata posredniškega strežnika (npr.: 9050)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1080,8 +1398,17 @@
         <translation>&amp;Minimiraj na pladenj namesto na opravilno vrstico</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>M&amp;inimize on close</source>
         <translation>Ob zapiranju okno zgolj m&amp;inimiraj</translation>
+=======
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
+        <translation>Minimiziraj namesto izhoda iz programa, ko je okno zaprto. Ko je ta opcija omogočena se bo aplikacija zaprla z izbiro ukaza Izhod iz menija. </translation>
+    </message>
+    <message>
+        <source>M&amp;inimize on close</source>
+        <translation>M&amp;inimiziraj na ukaz zapri</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>&amp;Display</source>
@@ -1090,6 +1417,7 @@
     <message>
         <source>User Interface &amp;language:</source>
         <translation>&amp;Jezik uporabniškega vmesnika:</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1102,6 +1430,24 @@
     <message>
         <source>Whether to show coin control features or not.</source>
         <translation>Omogoči dodatno možnost podrobnega nadzora nad posameznimi kovanci v transakcijah.</translation>
+=======
+    </message>
+    <message>
+        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
+        <translation>Tukaj je mogoče nastaviti jezik uporabniškega vmesnika. Ta nastavitev bo prikazana šele, ko boste znova zagnali program.</translation>
+    </message>
+    <message>
+        <source>&amp;Unit to show amounts in:</source>
+        <translation>&amp;Enota za prikaz zneskov:</translation>
+    </message>
+    <message>
+        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
+        <translation>Izberite privzeto mersko enoto za prikaz v uporabniškem vmesniku in pri pošiljanju novcev.</translation>
+    </message>
+    <message>
+        <source>Whether to show coin control features or not.</source>
+        <translation>Omogoči 'Coin &amp;Control' možnost</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1128,10 +1474,13 @@
         <translation>Za uveljavitev sprememb je potreben ponoven zagon programa.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Client will be shut down. Do you want to proceed?</source>
         <translation>Program bo zaustavljen. Želite nadaljevati z izhodom?</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>This change would require a client restart.</source>
         <translation>Ta sprememba zahteva ponoven zagon programa.</translation>
     </message>
@@ -1148,6 +1497,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+<<<<<<< HEAD
         <translation>Prikazani podatki so morda zastareli. Program ob vzpostavitvi povezave samodejno sinhronizira denarnico z omrežjem Bitcoin, a trenutno ta proces še ni zaključen.</translation>
     </message>
     <message>
@@ -1157,6 +1507,17 @@
     <message>
         <source>Available:</source>
         <translation>Na voljo:</translation>
+=======
+        <translation>Prikazani podatki so lahko zastareli. Vaša denarnica se po vzpostavitvi povezave z omrežjem samodejno sinhronizira, ampak ta proces še ni zaključen.</translation>
+    </message>
+    <message>
+        <source>Watch-only:</source>
+        <translation>Samo za gledanje:</translation>
+    </message>
+    <message>
+        <source>Available:</source>
+        <translation>Razpoložljivo:</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -1167,8 +1528,16 @@
         <translation>Nepotrjeno:</translation>
     </message>
     <message>
+        <source>Pending:</source>
+        <translation>Nepotrjeno:</translation>
+    </message>
+    <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
+<<<<<<< HEAD
         <translation>Skupni znesek sredstev s katerimi še ne razpolagate prosto, ker so del še nepotrjenih transakcij.</translation>
+=======
+        <translation>Skupni znesek še nepotrjenih transakcij. Ta znesek ni prištet k razpoložljivem stanju</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Immature:</source>
@@ -1176,11 +1545,19 @@
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
+<<<<<<< HEAD
         <translation>Nedozorel narudarjeni znesek</translation>
     </message>
     <message>
         <source>Balances</source>
         <translation>Stanje sredstev</translation>
+=======
+        <translation>Narudarjeni znesek še ni dozorel.</translation>
+    </message>
+    <message>
+        <source>Balances</source>
+        <translation>Skupno stanje</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Total:</source>
@@ -1207,12 +1584,41 @@
         <translation>Nepotrjene transakcije na opazovanih naslovih</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Mined balance in watch-only addresses that has not yet matured</source>
         <translation>Nedozoreli narudarjeni znesek na opazovanih naslovih</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
         <translation>Trenutno skupno stanje sredstev na opazovanih naslovih</translation>
+=======
+        <source>Your current balance in watch-only addresses</source>
+        <translation>Skupni znesek opazovanih naslovov</translation>
+    </message>
+    <message>
+        <source>Spendable:</source>
+        <translation>Razpoložljivo:</translation>
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>Nedavna plačila</translation>
+    </message>
+    <message>
+        <source>Unconfirmed transactions to watch-only addresses</source>
+        <translation>Nepotrjene transakcije na naslovih za vpogled</translation>
+    </message>
+    <message>
+        <source>Mined balance in watch-only addresses that has not yet matured</source>
+        <translation>Narudarjeni znesek iz opazovanega naslova še ni dozorel.</translation>
+    </message>
+    <message>
+        <source>Current total balance in watch-only addresses</source>
+        <translation>Skupni znesek naslovov za vpogled</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>ni sinhronizirano</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
 </context>
 <context>
@@ -1223,7 +1629,19 @@
     </message>
     <message>
         <source>Invalid payment address %1</source>
-        <translation>Neveljaven naslov plačila %1</translation>
+        <translation>Neveljaven naslov za plačilo %1</translation>
+    </message>
+    <message>
+        <source>Payment request rejected</source>
+        <translation>Zahtevek za plačilo je bil zavrnjen.</translation>
+    </message>
+    <message>
+        <source>Payment request network doesn't match client network.</source>
+        <translation>Zahtevek za plačilo in vaš odjemalec se nahajata na različnih omrežjih.</translation>
+    </message>
+    <message>
+        <source>Payment request is not initialized.</source>
+        <translation>Zahtevek za plačilo ni inicializiran.</translation>
     </message>
     <message>
         <source>Payment request rejected</source>
@@ -1286,6 +1704,42 @@
         <translation>Zahtevek za plačilo %1 je prevelik (%2 bajtov, dovoljenih je %3 bajtov.)</translation>
     </message>
     <message>
+        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <translation>Ni mogoče zagnati upravitelja plačil na klik tipa bitcoin:.</translation>
+    </message>
+    <message>
+        <source>Payment request fetch URL is invalid: %1</source>
+        <translation>Naslov URL za pridobitev zahtevka za plačilo ni veljaven: %1</translation>
+    </message>
+    <message>
+        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <translation>Naslov URL je neprepoznaven! Razlog je lahko neveljaven naslov Bitcoin ali  napačni parametri v URI.</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>Upravljanje z datoteko z zahtevkom za plačilo</translation>
+    </message>
+    <message>
+        <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
+        <translation>Datoteke z zahtevkom za plačilo ni mogoče prebrati! Možno je, da datoteka ni veljavna.</translation>
+    </message>
+    <message>
+        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
+        <translation>Nepreverjeni zahtevki za plačilo, namenjeni plačilni skripti po meri, niso podprti.</translation>
+    </message>
+    <message>
+        <source>Refund from %1</source>
+        <translation>Povračilo od %1</translation>
+    </message>
+    <message>
+        <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
+        <translation>Zahtevek za plačilo %1 je prevelik (%2 bytov, dovoljenih je %3 bytov.)</translation>
+    </message>
+    <message>
+        <source>Payment request DoS protection</source>
+        <translation>Zaščita pred DoS zahtevka za plačilo</translation>
+    </message>
+    <message>
         <source>Error communicating with %1: %2</source>
         <translation>Napaka pri povezavi z  %1: %2</translation>
     </message>
@@ -1313,10 +1767,13 @@
         <translation>Ime agenta</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Node/Service</source>
         <translation>Vozlišče/Storitev</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Ping Time</source>
         <translation>Odzivni čas</translation>
     </message>
@@ -1336,12 +1793,28 @@
         <translation>%1 d</translation>
     </message>
     <message>
+        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <translation>Vnesite naslov Bitcoin (npr. %1):</translation>
+    </message>
+    <message>
+        <source>%1 d</source>
+        <translation>%1 d</translation>
+    </message>
+    <message>
         <source>%1 h</source>
         <translation>%1 h</translation>
     </message>
     <message>
         <source>%1 m</source>
         <translation>%1 m</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Nič</translation>
     </message>
     <message>
         <source>%1 s</source>
@@ -1462,6 +1935,18 @@
         <translation>Smer povezave</translation>
     </message>
     <message>
+        <source>&amp;Peers</source>
+        <translation>&amp;Vrstniki</translation>
+    </message>
+    <message>
+        <source>Select a peer to view detailed information.</source>
+        <translation>Izberite vrstnika, katerega podrobnejše informacije si želite ogledati.</translation>
+    </message>
+    <message>
+        <source>Direction</source>
+        <translation>Smer</translation>
+    </message>
+    <message>
         <source>Version</source>
         <translation>Različica</translation>
     </message>
@@ -1474,6 +1959,17 @@
         <translation>Storitve</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Starting Height</source>
+        <translation>Začetna višina</translation>
+    </message>
+    <message>
+        <source>Sync Height</source>
+        <translation>Višina sinhronizacije</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Ban Score</source>
         <translation>Kazenske točke</translation>
     </message>
@@ -1483,6 +1979,7 @@
     </message>
     <message>
         <source>Last Send</source>
+<<<<<<< HEAD
         <translation>Nazadje oddano</translation>
     </message>
     <message>
@@ -1496,6 +1993,21 @@
     <message>
         <source>Bytes Received</source>
         <translation>Prejetih bajtov</translation>
+=======
+        <translation>Poslano pred</translation>
+    </message>
+    <message>
+        <source>Last Receive</source>
+        <translation>Prejeto pred</translation>
+    </message>
+    <message>
+        <source>Bytes Sent</source>
+        <translation>Bajtov poslano</translation>
+    </message>
+    <message>
+        <source>Bytes Received</source>
+        <translation>Bajtov prejeto</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Ping Time</source>
@@ -1531,11 +2043,19 @@
     </message>
     <message>
         <source>In:</source>
+<<<<<<< HEAD
         <translation>Dohodnih:</translation>
     </message>
     <message>
         <source>Out:</source>
         <translation>Odhodnih:</translation>
+=======
+        <translation>Not:</translation>
+    </message>
+    <message>
+        <source>Out:</source>
+        <translation>Ven:</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Build date</source>
@@ -1550,8 +2070,13 @@
         <translation>Počisti konzolo</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to the Bitcoin Core RPC console.</source>
         <translation>Dobrodošli v konzoli RPC programa Bitcoin Core.</translation>
+=======
+        <source>Welcome to the Bitcoin RPC console.</source>
+        <translation>Dobrodošli  na Bitcoin RPC konzoli.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1567,6 +2092,7 @@
     </message>
     <message>
         <source>%1 KB</source>
+<<<<<<< HEAD
         <translation>%1 KiB</translation>
     </message>
     <message>
@@ -1576,6 +2102,17 @@
     <message>
         <source>%1 GB</source>
         <translation>%1 GiB</translation>
+=======
+        <translation>%1 KB</translation>
+    </message>
+    <message>
+        <source>%1 MB</source>
+        <translation>%1 MB</translation>
+    </message>
+    <message>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>via %1</source>
@@ -1587,7 +2124,19 @@
     </message>
     <message>
         <source>Inbound</source>
+<<<<<<< HEAD
         <translation>Dohodna</translation>
+=======
+        <translation>Prihajajoča</translation>
+    </message>
+    <message>
+        <source>Outbound</source>
+        <translation>Odhajajoča</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Neznano</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Outbound</source>
@@ -1622,7 +2171,11 @@
     </message>
     <message>
         <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
+<<<<<<< HEAD
         <translation>Ponovno uporabite enega od že uporabljenih naslovov za prejemanje. Večkratna uporaba istih naslovov za prejemanje negativno vpliva na varnost in zasebnost. To opcijo uporabite samo v primeru, da poustvarjate obstoječ zahtevek za plačilo.</translation>
+=======
+        <translation>Ponovno uporabite enega od že uporabljenih naslovov za prejemanje. Večkratna uporaba istih naslovov za prejemanje negativno vpliva na varnost in zasebnost. To opcijo uporabite samo v primeru, da ponovno ustvarjate zahtevek za plačilo.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
@@ -1642,7 +2195,11 @@
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
+<<<<<<< HEAD
         <translation>Zahtevani znesek. Če ne zahtevate določenega zneska, pustite prazno ali nastavite vrednost na 0.</translation>
+=======
+        <translation>Zahtevani znesek. Pustite prazno ali nastavite na 0, če ne zahtevate določenega zneska.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -1662,7 +2219,11 @@
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
+<<<<<<< HEAD
         <translation>Prikaz izbranega zahtevka. (Isto funkcijo opravi dvojni klik na zapis.)</translation>
+=======
+        <translation>Prikaz izbranega zahtevka. (Ista funkcija kot dvojni klik na zapis.)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Show</source>
@@ -1693,7 +2254,7 @@
     <name>ReceiveRequestDialog</name>
     <message>
         <source>QR Code</source>
-        <translation>QR Koda</translation>
+        <translation>QR koda</translation>
     </message>
     <message>
         <source>Copy &amp;URI</source>
@@ -1706,6 +2267,10 @@
     <message>
         <source>&amp;Save Image...</source>
         <translation>&amp;Shrani sliko ...</translation>
+    </message>
+    <message>
+        <source>Request payment to %1</source>
+        <translation>Zahtevek za plačilo z oznako: %1</translation>
     </message>
     <message>
         <source>Request payment to %1</source>
@@ -1737,11 +2302,19 @@
     </message>
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
+<<<<<<< HEAD
         <translation>Nastali URI je predolg. Skušajte skrajšati besedilo v oznaki/sporočilu.</translation>
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
         <translation>Napaka pri pretvorbi URI v kodo QR.</translation>
+=======
+        <translation>URI je predolg, skušajte zmanjšati besedilo oznake/sporočila.</translation>
+    </message>
+    <message>
+        <source>Error encoding URI into QR Code.</source>
+        <translation>Napaka pri kodiranju URI naslova v QR kodo.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
 </context>
 <context>
@@ -1779,11 +2352,19 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
+<<<<<<< HEAD
         <translation>Pošlji</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
         <translation>Upravljanje s kovanci</translation>
+=======
+        <translation>Pošlji plačilo</translation>
+    </message>
+    <message>
+        <source>Coin Control Features</source>
+        <translation>Coin Control možnosti</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Inputs...</source>
@@ -1803,7 +2384,11 @@
     </message>
     <message>
         <source>Bytes:</source>
+<<<<<<< HEAD
         <translation>Št.bajtov:</translation>
+=======
+        <translation>Bajti:</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Amount:</source>
@@ -1823,7 +2408,11 @@
     </message>
     <message>
         <source>Change:</source>
+<<<<<<< HEAD
         <translation>Vračilo:</translation>
+=======
+        <translation>Drobiž:</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
@@ -1839,7 +2428,11 @@
     </message>
     <message>
         <source>Choose...</source>
+<<<<<<< HEAD
         <translation>Izberi ...</translation>
+=======
+        <translation>Izberi...</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>collapse fee-settings</source>
@@ -1847,6 +2440,7 @@
     </message>
     <message>
         <source>per kilobyte</source>
+<<<<<<< HEAD
         <translation>na KiB</translation>
     </message>
     <message>
@@ -1856,6 +2450,13 @@
     <message>
         <source>Hide</source>
         <translation>Skrij</translation>
+=======
+        <translation>za KB</translation>
+    </message>
+    <message>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Če je nastavitev zneska provizije po meri enaka 1000 satoshijev, transakcija pa je velika samo 250 bajtov, je obračunani znesek provizije pri nastavitvi "za KB" samo 250 satoshijev, medtem ko je pri nastavitvi "skupno vsaj" znesek 1000 satoshijev. Za transakcije, večje od kilobajta se končni znesek pri obeh nastavitvah obračuna na kilobajt.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>total at least</source>
@@ -1863,7 +2464,11 @@
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+<<<<<<< HEAD
         <translation>Dokler bo v blokih še dovolj prostora za vse nastajajoče transakcije, zadostuje, če plačate samo minimalno provizijo. Ko pa se bo količina vseh transakcij povečala do meja zmogljivosti omrežja, se lahko zgodi, da vaša transakcija brez večje provizije nikoli ne bo potrjena.</translation>
+=======
+        <translation>Dokler bo v blokih še dovolj prostora za vse nastajajoče transakcije, je dovolj tudi plačilo samo minimalne provizije. Ko pa se bo količina vseh transakcij povečala do meja zmogljivosti omrežja, se lahko zgodi, da vaša transakcija brez večje provizije nikoli ne bo potrjena.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -1879,7 +2484,11 @@
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
+<<<<<<< HEAD
         <translation>(Samodejni obračun provizije še ni pripravljen. Po navadi izračun traja nekaj blokov ...)</translation>
+=======
+        <translation>(Samodejni obračun provizije še ni pripravljen. Po navadi izračun traja nekaj blokov...)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Confirmation time:</source>
@@ -1942,6 +2551,10 @@
         <translation>%1 na %2</translation>
     </message>
     <message>
+        <source>%1 to %2</source>
+        <translation>%1 do %2</translation>
+    </message>
+    <message>
         <source>Copy quantity</source>
         <translation>Kopiraj število vhodov</translation>
     </message>
@@ -1979,6 +2592,7 @@
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
+<<<<<<< HEAD
         <translation>Znesek je večji od stanja sredstev, s katerimi razpolagate.</translation>
     </message>
     <message>
@@ -2004,10 +2618,26 @@
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation><numerusform>Predviden začetek potrditev po %n najdenem bloku.</numerusform><numerusform>Predviden začetek potrditev po %n najdenih blokih.</numerusform><numerusform>Predviden začetek potrditev po %n najdenih blokih.</numerusform><numerusform>Predviden začetek potrditev po %n najdenih blokih.</numerusform></translation>
+=======
+        <translation>Znesek presega vaše dobroimetje.</translation>
+    </message>
+    <message>
+        <source>Duplicate address found, can only send to each address once per send operation.</source>
+        <translation>Najdena kopija naslova. V posamezni transakciji se naslovi ne morejo ponoviti.</translation>
+    </message>
+    <message>
+        <source>Transaction creation failed!</source>
+        <translation>Ustvarjanje plačila je spodletelo!</translation>
+    </message>
+    <message>
+        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>Transakcija je bila zavrnjena! To se lahko zgodi, če so bili kateri od kovancev iz denarnice že porabljeni, kot v primeru, da ste kje uporabili kopijo datoteke wallet.dat in kovance tam že porabili, lokalno pa ti še niso bili označeni kot porabljeni.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
         <translation>Plačilo samo minimalne provizije v znesku %1</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>The recipient address is not valid. Please recheck.</source>
@@ -2016,6 +2646,8 @@
     <message>
         <source>Duplicate address found: addresses should only be used once each.</source>
         <translation>Naslov je že bil uporabljen. Vsak naslov naj bi se uporabil samo enkrat.</translation>
+=======
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Warning: Invalid Bitcoin address</source>
@@ -2024,6 +2656,10 @@
     <message>
         <source>(no label)</source>
         <translation>(brez oznake)</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown change address</source>
+        <translation>Opozorilo: Neznan naslov za vračilo drobiža</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2054,7 +2690,11 @@
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
+<<<<<<< HEAD
         <translation>Vnesite oznako, pod katero bo zgornji naslov shranjen v imenik</translation>
+=======
+        <translation>Vnesite oznako za naslov</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -2062,7 +2702,11 @@
     </message>
     <message>
         <source>Choose previously used address</source>
+<<<<<<< HEAD
         <translation>Izberite enega od že uporabljenih naslovov</translation>
+=======
+        <translation>Izberi že uporabljen naslov</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>This is a normal payment.</source>
@@ -2086,6 +2730,7 @@
     </message>
     <message>
         <source>Remove this entry</source>
+<<<<<<< HEAD
         <translation>Izpraznite vsebino polja</translation>
     </message>
     <message>
@@ -2095,6 +2740,9 @@
     <message>
         <source>S&amp;ubtract fee from amount</source>
         <translation>O&amp;dštej provizijo od zneska</translation>
+=======
+        <translation>Izbriše izbrani zapis</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Message:</source>
@@ -2114,7 +2762,11 @@
     </message>
     <message>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+<<<<<<< HEAD
         <translation>Sporočilo, ki ste ga pripeli na URI tipa bitcoin:. Shranjeno bo skupaj s podatki o transakciji. Opomba: Sporočilo ne bo poslano preko omrežja Bitcoin.</translation>
+=======
+        <translation>Sporočilo, ki ste ga pripeli na URI bitcoin: in bo shranjeno skupaj s podatki o transakciji. Opomba: Sporočilo ne bo poslano preko omrežja Bitcoin.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Pay To:</source>
@@ -2129,7 +2781,11 @@
     <name>ShutdownWindow</name>
     <message>
         <source>Bitcoin Core is shutting down...</source>
+<<<<<<< HEAD
         <translation>Program se ustavlja ...</translation>
+=======
+        <translation>Bitcoin Core se ustavlja...</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2140,23 +2796,34 @@
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
+<<<<<<< HEAD
         <translation>Podpiši / preveri sporočilo</translation>
+=======
+        <translation>Podpisi - podpiši / preveri sporočilo</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>&amp;Sign Message</source>
         <translation>&amp;Podpiši sporočilo</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>S svojimi naslovi lahko podpisujete sporočila ali pogodbe in s tem dokazujete, da na teh naslovih lahko prejemate kovance. Bodite previdni in ne podpisujte ničesar nejasnega ali naključnega, ker vas zlikovci preko ribarjenja (phishing) lahko prelisičijo, da na njih prepišete svojo identiteto. Podpisujte samo podrobno opisane izjave, s katerimi se strinjate.</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>The Bitcoin address to sign the message with</source>
         <translation>Naslov Bitcoin, s katerim podpisujete sporočilo</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
+<<<<<<< HEAD
         <translation>Izberite enega od že uporabljenih naslovov</translation>
+=======
+        <translation>Izberi že uporabljen naslov</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Alt+A</source>
@@ -2192,7 +2859,11 @@
     </message>
     <message>
         <source>Reset all sign message fields</source>
+<<<<<<< HEAD
         <translation>Počisti vsa polja za vnos v oknu za podpisovanje</translation>
+=======
+        <translation>Ponastavitev vseh polj za vnos</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -2203,10 +2874,13 @@
         <translation>&amp;Preveri sporočilo</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
         <translation>Da preverite verodostojnost sporočila, spodaj vnesite: prejemnikov naslov, prejeto sporočilo (pazljivo skopirajte vse prelome vrstic, presledke, tabulatorje ipd.,) in prejeti podpis. Da se izognete napadom tipa man-in-the-middle, vedite, da iz veljavnega podpisa ne sledi nič drugega, kot tisto, kar je navedeno v sporočilu. Podpis samo potrjuje dejstvo, da ima podpisnik v lasti prejemni naslov, ne more pa dokazati vira nobene transakcije!</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>The Bitcoin address the message was signed with</source>
         <translation>Naslov Bitcoin, s katerim je bilo sporočilo podpisano</translation>
     </message>
@@ -2223,6 +2897,10 @@
         <translation>Počisti vsa polja za vnos v oknu za preverjanje</translation>
     </message>
     <message>
+        <source>Reset all verify message fields</source>
+        <translation>Ponastavitev vseh polj za vnos</translation>
+    </message>
+    <message>
         <source>Click "Sign Message" to generate signature</source>
         <translation>Kliknite "Podpiši sporočilo" da ustvarite podpis</translation>
     </message>
@@ -2232,7 +2910,11 @@
     </message>
     <message>
         <source>Please check the address and try again.</source>
+<<<<<<< HEAD
         <translation>Prosimo preverite naslov in poskusite znova.</translation>
+=======
+        <translation>Prosim preverite naslov in poizkusite znova.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
@@ -2267,6 +2949,10 @@
         <translation>Podpis se ne ujema z rezultatom funkcije preverjanja.</translation>
     </message>
     <message>
+        <source>The signature did not match the message digest.</source>
+        <translation>Podpis ne ustreza rezultatu (digest) preverjanja.</translation>
+    </message>
+    <message>
         <source>Message verification failed.</source>
         <translation>Podpis ni veljaven za to sporočilo.</translation>
     </message>
@@ -2294,7 +2980,11 @@
     <name>TrafficGraphWidget</name>
     <message>
         <source>KB/s</source>
+<<<<<<< HEAD
         <translation>KiB/s</translation>
+=======
+        <translation>KB/s</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
 </context>
 <context>
@@ -2363,10 +3053,13 @@
         <source>Credit</source>
         <translation>V dobro</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation><numerusform>dozori po %n najdenem bloku</numerusform><numerusform>dozori po %n najdenih blokih</numerusform><numerusform>dozori po %n najdenih blokih</numerusform><numerusform>dozori po %n najdenih blokih</numerusform></translation>
     </message>
+=======
+>>>>>>> refs/remotes/origin/0.10
     <message>
         <source>not accepted</source>
         <translation>ni bilo sprejeto</translation>
@@ -2437,7 +3130,7 @@
     </message>
     <message>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, še ni bila uspešno raznešena</translation>
+        <translation>, še ni bila uspešno rasposlana</translation>
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
@@ -2478,6 +3171,10 @@
         <translation><numerusform>Odprto še %n blok</numerusform><numerusform>Odprto še %n bloka</numerusform><numerusform>Odprto še %n bloke</numerusform><numerusform>Odprto še %n blokov</numerusform></translation>
     </message>
     <message>
+        <source>Immature (%1 confirmations, will be available after %2)</source>
+        <translation>Nedozorelo (št. potrditev: %1, na voljo šele po: %2)</translation>
+    </message>
+    <message>
         <source>Open until %1</source>
         <translation>Odprto do %1</translation>
     </message>
@@ -2498,10 +3195,13 @@
         <translation>Brez povezave</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Label</source>
         <translation>Oznaka</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Unconfirmed</source>
         <translation>Nepotrjeno</translation>
     </message>
@@ -2527,7 +3227,11 @@
     </message>
     <message>
         <source>Payment to yourself</source>
+<<<<<<< HEAD
         <translation>Nakazilo sebi</translation>
+=======
+        <translation>Plačilo sebi</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Mined</source>
@@ -2558,12 +3262,21 @@
         <translation>Ali je v transakciji udeležen kateri od opazovanih naslovov.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>User-defined intent/purpose of the transaction.</source>
         <translation>Uporabniško določen namen transakcije.</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
         <translation>Znesek spremembe stanja sredstev.</translation>
+=======
+        <source>Destination address of transaction.</source>
+        <translation>Naslov prejemnika transakcije.</translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation>Znesek odlit ali prilit dobroimetju.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
 </context>
 <context>
@@ -2594,7 +3307,7 @@
     </message>
     <message>
         <source>Range...</source>
-        <translation>Območje ...</translation>
+        <translation>Območje...</translation>
     </message>
     <message>
         <source>Received with</source>
@@ -2659,6 +3372,10 @@
     <message>
         <source>Exporting Failed</source>
         <translation>Seznama transakcij ni bilo mogoče izvoziti.</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the transaction history to %1.</source>
+        <translation>Prišlo je do napake med shranjevanjem zgodovine transakcij v datoteko %1.</translation>
     </message>
     <message>
         <source>There was an error trying to save the transaction history to %1.</source>
@@ -2738,7 +3455,11 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
+<<<<<<< HEAD
         <translation>Izvozi podatke iz trenutnega zavihka v datoteko</translation>
+=======
+        <translation>Izvozi podatke v trenutnem zavihku v datoteko</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Backup Wallet</source>
@@ -2746,7 +3467,7 @@
     </message>
     <message>
         <source>Wallet Data (*.dat)</source>
-        <translation>Podatki denarnice (*.dat)</translation>
+        <translation>Denarnica (*.dat)</translation>
     </message>
     <message>
         <source>Backup Failed</source>
@@ -2754,11 +3475,19 @@
     </message>
     <message>
         <source>There was an error trying to save the wallet data to %1.</source>
+<<<<<<< HEAD
         <translation>Prišlo je do napake pri shranjevanju podatkov denarnice v datoteko %1.</translation>
     </message>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
         <translation>Podatki iz denarnice so bili uspešno shranjeni v datoteko %1.</translation>
+=======
+        <translation>Prišlo je do napake pri shranjevanju denarnice na %1.</translation>
+    </message>
+    <message>
+        <source>The wallet data was successfully saved to %1.</source>
+        <translation>Denarnica uspešno shranjena na %1.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Backup Successful</source>
@@ -2796,10 +3525,21 @@
         <translation>Sprejemaj zunanje povezave (privzeto: 1, razen če ste vklopili opciji -proxy ali -connect)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Veži dani naslov in tam vedno poslušaj. Za naslove protokola IPv6 uporabite zapis [gostitelj]:vrata.</translation>
     </message>
     <message>
+=======
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Sprejemaj zunanje povezave (privzeto: 1, razen v primeru opcij -proxy ali -connect)</translation>
+    </message>
+    <message>
+        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
+        <translation>Poveži se in poslušaj na danem naslovu. Pri protokolu IPv6 uporabite zapis [gostitelj]:vrata.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>Distribuirano v okviru programske licence MIT. Podrobnosti so navedene v  priloženi datoteki COPYING ali na naslovu &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
@@ -2809,6 +3549,7 @@
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
+<<<<<<< HEAD
         <translation>Nastavi število niti za preverjanje skript (%u do %d, 0 = samodejno, &lt;0 toliko procesorskih jeder naj ostane prostih, privzeto: %d)</translation>
     </message>
     <message>
@@ -2842,6 +3583,41 @@
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
         <translation>Sprejemaj povezave samo od soležnikov, ki so na naslovih, ki ustrezajo navedeni omrežni maski ali naslovu. Opcijo lahko navedete večkrat.</translation>
+=======
+        <translation>Nastavi število niti za preverjanje skript (%u do %d, 0 = samodejno, &lt;0 pusti toliko procesorskih jeder prostih, privzeto: %d)</translation>
+    </message>
+    <message>
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation>To je preizkusna verzija - uporaba na lastno odgovornost - ne uporabljajte je za rudarjenje bitcoinov ali za trgovske aplikacije</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
+        <translation>Na tem računalniku se ni bilo mogoče povezati na %s. Odjemalec Bitcoin Core je verjetno že zagnan.</translation>
+    </message>
+    <message>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Opozorilo: Vrednost opcije -paytxfee je zelo visoka. To je provizija, ki jo boste plačali, če izvedete plačilo.</translation>
+    </message>
+    <message>
+        <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
+        <translation>Opozorilo: Trenutno na omrežju ni videti konsenza! Videti je, kot da bi imeli nekateri rudarji težave.</translation>
+    </message>
+    <message>
+        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
+        <translation>Opozorilo: Trenutno se s soležniki ne strinjam v popolnosti! Mogoče bi morali vi ali drugi udeleženci posodobiti odjemalce.</translation>
+    </message>
+    <message>
+        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
+        <translation>Opozorilo: napaka pri branju datoteke wallet.dat! Vsi ključi so bili pravilno prebrani, ampak podatki o transakcijah ali imenik vnešenih naslovov so morda izgubljeni ali nepravilni.</translation>
+    </message>
+    <message>
+        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
+        <translation>Opozorilo: Datoteka wallet.dat je bila okvarjena, podatki pa so bili kljub temu rešeni! Originalna datoteka je bila shranjena kot wallet.[čas.oznaka].bak v mapo %s. Če sta skupno stanje ali seznam transakcij napačna, morate datoteko restavrirati iz varnostne kopije.</translation>
+    </message>
+    <message>
+        <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
+        <translation>Sprejemaj povezave samo iz naslovov, ki ustrezajo navedeni omrežni maski ali naslovu. Opcijo lahko navedete večkrat.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>(default: 1)</source>
@@ -2861,7 +3637,11 @@
     </message>
     <message>
         <source>Connect only to the specified node(s)</source>
+<<<<<<< HEAD
         <translation>Poveži se samo z (enim ali več) navedenimi vozlišči</translation>
+=======
+        <translation>Poveži se samo z enim ali več navedenimi vozlišči</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Connection options:</source>
@@ -2906,6 +3686,13 @@
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Ni mogoče poslušati na nobenih vratih. Če to zares želite, uporabite opcijo -listen=0.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
+        <translation>Če element &lt;category&gt; ni naveden, izpisuje vse informacije za razhroščevanje.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Importing...</source>
@@ -3044,11 +3831,124 @@
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
+        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
+        <translation>Izvornega bloka ni mogoče najti ali pa je neveljaven. Preverite, če ste izbrali pravo podatkovno mapo za izbrano omrežje.</translation>
+    </message>
+    <message>
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Neveljaven naslov tipa -onion: '%s'</translation>
+    </message>
+    <message>
+        <source>Not enough file descriptors available.</source>
+        <translation>Na voljo ni dovolj deskriptorjev datotek.</translation>
+    </message>
+    <message>
+        <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
+        <translation>Povezuj se samo z vozlišči na omrežju tipa &lt;net&gt; (IPv4, IPv6 ali onion)</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
+        <translation>Nastavitev velikosti predpomnilnik podatkovne baze v MiB (%d do %d, privzeto: %d)</translation>
+    </message>
+    <message>
+        <source>Set maximum block size in bytes (default: %d)</source>
+        <translation>Nastavitev maksimalne velikosti bloka v bajtih (privzeto: %d)</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>Ime datoteke z denarnico (znotraj podatkovne mape)</translation>
+    </message>
+    <message>
+        <source>Verifying blocks...</source>
+        <translation>Preverjam bloke...</translation>
+    </message>
+    <message>
+        <source>Verifying wallet...</source>
+        <translation>Preverjam denarnico...</translation>
+    </message>
+    <message>
+        <source>Wallet %s resides outside data directory %s</source>
+        <translation>Datoteka %s z denarnico se nahaja izven podatkovne mape %s</translation>
+    </message>
+    <message>
+        <source>Wallet options:</source>
+        <translation>Izbire denarnice:</translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation>Ob spremembi vrednosti opcije -txindex boste morali obnoviti bazo podatkov z uporabo opcije -reindex</translation>
+    </message>
+    <message>
+        <source>Imports blocks from external blk000??.dat file</source>
+        <translation>Uvozi bloke iz zunanje datoteke blk000??.dat</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
+        <translation>Dovoli povezave na JSON-RPC iz navedenih virov. Veljavne oblike vrednosti parametra &lt;ip&gt; so: enojen naslov IP (npr.: 1.2.3.4), kombinacija omrežje/netmask (npr.: 1.2.3.4/255.255.255.0), ali pa kombinacija omrežje/CIDR (1.2.3.4/24). To opcijo lahko navedete večkrat.</translation>
+    </message>
+    <message>
+        <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
+        <translation>Prišlo je do napake med zagonom poslušalca RPC na naslovu %s in vratih %u: %s</translation>
+    </message>
+    <message>
+        <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
+        <translation>Veži dani naslov in sprejemaj povezave samo od navedenih soležnikov. Za protokol IPv6 uporabite zapis {gostitelj];vrata.</translation>
+    </message>
+    <message>
+        <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
+        <translation>Veži dani naslov in sprejemaj povezave na JSON-RPC. Za naslove protokola IPv6 uporabite zapis [gostitelj]:vrata. To opcijo lahko navedete večkrat. (privzeto: veži vse omrežne vmesnike)</translation>
+    </message>
+    <message>
+        <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
+        <translation>Ne morem zakleniti podatkovne mape %s. Bitcoin Core je verjetno že zagnan.</translation>
+    </message>
+    <message>
+        <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
+        <translation>Ustvarjaj nove datoteke s privzetimi sistemskimi dovoljenji, namesto z umask 077. (To pride v poštev samo, kadar imate izklopljeno funkcijo denarnice.)</translation>
+    </message>
+    <message>
+        <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
+        <translation>Napaka: Ni mogoče sprejemati dohodnih povezav (vrnjena napaka: %s)</translation>
+    </message>
+    <message>
+        <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
+        <translation>Napaka: Navedli ste nepodprto vrednost opcije -socks. Različice protokola SOCKS ni več mogoče navesti, podprti so samo posredniški strežniki tipa SOCKS5.</translation>
+    </message>
+    <message>
+        <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
+        <translation>Ko bo prejeto ustrezno opozorilo, ali ko bo opažena zelo dolga razvejitev, izvedi navedeni ukazni niz. (Niz %s bo nadomeščen z vsebino sporočila.)</translation>
+    </message>
+    <message>
+        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Provizije (v BTC/KiB), ki so manjše od te vrednosti, se pri posredovanju smatrajo za nične (privzeto: %s)</translation>
+    </message>
+    <message>
+        <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
+        <translation>Če opcija -paytxfee ni nastavljena, nastavi znesek provizije tako visoko, da bodo transakcije potrjene v povprečno n blokih. (privzeto: %u)</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
+        <translation>Opozorilo: Preverite, če sta datum in ura na vašem računalniku točna! Bitcoin Core ne bo dobro deloval, če je nastavljeni čas nepravilen.</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -whitebind address: '%s'</source>
+        <translation>Naslova "%s", podanega pri opciji -whitebind ni mogoče razrešiti.</translation>
+    </message>
+    <message>
+        <source>Connect through SOCKS5 proxy</source>
+        <translation>Poveži se preko posredniškega strežnika SOCKS5</translation>
+    </message>
+    <message>
+        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
+    </message>
+    <message>
         <source>Information</source>
         <translation>Informacije</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
+<<<<<<< HEAD
         <translation>Pri opciji -whitebind morate navesti vrata: %s</translation>
     </message>
     <message>
@@ -3070,6 +3970,17 @@
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>Ob zagonu skrajšaj datoteko debug.log (privzeto: 1, če ni vklopljena opcija -debug)</translation>
+=======
+        <translation>Pri opciji -whitebind morate navesti vrata: '%s'</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Pošlji sledilne/razhroščevalne informacije v konzolo namesto shranjevanja v debug.log datoteko</translation>
+    </message>
+    <message>
+        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
+        <translation>Ob zagonu odjemalca skrajšaj datoteko debug.log (privzeto: 1, če ni vklopljena opcija -debug)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Signing transaction failed</source>
@@ -3084,8 +3995,16 @@
         <translation>Program je eksperimentalne narave.</translation>
     </message>
     <message>
+        <source>This is experimental software.</source>
+        <translation>Program je eksperimentalne narave.</translation>
+    </message>
+    <message>
         <source>Transaction amount too small</source>
+<<<<<<< HEAD
         <translation>Znesek je pramajhen</translation>
+=======
+        <translation>Znesek je premajhen</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Transaction amounts must be positive</source>
@@ -3096,12 +4015,17 @@
         <translation>Transkacija je prevelika</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>UI Options:</source>
         <translation>Možnosti uporabniškega vmesnika:</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
         <translation>Na tem računalniku ni bilo mogoče vezati naslova %s (vrnjena napaka: %s)</translation>
+=======
+        <source>Unable to bind to %s on this computer (bind returned error %s)</source>
+        <translation>Na tem računalniku se ni bilo mogoče povezati na %s (vrnjena napaka: %s)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -3110,6 +4034,14 @@
     <message>
         <source>Warning</source>
         <translation>Opozorilo</translation>
+    </message>
+    <message>
+        <source>Zapping all transactions from wallet...</source>
+        <translation>Brišem vse transakcije iz denarnice ...</translation>
+    </message>
+    <message>
+        <source>on startup</source>
+        <translation>ob zagonu</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
@@ -3149,7 +4081,11 @@
     </message>
     <message>
         <source>Loading addresses...</source>
+<<<<<<< HEAD
         <translation>Nalagam naslove ...</translation>
+=======
+        <translation>Nalaganje naslovov...</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet corrupted</source>
@@ -3164,12 +4100,43 @@
         <translation>(privzeto: %s)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Acceptable ciphers (default: %s)</source>
+        <translation>Sprejemljivi tipi šifriranja (privzeto: %s)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Error loading wallet.dat</source>
         <translation>Napaka pri nalaganju wallet.dat</translation>
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
         <translation>Neveljaven naslov -proxy: '%s'</translation>
+    </message>
+    <message>
+        <source>Relay non-P2SH multisig (default: %u)</source>
+        <translation>Posreduj transakcije tipa multisig, ki niso hkrati tipa P2SH. (privzeto: %u)</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: %s)</source>
+        <translation>Za shranjevanje konfiguracije uporabi navedeno datoteko. (privzeto: %s)</translation>
+    </message>
+    <message>
+        <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
+        <translation>Vzpostavljanje nove povezave poteče po navedenem št. pretečenih milisekund. (najmanj: 1, privzeto: %d)</translation>
+    </message>
+    <message>
+        <source>Specify pid file (default: %s)</source>
+        <translation>Za shranjevanje PID uporabi navedeno datoteko. (privzeto: %s)</translation>
+    </message>
+    <message>
+        <source>Spend unconfirmed change when sending transactions (default: %u)</source>
+        <translation>Pri odlivnih transakcijah omogoči trošenje drobiža iz še nepotrjenih plačil (privzeto: %u)</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
+        <translation>Prekini povezavo s soležnikom, ko št. njegovih kazenskih točk preseže navedeni prag. (privzeto: %u)</translation>
     </message>
     <message>
         <source>Relay non-P2SH multisig (default: %u)</source>

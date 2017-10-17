@@ -291,7 +291,11 @@ UniValue prioritisetransaction(const UniValue& params, bool fHelp)
             + HelpExampleRpc("prioritisetransaction", "\"txid\", 0.0, 10000")
         );
 
+<<<<<<< HEAD
     LOCK(cs_main);
+=======
+    uint256 hash = ParseHashStr(params[0].get_str(), "txid");
+>>>>>>> refs/remotes/origin/0.10
 
     uint256 hash = ParseHashStr(params[0].get_str(), "txid");
     CAmount nAmount = params[2].get_int64();
@@ -674,8 +678,14 @@ UniValue estimatefee(const UniValue& params, bool fHelp)
     if (fHelp || params.size() != 1)
         throw runtime_error(
             "estimatefee nblocks\n"
+<<<<<<< HEAD
             "\nEstimates the approximate fee per kilobyte needed for a transaction to begin\n"
             "confirmation within nblocks blocks.\n"
+=======
+            "\nEstimates the approximate fee per kilobyte\n"
+            "needed for a transaction to begin confirmation\n"
+            "within nblocks blocks.\n"
+>>>>>>> refs/remotes/origin/0.10
             "\nArguments:\n"
             "1. nblocks     (numeric)\n"
             "\nResult:\n"
@@ -705,8 +715,14 @@ UniValue estimatepriority(const UniValue& params, bool fHelp)
     if (fHelp || params.size() != 1)
         throw runtime_error(
             "estimatepriority nblocks\n"
+<<<<<<< HEAD
             "\nEstimates the approximate priority a zero-fee transaction needs to begin\n"
             "confirmation within nblocks blocks.\n"
+=======
+            "\nEstimates the approximate priority\n"
+            "a zero-fee transaction needs to begin confirmation\n"
+            "within nblocks blocks.\n"
+>>>>>>> refs/remotes/origin/0.10
             "\nArguments:\n"
             "1. nblocks     (numeric)\n"
             "\nResult:\n"

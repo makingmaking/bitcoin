@@ -224,7 +224,29 @@ BOOST_AUTO_TEST_CASE(json_parse_errors)
     BOOST_CHECK_THROW(ParseNonRFCJSONValue("3J98t1WpEZ73CNmQviecrnyiWrnqRhWNL"), std::runtime_error);
 }
 
+<<<<<<< HEAD
 BOOST_AUTO_TEST_CASE(rpc_ban)
+=======
+BOOST_AUTO_TEST_CASE(json_parse_errors)
+{
+    Value value;
+    // Valid
+    BOOST_CHECK_EQUAL(read_string(std::string("1.0"), value), true);
+    // Valid, with trailing whitespace
+    BOOST_CHECK_EQUAL(read_string(std::string("1.0 "), value), true);
+    // Invalid, initial garbage
+    BOOST_CHECK_EQUAL(read_string(std::string("[1.0"), value), false);
+    BOOST_CHECK_EQUAL(read_string(std::string("a1.0"), value), false);
+    // Invalid, trailing garbage
+    BOOST_CHECK_EQUAL(read_string(std::string("1.0sds"), value), false);
+    BOOST_CHECK_EQUAL(read_string(std::string("1.0]"), value), false);
+    // BTC addresses should fail parsing
+    BOOST_CHECK_EQUAL(read_string(std::string("175tWpb8K1S7NmH4Zx6rewF9WQrcZv245W"), value), false);
+    BOOST_CHECK_EQUAL(read_string(std::string("3J98t1WpEZ73CNmQviecrnyiWrnqRhWNL"), value), false);
+}
+
+BOOST_AUTO_TEST_CASE(rpc_boostasiotocnetaddr)
+>>>>>>> refs/remotes/origin/0.10
 {
     BOOST_CHECK_NO_THROW(CallRPC(string("clearbanned")));
     

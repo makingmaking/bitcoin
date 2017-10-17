@@ -43,7 +43,10 @@ static std::map<string, unsigned int> mapFlagNames = boost::assign::map_list_of
     (string("MINIMALDATA"), (unsigned int)SCRIPT_VERIFY_MINIMALDATA)
     (string("NULLDUMMY"), (unsigned int)SCRIPT_VERIFY_NULLDUMMY)
     (string("DISCOURAGE_UPGRADABLE_NOPS"), (unsigned int)SCRIPT_VERIFY_DISCOURAGE_UPGRADABLE_NOPS)
+<<<<<<< HEAD
     (string("CLEANSTACK"), (unsigned int)SCRIPT_VERIFY_CLEANSTACK)
+=======
+>>>>>>> refs/remotes/origin/0.10
     (string("CHECKLOCKTIMEVERIFY"), (unsigned int)SCRIPT_VERIFY_CHECKLOCKTIMEVERIFY);
 
 unsigned int ParseScriptFlags(string strFlags)
@@ -352,6 +355,7 @@ BOOST_AUTO_TEST_CASE(test_IsStandard)
     t.vout[0].nValue = nDustThreshold;
     BOOST_CHECK(IsStandardTx(t, reason));
 
+<<<<<<< HEAD
     // Check dust with odd relay fee to verify rounding:
     // nDustThreshold = 182 * 1234 / 1000 * 3
     minRelayTxFee = CFeeRate(1234);
@@ -360,6 +364,9 @@ BOOST_AUTO_TEST_CASE(test_IsStandard)
     BOOST_CHECK(!IsStandardTx(t, reason));
     // not dust:
     t.vout[0].nValue = 672;
+=======
+    t.vout[0].nValue = 2730; // not dust
+>>>>>>> refs/remotes/origin/0.10
     BOOST_CHECK(IsStandardTx(t, reason));
     minRelayTxFee = CFeeRate(DEFAULT_MIN_RELAY_TX_FEE);
 

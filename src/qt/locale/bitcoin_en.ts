@@ -304,12 +304,20 @@
         <translation>Sign &amp;message...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+353"/>
+=======
+        <location line="+340"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Synchronizing with network...</source>
         <translation>Synchronizing with network...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-429"/>
+=======
+        <location line="-408"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>&amp;Overview</source>
         <translation>&amp;Overview</translation>
     </message>
@@ -389,7 +397,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+180"/>
+=======
+        <location line="+173"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Bitcoin Core client</source>
         <translation type="unfinished"></translation>
     </message>
@@ -404,7 +416,11 @@
         <translation>Reindexing blocks on disk...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-427"/>
+=======
+        <location line="-406"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Send coins to a Bitcoin address</source>
         <translation>Send coins to a Bitcoin address</translation>
     </message>
@@ -434,12 +450,20 @@
         <translation>&amp;Verify message...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+450"/>
+=======
+        <location line="+438"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Bitcoin</source>
         <translation>Bitcoin</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-660"/>
+=======
+        <location line="-639"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Wallet</source>
         <translation>Wallet</translation>
     </message>
@@ -484,7 +508,11 @@
         <translation>Verify messages to ensure they were signed with specified Bitcoin addresses</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+53"/>
+=======
+        <location line="+49"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>&amp;File</source>
         <translation>&amp;File</translation>
     </message>
@@ -504,7 +532,11 @@
         <translation>Tabs toolbar</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-311"/>
+=======
+        <location line="-298"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Bitcoin Core</source>
         <translation type="unfinished">Bitcoin Core</translation>
     </message>
@@ -1602,7 +1634,11 @@
 <context>
     <name>PaymentServer</name>
     <message>
+<<<<<<< HEAD
         <location filename="../paymentserver.cpp" line="+432"/>
+=======
+        <location filename="../paymentserver.cpp" line="+422"/>
+>>>>>>> refs/remotes/origin/0.10
         <location line="+14"/>
         <location line="+7"/>
         <source>URI handling</source>
@@ -1614,7 +1650,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+83"/>
+=======
+        <location line="+91"/>
+>>>>>>> refs/remotes/origin/0.10
         <location line="+9"/>
         <location line="+31"/>
         <location line="+10"/>
@@ -1639,17 +1679,28 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-258"/>
         <location line="+216"/>
         <location line="+42"/>
         <location line="+113"/>
+=======
+        <location line="-260"/>
+        <location line="+226"/>
+        <location line="+34"/>
+        <location line="+109"/>
+>>>>>>> refs/remotes/origin/0.10
         <location line="+14"/>
         <location line="+18"/>
         <source>Payment request error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-402"/>
+=======
+        <location line="-400"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Cannot start bitcoin: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1674,12 +1725,16 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+70"/>
         <source>Payment request expired.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+32"/>
+=======
+        <location line="+111"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1695,12 +1750,25 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+44"/>
+=======
+        <location line="+43"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+9"/>
+=======
+        <location line="+6"/>
+        <source>Payment request DoS protection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Error communicating with %1: %2</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1746,17 +1814,29 @@
 <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <location filename="../bitcoinunits.cpp" line="+183"/>
+=======
+        <location filename="../bitcoinunits.cpp" line="+194"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Amount</source>
         <translation type="unfinished">Amount</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../guiutil.cpp" line="+110"/>
+=======
+        <location filename="../guiutil.cpp" line="+109"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Enter a Bitcoin address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+760"/>
+=======
+        <location line="+714"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>%1 d</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2416,7 +2496,11 @@
     <name>SendCoinsDialog</name>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
+<<<<<<< HEAD
         <location filename="../sendcoinsdialog.cpp" line="+546"/>
+=======
+        <location filename="../sendcoinsdialog.cpp" line="+533"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Send Coins</source>
         <translation>Send Coins</translation>
     </message>
@@ -2626,7 +2710,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-221"/>
+=======
+        <location line="-193"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Copy quantity</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2661,8 +2749,13 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+244"/>
         <source>Total Amount %1</source>
+=======
+        <location line="+245"/>
+        <source>Total Amount %1&lt;span style=&apos;font-size:10pt;font-weight:normal;&apos;&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</source>
+>>>>>>> refs/remotes/origin/0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2744,12 +2837,16 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-692"/>
+=======
+        <location line="-688"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Copy dust</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+221"/>
+        <location line="+222"/>
         <source>Are you sure you want to send?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3698,7 +3795,11 @@
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <location filename="../bitcoinstrings.cpp" line="+258"/>
+=======
+        <location filename="../bitcoinstrings.cpp" line="+244"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Options:</source>
         <translation>Options:</translation>
     </message>
@@ -3708,12 +3809,20 @@
         <translation>Specify data directory</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-87"/>
+=======
+        <location line="-90"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation>Connect to a node to retrieve peer addresses, and disconnect</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+90"/>
+=======
+        <location line="+93"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Specify your own public address</source>
         <translation>Specify your own public address</translation>
     </message>
@@ -3738,6 +3847,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+3"/>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
         <translation type="unfinished"></translation>
@@ -3746,6 +3856,11 @@
         <location line="+2"/>
         <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
         <translation type="unfinished"></translation>
+=======
+        <location line="-148"/>
+        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
+        <translation>Bind to given address and always listen on it. Use [host]:port notation for IPv6</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <location line="+9"/>
@@ -3763,6 +3878,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+3"/>
         <source>Fee (in %s/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
@@ -3776,6 +3892,11 @@
         <location line="+9"/>
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Run in the background as a daemon and accept commands</translation>
+=======
+        <location line="+11"/>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <location line="+32"/>
@@ -3783,6 +3904,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-119"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>Accept connections from outside (default: 1 if no -proxy or -connect)</translation>
@@ -3809,6 +3931,9 @@
     </message>
     <message>
         <location line="+57"/>
+=======
+        <location line="+28"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3823,14 +3948,24 @@
         <translation>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+13"/>
+=======
+        <location line="+20"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+6"/>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
         <translation type="unfinished"></translation>
+=======
+        <location line="+9"/>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <location line="+5"/>
@@ -3873,9 +4008,15 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+1"/>
         <source>&lt;category&gt; can be:</source>
         <translation type="unfinished"></translation>
+=======
+        <location line="+8"/>
+        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
+        <translation>Attempt to recover private keys from a corrupt wallet.dat</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <location line="+9"/>
@@ -3958,7 +4099,11 @@
         <translation>Error: Disk space is low!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+1"/>
+=======
+        <location line="+2"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Failed to listen on any port. Use -listen=0 if you want this.</translation>
     </message>
@@ -3978,12 +4123,16 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+9"/>
         <source>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+12"/>
+=======
+        <location line="+20"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Not enough file descriptors available.</source>
         <translation>Not enough file descriptors available.</translation>
     </message>
@@ -3993,6 +4142,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+4"/>
         <source>Prune cannot be configured with a negative value.</source>
         <translation type="unfinished"></translation>
@@ -4004,6 +4154,14 @@
     </message>
     <message>
         <location line="+14"/>
+=======
+        <location line="+9"/>
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation>Rebuild block chain index from current blk000??.dat files</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4068,12 +4226,21 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+1"/>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
         <translation>You need to rebuild the database using -reindex to change -txindex</translation>
     </message>
     <message>
         <location line="-299"/>
+=======
+        <location line="-91"/>
+        <source>Imports blocks from external blk000??.dat file</source>
+        <translation>Imports blocks from external blk000??.dat file</translation>
+    </message>
+    <message>
+        <location line="-200"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4103,8 +4270,13 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+11"/>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
+=======
+        <location line="+2"/>
+        <source>Error: Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</source>
+>>>>>>> refs/remotes/origin/0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4128,22 +4300,53 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+6"/>
+=======
+        <location line="+8"/>
+        <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+18"/>
+=======
+        <location line="+3"/>
+        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
+<<<<<<< HEAD
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+11"/>
+=======
+        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4158,8 +4361,33 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+5"/>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
+=======
+        <location line="+4"/>
+        <source>To use bitcoind, or the -server option to bitcoin-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
+>>>>>>> refs/remotes/origin/0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4168,8 +4396,18 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+3"/>
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
+=======
+        <location line="+8"/>
+        <source>Accept public REST requests (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Cannot resolve -whitebind address: &apos;%s&apos;</source>
+>>>>>>> refs/remotes/origin/0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4193,12 +4431,18 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+5"/>
         <source>Cannot resolve -whitebind address: &apos;%s&apos;</source>
+=======
+        <location line="+2"/>
+        <source>Error reading from database, shutting down.</source>
+>>>>>>> refs/remotes/origin/0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
+<<<<<<< HEAD
         <source>Choose data directory on startup (default: 0)</source>
         <translation type="unfinished">Choose data directory on startup (default: 0)</translation>
     </message>
@@ -4220,6 +4464,19 @@
     <message>
         <location line="+2"/>
         <source>Error reading from database, shutting down.</source>
+=======
+        <source>Error: A fatal internal error occurred, see debug.log for details</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
+>>>>>>> refs/remotes/origin/0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4278,18 +4535,31 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+9"/>
         <source>RPC server options:</source>
+=======
+        <location line="+7"/>
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+>>>>>>> refs/remotes/origin/0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
+<<<<<<< HEAD
         <source>Rebuild block chain index from current blk000??.dat files on startup</source>
+=======
+        <source>RPC server options:</source>
+>>>>>>> refs/remotes/origin/0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
+<<<<<<< HEAD
         <source>Receive and display P2P network alerts (default: %u)</source>
+=======
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+>>>>>>> refs/remotes/origin/0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4303,7 +4573,16 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+3"/>
+=======
+        <location line="+2"/>
+        <source>Receive and display P2P network alerts (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Send trace/debug info to console instead of debug.log file</translation>
     </message>
@@ -4358,7 +4637,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+2"/>
+=======
+        <location line="+3"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Transaction amount too small</source>
         <translation>Transaction amount too small</translation>
     </message>
@@ -4428,38 +4711,82 @@
         <translation>Password for JSON-RPC connections</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-196"/>
+=======
+        <location line="-184"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>Execute command when the best block changes (%s in cmd is replaced by block hash)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+232"/>
+=======
+        <location line="+230"/>
+        <source>Upgrade wallet to latest format</source>
+        <translation>Upgrade wallet to latest format</translation>
+    </message>
+    <message>
+        <location line="-35"/>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Rescan the block chain for missing wallet transactions</translation>
+    </message>
+    <message>
+        <location line="+36"/>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Use OpenSSL (https) for JSON-RPC connections</translation>
+    </message>
+    <message>
+        <location line="-11"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>This help message</source>
         <translation>This help message</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-106"/>
+=======
+        <location line="-107"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Allow DNS lookups for -addnode, -seednode and -connect</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+58"/>
+=======
+        <location line="+59"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Loading addresses...</source>
         <translation>Loading addresses...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-30"/>
+=======
+        <location line="-33"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Error loading wallet.dat: Wallet corrupted</source>
         <translation>Error loading wallet.dat: Wallet corrupted</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-205"/>
+=======
+        <location line="-188"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+3"/>
         <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+=======
+        <location line="+58"/>
+        <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
+>>>>>>> refs/remotes/origin/0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4473,6 +4800,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+2"/>
         <source>Error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation type="unfinished"></translation>
@@ -4480,6 +4808,10 @@
     <message>
         <location line="+17"/>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
+=======
+        <location line="+11"/>
+        <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
+>>>>>>> refs/remotes/origin/0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4498,6 +4830,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+46"/>
         <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
         <translation type="unfinished"></translation>
@@ -4515,6 +4848,20 @@
     <message>
         <location line="+5"/>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
+=======
+        <location line="+38"/>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+31"/>
+        <source>(default: %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Acceptable ciphers (default: %s)</source>
+>>>>>>> refs/remotes/origin/0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4553,7 +4900,16 @@
         <translation>Invalid -proxy address: &apos;%s&apos;</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+9"/>
+=======
+        <location line="+8"/>
+        <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4653,7 +5009,7 @@
         <translation>Cannot resolve -externalip address: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+47"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
@@ -4668,17 +5024,29 @@
         <translation>Loading block index...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-60"/>
+=======
+        <location line="-61"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Add a node to connect to and attempt to keep the connection open</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+61"/>
+=======
+        <location line="+62"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Loading wallet...</source>
         <translation>Loading wallet...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-56"/>
+=======
+        <location line="-57"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Cannot downgrade wallet</source>
         <translation>Cannot downgrade wallet</translation>
     </message>
@@ -4688,17 +5056,25 @@
         <translation>Cannot write default address</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+74"/>
+=======
+        <location line="+75"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Rescanning...</source>
         <translation>Rescanning...</translation>
     </message>
     <message>
-        <location line="-63"/>
+        <location line="-62"/>
         <source>Done loading</source>
         <translation>Done loading</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+13"/>
+=======
+        <location line="+9"/>
+>>>>>>> refs/remotes/origin/0.10
         <source>Error</source>
         <translation>Error</translation>
     </message>

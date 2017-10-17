@@ -17,6 +17,7 @@ $(call fetch_file,$(package),$($(package)_clang_download_path),$($(package)_clan
 endef
 
 define $(package)_extract_cmds
+<<<<<<< HEAD
   mkdir -p toolchain/bin toolchain/lib/clang/3.5/include && \
   tar --strip-components=1 -C toolchain -xf $($(package)_source_dir)/$($(package)_clang_file_name) && \
   echo "#!/bin/sh" > toolchain/bin/$(host)-dsymutil && \
@@ -30,6 +31,15 @@ $(package)_config_opts=--target=$(host) --disable-libuuid
 $(package)_ldflags+=-Wl,-rpath=\\$$$$$$$$\$$$$$$$$ORIGIN/../lib
 $(package)_cc=$($(package)_extract_dir)/toolchain/bin/clang
 $(package)_cxx=$($(package)_extract_dir)/toolchain/bin/clang++
+=======
+  tar --strip-components=1 -xf $($(package)_source_dir)/$($(package)_toolchain4_file_name) && \
+  ln -sf $($(package)_source) cctools2odcctools/$($(package)_file_name) && \
+  ln -sf $($(package)_source_dir)/$($(package)_ld64_file_name) cctools2odcctools/$($(package)_ld64_file_name) && \
+  ln -sf $($(package)_source_dir)/$($(package)_dyld_file_name) cctools2odcctools/$($(package)_dyld_file_name) && \
+  tar xf $($(package)_source_dir)/$($(package)_clang_file_name) && \
+  mkdir -p $(SDK_PATH) sdks &&\
+  cd sdks; ln -sf $(OSX_SDK) MacOSX$(OSX_SDK_VERSION).sdk
+>>>>>>> refs/remotes/origin/0.10
 endef
 
 define $(package)_preprocess_cmds

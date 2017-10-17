@@ -3,7 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
+<<<<<<< HEAD
         <translation>Valitse hiiren oikealla painikkeella muokataksesi osoitetta tai nimikettä</translation>
+=======
+        <translation>Klikkaa hiiren oikealla painikkeella muokataksesi osoitetta tai nimikettä</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Create a new address</source>
@@ -484,6 +488,10 @@
     <message>
         <source>Up to date</source>
         <translation>Rahansiirtohistoria on ajan tasalla</translation>
+    </message>
+    <message numerus="yes">
+        <source>Processed %n blocks of transaction history.</source>
+        <translation><numerusform>Käsitelty %n lohko rahansiirtohistoriasta.</numerusform><numerusform>Käsitelty %n lohkoa rahansiirtohistoriasta.</numerusform></translation>
     </message>
     <message>
         <source>Catching up...</source>
@@ -1193,6 +1201,25 @@
     <message>
         <source>Spendable:</source>
         <translation>Käytettävissä:</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>Viimeisimmät rahansiirrot</translation>
+    </message>
+    <message>
+        <source>Unconfirmed transactions to watch-only addresses</source>
+        <translation>Vahvistamattomat rahansiirrot vain katseltaviin osoitteisiin</translation>
+    </message>
+    <message>
+        <source>Mined balance in watch-only addresses that has not yet matured</source>
+        <translation>Louhittu, ei vielä kypsynyt saldo vain katseltavissa osoitteissa</translation>
+    </message>
+    <message>
+        <source>Current total balance in watch-only addresses</source>
+        <translation>Nykyinen tase seurantaosoitetteissa</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Recent transactions</source>
@@ -1230,6 +1257,15 @@
         <translation>Maksypyyntö verkossa ei täsmää asiakasohjelman verkkoon.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+        <source>Payment request is not initialized.</source>
+        <translation>Maksupyyntöä ei ole alustettu.</translation>
+=======
+        <source>Payment request has expired.</source>
+        <translation>Maksupyyntö on vanhentunut.</translation>
+>>>>>>> refs/remotes/origin/0.10
+    </message>
+    <message>
         <source>Payment request is not initialized.</source>
         <translation>Maksupyyntöä ei ole alustettu.</translation>
     </message>
@@ -1262,10 +1298,13 @@
         <translation>Maksupyynnön tiedostoa ei voida lukea! Tämä voi aiheutua sopimattomasta maksupyyntötiedostosta.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request expired.</source>
         <translation>Maksupyyntö on vanhentunut.</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation>Varmistamattomia maksupyyntöjä kustomoituun maksupalveluun ei tueta.</translation>
     </message>
@@ -1282,6 +1321,13 @@
         <translation>Maksupyyntö %1 on liian suuri (%2 tavua, sallittu %3 tavua).</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Payment request DoS protection</source>
+        <translation>Maksupyynnön DoS-suojaus</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Error communicating with %1: %2</source>
         <translation>Virhe kommunikoidessa %1n kanssa: %2</translation>
     </message>
@@ -1309,8 +1355,13 @@
         <translation>Käyttöliittymä</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Node/Service</source>
         <translation>Noodi/Palvelu</translation>
+=======
+        <source>Address/Hostname</source>
+        <translation>Osoite/Isäntänimi</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Ping Time</source>
@@ -1344,6 +1395,17 @@
         <translation>%1 s</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>NETWORK</source>
+        <translation>VERKKO</translation>
+    </message>
+    <message>
+        <source>UNKNOWN</source>
+        <translation>TUNNISTAMATON</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>None</source>
         <translation>Ei yhtään</translation>
     </message>
@@ -1466,6 +1528,17 @@
         <translation>Palvelut</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Starting Height</source>
+        <translation>Aloituskorkeus</translation>
+    </message>
+    <message>
+        <source>Sync Height</source>
+        <translation>Synkronointikorkeus</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Ban Score</source>
         <translation>Panna-pisteytys</translation>
     </message>
@@ -1494,10 +1567,13 @@
         <translation>Vasteaika</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Time Offset</source>
         <translation>Ajan poikkeama</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Last block time</source>
         <translation>Viimeisimmän lohkon aika</translation>
     </message>
@@ -1586,6 +1662,7 @@
         <translation>Ulosmenevä</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Yes</source>
         <translation>Kyllä</translation>
     </message>
@@ -1597,6 +1674,15 @@
         <source>Unknown</source>
         <translation>Tuntematon</translation>
     </message>
+=======
+        <source>Unknown</source>
+        <translation>Tuntematon</translation>
+    </message>
+    <message>
+        <source>Fetching...</source>
+        <translation>Hankitaan...</translation>
+    </message>
+>>>>>>> refs/remotes/origin/0.10
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -1838,12 +1924,21 @@
         <translation>pudota kulujen asetukset</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>per kilobyte</source>
         <translation>per kilotavu</translation>
     </message>
     <message>
         <source>Hide</source>
         <translation>Piilota</translation>
+=======
+        <source>Minimize</source>
+        <translation>Pienennä</translation>
+    </message>
+    <message>
+        <source>per kilobyte</source>
+        <translation>per kilotavu</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>total at least</source>
@@ -1974,20 +2069,30 @@
         <translation>Rahansiirto hylättiin! Tämä saattaa tapahtua jos lompakossa olevat kolikot on jo kulutettu, kuten jos käytät kopioita wallet.dat tiedostosta ja kolikot oli jos käytetty mutta ei merkattu täällä.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
         <translation>Rahansiirtokulua %1 ja sitä suurempia määriä pidetään järjenvastaisen korkeana kuluna.</translation>
     </message>
     <message>
         <source>Payment request expired.</source>
         <translation>Maksupyyntö on vanhentunut.</translation>
+=======
+        <source>A fee higher than %1 is considered an insanely high fee.</source>
+        <translation>Rahansiirtokulua %1 ja sitä suurempia määriä pidetään järjettöminä.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
         <translation>Maksa vain vähimmäiskulu %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The recipient address is not valid. Please recheck.</source>
         <translation>Vastaanottajan osoite ei ole kelvollinen. Tarkistathan uudelleen.</translation>
+=======
+        <source>Estimated to begin confirmation within %1 block(s).</source>
+        <translation>Vahvistuminen alkaa arviolta %1 lohkon päästä.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Warning: Invalid Bitcoin address</source>
@@ -2119,6 +2224,10 @@
         <translation>Bitcoin-osoite jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
+        <source>The Bitcoin address to sign the message with</source>
+        <translation>Bitcoin-osoite jolla viesti allekirjoitetaan</translation>
+    </message>
+    <message>
         <source>Choose previously used address</source>
         <translation>Valitse aikaisemmin käytetty osoite</translation>
     </message>
@@ -2165,6 +2274,10 @@
     <message>
         <source>&amp;Verify Message</source>
         <translation>&amp;Varmista viesti</translation>
+    </message>
+    <message>
+        <source>The Bitcoin address the message was signed with</source>
+        <translation>Bitcoin-osoite jolla viesti on allekirjoitettu</translation>
     </message>
     <message>
         <source>The Bitcoin address the message was signed with</source>
@@ -2516,6 +2629,13 @@
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
         <translation>Onko rahansiirrossa mukana ainoastaan katseltava osoite vai ei.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>Rahansiirron kohteen Bitcoin-osoite</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -2756,6 +2876,13 @@
         <translation>Kytkeydy annettuun osoitteeseen ja pidä linja aina auki. Käytä [host]:portin merkintätapaa IPv6:lle.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>Aloita regression testimoodi joka käyttää erikoisketjua jossa lohkoja voidaan ratkaista välittömästi.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Suorita käsky kun lompakossa rahansiirto muuttuu (%s cmd on vaihdettu TxID kanssa)</translation>
     </message>
@@ -2868,8 +2995,13 @@
         <translation>Yhdistä vain solmukohtiin &lt;net&gt;-verkossa (ipv4, ipv6 tai onion)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Prune mode is incompatible with -txindex.</source>
         <translation>Karsittu tila ei ole yhteensopiva -txindex:n kanssa.</translation>
+=======
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation>Uudelleenrakenna lohkoketjuindeksi nykyisistä blk000??.dat tiedostoista</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
@@ -2882,6 +3014,10 @@
     <message>
         <source>Specify wallet file (within data directory)</source>
         <translation>Aseta lompakkotiedosto (data-hakemiston sisällä)</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: %u)</source>
+        <translation>Käytä UPnP:ta kuuntelevan portin kartoittamiseen (oletus: %u)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
@@ -2932,26 +3068,35 @@
         <translation>Aseta kolikoiden luomiseen tarkoitettujen säikeiden lukumäärä (-1 = kaikki ytimet, oletus: %d)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(default: %u)</source>
         <translation>(oletus: %u)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Accept public REST requests (default: %u)</source>
         <translation>Hyväksy julkisia REST-pyyntöjä (oletus: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Activating best chain...</source>
         <translation>Aktivoidaan parhainta ketjua...</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Cannot resolve -whitebind address: '%s'</source>
         <translation>-whitebind -osoitetta '%s' ei voida jäsentää</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Choose data directory on startup (default: 0)</source>
         <translation>Valitse data-hakemisto käynnistyksessä (oletus: 0)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Connect through SOCKS5 proxy</source>
         <translation>Yhdistä SOCKS5 proxin kautta</translation>
     </message>
@@ -2982,14 +3127,34 @@
     <message>
         <source>Node relay options:</source>
         <translation>Välityssolmukohdan asetukset:</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>RPC SSL valinnat: (katso Bitcoin Wikistä SSL-asennuksen ohjeet)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>RPC server options:</source>
         <translation>RPC-palvelimen valinnat:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Receive and display P2P network alerts (default: %u)</source>
         <translation>Vastaanota ja näytä P2P-verkon hälytyksiä (oletus: %u)</translation>
+=======
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>RPC-tuki pysyville HTTP-yhteyksille (oletus: %d)</translation>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>Satunnaisesti pudota 1 joka &lt;n&gt; verkkoviestistä</translation>
+    </message>
+    <message>
+        <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
+        <translation>Satunnaisesti sekoita 1 joka &lt;n&gt; verkkoviestistä</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3020,10 +3185,13 @@
         <translation>Siirron vahvistus epäonnistui</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Start minimized</source>
         <translation>Käynnistä pienennettynä</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>This is experimental software.</source>
         <translation>Tämä on ohjelmistoa kokeelliseen käyttöön.</translation>
     </message>
@@ -3108,10 +3276,24 @@
         <translation>(oletus: %s)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Acceptable ciphers (default: %s)</source>
+        <translation>Hyväksyttävät salaukset (oletus: %s)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Error loading wallet.dat</source>
         <translation>Virhe ladattaessa wallet.dat-tiedostoa</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Force safe mode (default: %u)</source>
+        <translation>Pakota yhteensopivuustila (oletus: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Generate coins (default: %u)</source>
         <translation>Luo kolikoita (oletus: %u)</translation>
     </message>
@@ -3132,14 +3314,28 @@
         <translation>Kuuntele yhteyksiä portissa &lt;port&gt; (oletus: %u tai testnet: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Make the wallet broadcast transactions</source>
         <translation>Aseta lompakko kuuluttamaan rahansiirtoja</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Relay non-P2SH multisig (default: %u)</source>
         <translation>Välitä ei-P2SH-multisig (oletus: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Server certificate file (default: %s)</source>
+        <translation>Palvelimen sertifikaattitiedosto (oletus: %s)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: %s)</source>
+        <translation>Palvelimen private key (oletus: %s)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
         <translation>Aseta avainaltaan kooksi &lt;n&gt; (oletus: %u)</translation>
     </message>

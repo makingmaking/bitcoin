@@ -38,7 +38,11 @@ using namespace std;
  */
 CFeeRate payTxFee(DEFAULT_TRANSACTION_FEE);
 CAmount maxTxFee = DEFAULT_TRANSACTION_MAXFEE;
+<<<<<<< HEAD:src/wallet/wallet.cpp
 unsigned int nTxConfirmTarget = DEFAULT_TX_CONFIRM_TARGET;
+=======
+unsigned int nTxConfirmTarget = 1;
+>>>>>>> refs/remotes/origin/0.10:src/wallet.cpp
 bool bSpendZeroConfChange = true;
 bool fSendFreeTransactions = false;
 bool fPayAtLeastCustomFee = true;
@@ -2136,7 +2140,11 @@ CAmount CWallet::GetMinimumFee(unsigned int nTxBytes, unsigned int nConfirmTarge
     // ... unless we don't have enough mempool data, in which case fall
     // back to the required fee
     if (nFeeNeeded == 0)
+<<<<<<< HEAD:src/wallet/wallet.cpp
         nFeeNeeded = GetRequiredFee(nTxBytes);
+=======
+        nFeeNeeded = minTxFee.GetFee(nTxBytes);
+>>>>>>> refs/remotes/origin/0.10:src/wallet.cpp
     // prevent user from paying a non-sense fee (like 1 satoshi): 0 < fee < minRelayFee
     if (nFeeNeeded < ::minRelayTxFee.GetFee(nTxBytes))
         nFeeNeeded = ::minRelayTxFee.GetFee(nTxBytes);

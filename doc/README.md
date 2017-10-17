@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Bitcoin Core 0.11.99
+=======
+Bitcoin Core 0.10.4
+>>>>>>> refs/remotes/origin/0.10
 =====================
 
 Setup

@@ -166,12 +166,20 @@ protected:
 
     StepEnabled stepEnabled() const
     {
+<<<<<<< HEAD
         if (isReadOnly()) // Disable steps when AmountSpinBox is read-only
             return StepNone;
         if (text().isEmpty()) // Allow step-up with empty field
             return StepUpEnabled;
 
         StepEnabled rv = 0;
+=======
+        StepEnabled rv = 0;
+        if (isReadOnly()) // Disable steps when AmountSpinBox is read-only
+            return StepNone;
+        if(text().isEmpty()) // Allow step-up with empty field
+            return StepUpEnabled;
+>>>>>>> refs/remotes/origin/0.10
         bool valid = false;
         CAmount val = value(&valid);
         if(valid)
@@ -184,7 +192,11 @@ protected:
         return rv;
     }
 
+<<<<<<< HEAD
 Q_SIGNALS:
+=======
+signals:
+>>>>>>> refs/remotes/origin/0.10
     void valueChanged();
 };
 

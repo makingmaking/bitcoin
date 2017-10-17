@@ -2,6 +2,7 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
+<<<<<<< HEAD
 #include "txmempool.h"
 #include "util.h"
 
@@ -12,6 +13,16 @@
 #include <vector>
 
 BOOST_FIXTURE_TEST_SUITE(mempool_tests, TestingSetup)
+=======
+#include "main.h"
+#include "txmempool.h"
+#include "util.h"
+
+#include <boost/test/unit_test.hpp>
+#include <list>
+
+BOOST_AUTO_TEST_SUITE(mempool_tests)
+>>>>>>> refs/remotes/origin/0.10
 
 BOOST_AUTO_TEST_CASE(MempoolRemoveTest)
 {
@@ -101,6 +112,7 @@ BOOST_AUTO_TEST_CASE(MempoolRemoveTest)
     removed.clear();
 }
 
+<<<<<<< HEAD
 void CheckSort(CTxMemPool &pool, std::vector<std::string> &sortedOrder)
 {
     BOOST_CHECK_EQUAL(pool.size(), sortedOrder.size());
@@ -434,4 +446,6 @@ BOOST_AUTO_TEST_CASE(MempoolSizeLimitTest)
     SetMockTime(0);
 }
 
+=======
+>>>>>>> refs/remotes/origin/0.10
 BOOST_AUTO_TEST_SUITE_END()

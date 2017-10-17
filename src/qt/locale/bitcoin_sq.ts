@@ -249,10 +249,32 @@
         <source>&amp;About Bitcoin Core</source>
         <translation>Rreth Berthames Bitkoin</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n ore</numerusform><numerusform>%n ore</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n dite</numerusform><numerusform>%n dite</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n jave</numerusform><numerusform>%n jave</numerusform></translation>
+    </message>
+>>>>>>> refs/remotes/origin/0.10
     <message>
         <source>%1 and %2</source>
         <translation>%1 dhe %2</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n vit</numerusform><numerusform>%n vite</numerusform></translation>
+    </message>
+>>>>>>> refs/remotes/origin/0.10
     <message>
         <source>%1 behind</source>
         <translation>%1 Pas</translation>
@@ -463,7 +485,11 @@
         <source>Unknown</source>
         <translation>i/e panjohur</translation>
     </message>
+<<<<<<< HEAD
 </context>
+=======
+    </context>
+>>>>>>> refs/remotes/origin/0.10
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>

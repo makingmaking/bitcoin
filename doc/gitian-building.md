@@ -13,8 +13,13 @@ Multiple developers build the source code by following a specific descriptor
 These results are compared and only if they match, the build is accepted and uploaded
 to bitcoin.org.
 
+<<<<<<< HEAD
 More independent Gitian builders are needed, which is why this guide exists.
 It is preferred you follow these steps yourself instead of using someone else's
+=======
+More independent Gitian builders are needed, which is why I wrote this
+guide. It is preferred to follow these steps yourself instead of using someone else's
+>>>>>>> refs/remotes/origin/0.10
 VM image to avoid 'contaminating' the build.
 
 Table of Contents
@@ -24,7 +29,11 @@ Table of Contents
 - [Connecting to the VM](#connecting-to-the-vm)
 - [Setting up Debian for Gitian building](#setting-up-debian-for-gitian-building)
 - [Installing Gitian](#installing-gitian)
+<<<<<<< HEAD
 - [Setting up the Gitian image](#setting-up-the-gitian-image)
+=======
+- [Setting up Gitian images](#setting-up-gitian-images)
+>>>>>>> refs/remotes/origin/0.10
 - [Getting and building the inputs](#getting-and-building-the-inputs)
 - [Building Bitcoin](#building-bitcoin)
 - [Building an alternative repository](#building-an-alternative-repository)
@@ -59,6 +68,7 @@ In the VirtualBox GUI click "Create" and choose the following parameters in the 
 
 ![](gitian-building/create_vm_hard_disk.png)
 
+<<<<<<< HEAD
 - Hard Disk: Create a virtual hard disk now
 
 ![](gitian-building/create_vm_hard_disk_file_type.png)
@@ -75,6 +85,24 @@ In the VirtualBox GUI click "Create" and choose the following parameters in the 
 - Click `Create`
 
 Get the [Debian 8.x net installer](http://cdimage.debian.org/debian-cd/8.2.0/amd64/iso-cd/debian-8.2.0-amd64-netinst.iso) (a more recent minor version should also work, see also [Debian Network installation](https://www.debian.org/CD/netinst/)).
+=======
+- Hard Drive: Create a virtual hard drive now
+
+![](gitian-building/create_vm_hard_drive_file_type.png)
+
+- Hard Drive file type: Use the default, VDI (VirtualBox Disk Image)
+
+![](gitian-building/create_vm_storage_physical_hard_drive.png)
+
+- Storage on Physical hard drive: Dynamically Allocated
+
+![](gitian-building/create_vm_file_location_size.png)
+
+- Disk size: at least 40GB; as low as 20GB *may* be possible, but better to err on the safe side
+- Push the `Create` button
+
+Get the [Debian 7.8 net installer](http://cdimage.debian.org/cdimage/archive/7.8.0/amd64/iso-cd/debian-7.8.0-amd64-netinst.iso) (a more recent minor version should also work, see also [Debian Network installation](https://www.debian.org/CD/netinst/)).
+>>>>>>> refs/remotes/origin/0.10
 This DVD image can be validated using a SHA256 hashing tool, for example on
 Unixy OSes by entering the following in a terminal:
 
@@ -127,7 +155,11 @@ To select a different button, press `Tab`.
 
 - The VM will detect network settings using DHCP, this should all proceed automatically
 - Configure the network:
+<<<<<<< HEAD
   - Hostname `debian`.
+=======
+  - System name `debian`.
+>>>>>>> refs/remotes/origin/0.10
   - Leave domain name empty.
 
 ![](gitian-building/debian_install_5_configure_the_network.png)
@@ -137,7 +169,10 @@ To select a different button, press `Tab`.
 ![](gitian-building/debian_install_6a_set_up_root_password.png)
 
 - Name the new user `debian` (the full name doesn't matter, you can leave it empty)
+<<<<<<< HEAD
 - Set the account username as `debian`
+=======
+>>>>>>> refs/remotes/origin/0.10
 
 ![](gitian-building/debian_install_7_set_up_user_fullname.png)
 ![](gitian-building/debian_install_8_set_up_username.png)
@@ -243,6 +278,12 @@ For example, to connect as `root` from a Linux command prompt use
 
 Replace `root` with `debian` to log in as user.
 
+<<<<<<< HEAD
+=======
+[1] http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
+[2] http://winscp.net/eng/index.php
+
+>>>>>>> refs/remotes/origin/0.10
 Setting up Debian for Gitian building
 --------------------------------------
 
@@ -300,19 +341,32 @@ cd ..
 
 **Note**: When sudo asks for a password, enter the password for the user *debian* not for *root*.
 
+<<<<<<< HEAD
 Clone the git repositories for bitcoin and Gitian.
+=======
+Clone the git repositories for bitcoin and Gitian and then checkout the bitcoin version that you want to build.
+>>>>>>> refs/remotes/origin/0.10
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
 git clone https://github.com/bitcoin/bitcoin
 ```
 
+<<<<<<< HEAD
 Setting up the Gitian image
 -------------------------
 
 Gitian needs a virtual image of the operating system to build in.
 Currently this is Ubuntu Precise x86_64.
 This image will be copied and used every time that a build is started to
+=======
+Setting up Gitian images
+-------------------------
+
+Gitian needs virtual images of the operating system to build in.
+Currently this is Ubuntu Precise for x86_64.
+These images will be copied and used every time that a build is started to
+>>>>>>> refs/remotes/origin/0.10
 make sure that the build is deterministic.
 Creating the image will take a while, but only has to be done once.
 
@@ -330,19 +384,32 @@ There will be a lot of warnings printed during the build of the image. These can
 Getting and building the inputs
 --------------------------------
 
+<<<<<<< HEAD
 Follow the instructions in [doc/release-process.md](release-process.md#fetch-and-build-inputs-first-time-or-when-dependency-versions-change)
 in the bitcoin repository under 'Fetch and build inputs' to install sources which require
 manual intervention. Also optionally follow the next step: 'Seed the Gitian sources cache
 and offline git repositories' which will fetch the remaining files required for building
 offline.
+=======
+Follow the instructions in [doc/release-process.md](release-process.md) in the bitcoin repository
+under 'Fetch and build inputs' to install sources which require manual intervention. Also follow
+the next step: 'Seed the Gitian sources cache', which will fetch all necessary source files allowing
+for Gitian to work offline.
+>>>>>>> refs/remotes/origin/0.10
 
 Building Bitcoin
 ----------------
 
 To build Bitcoin (for Linux, OS X and Windows) just follow the steps under 'perform
+<<<<<<< HEAD
 Gitian builds' in [doc/release-process.md](release-process.md#perform-gitian-builds) in the bitcoin repository.
 
 This may take some time as it will build all the dependencies needed for each descriptor.
+=======
+Gitian builds' in [doc/release-process.md](release-process.md) in the bitcoin repository.
+
+This may take a long time as it also builds the dependencies needed for each descriptor.
+>>>>>>> refs/remotes/origin/0.10
 These dependencies will be cached after a successful build to avoid rebuilding them when possible.
 
 At any time you can check the package installation and build progress with
@@ -350,7 +417,10 @@ At any time you can check the package installation and build progress with
 ```bash
 tail -f var/install.log
 tail -f var/build.log
+<<<<<<< HEAD
 ```
+=======
+>>>>>>> refs/remotes/origin/0.10
 
 Output from `gbuild` will look something like
 
@@ -361,7 +431,11 @@ Output from `gbuild` will look something like
     Resolving deltas: 100% (41590/41590), done.
     From https://github.com/bitcoin/bitcoin
     ... (new tags, new branch etc)
+<<<<<<< HEAD
     --- Building for precise amd64 ---
+=======
+    --- Building for precise x86_64 ---
+>>>>>>> refs/remotes/origin/0.10
     Stopping target if it is up
     Making a new image copy
     stdin: is not a tty

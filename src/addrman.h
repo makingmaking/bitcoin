@@ -112,10 +112,17 @@ public:
  *
  * To that end:
  *  * Addresses are organized into buckets.
+<<<<<<< HEAD
  *    * Addresses that have not yet been tried go into 1024 "new" buckets.
  *      * Based on the address range (/16 for IPv4) of the source of information, 64 buckets are selected at random.
  *      * The actual bucket is chosen from one of these, based on the range in which the address itself is located.
  *      * One single address can occur in up to 8 different buckets to increase selection chances for addresses that
+=======
+ *    * Address that have not yet been tried go into 1024 "new" buckets.
+ *      * Based on the address range (/16 for IPv4) of source of the information, 64 buckets are selected at random
+ *      * The actual bucket is chosen from one of these, based on the range the address itself is located.
+ *      * One single address can occur in up to 8 different buckets, to increase selection chances for addresses that
+>>>>>>> refs/remotes/origin/0.10
  *        are seen frequently. The chance for increasing this multiplicity decreases exponentially.
  *      * When adding a new address to a full bucket, a randomly chosen entry (with a bias favoring less recently seen
  *        ones) is removed from it first.
@@ -232,8 +239,14 @@ protected:
     //! Mark an entry as attempted to connect.
     void Attempt_(const CService &addr, int64_t nTime);
 
+<<<<<<< HEAD
     //! Select an address to connect to, if newOnly is set to true, only the new table is selected from.
     CAddrInfo Select_(bool newOnly);
+=======
+    //! Select an address to connect to.
+    //! nUnkBias determines how much to favor new addresses over tried ones (min=0, max=100)
+    CAddress Select_();
+>>>>>>> refs/remotes/origin/0.10
 
 #ifdef DEBUG_ADDRMAN
     //! Perform consistency check. Returns an error code or zero.
@@ -456,7 +469,11 @@ public:
 
     ~CAddrMan()
     {
+<<<<<<< HEAD
         nKey.SetNull();
+=======
+        nKey = uint256(0);
+>>>>>>> refs/remotes/origin/0.10
     }
 
     //! Return the number of (unique) addresses in all tables.
@@ -534,13 +551,21 @@ public:
     /**
      * Choose an address to connect to.
      */
+<<<<<<< HEAD
     CAddrInfo Select(bool newOnly = false)
+=======
+    CAddress Select()
+>>>>>>> refs/remotes/origin/0.10
     {
         CAddrInfo addrRet;
         {
             LOCK(cs);
             Check();
+<<<<<<< HEAD
             addrRet = Select_(newOnly);
+=======
+            addrRet = Select_();
+>>>>>>> refs/remotes/origin/0.10
             Check();
         }
         return addrRet;

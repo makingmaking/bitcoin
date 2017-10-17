@@ -2,10 +2,13 @@
 <context>
     <name>AddressBookPage</name>
     <message>
+<<<<<<< HEAD
         <source>Right-click to edit address or label</source>
         <translation>Eskuin-klika helbidea edo etiketa editatzeko</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Create a new address</source>
         <translation>Sortu helbide berria</translation>
     </message>

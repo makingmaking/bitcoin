@@ -123,6 +123,7 @@ bool ProduceSignature(const BaseSignatureCreator& creator, const CScript& fromPu
     }
 
     // Test solution
+<<<<<<< HEAD
     return VerifyScript(scriptSig, fromPubKey, STANDARD_SCRIPT_VERIFY_FLAGS, creator.Checker());
 }
 
@@ -135,6 +136,9 @@ bool SignSignature(const CKeyStore &keystore, const CScript& fromPubKey, CMutabl
     TransactionSignatureCreator creator(&keystore, &txToConst, nIn, nHashType);
 
     return ProduceSignature(creator, fromPubKey, txin.scriptSig);
+=======
+    return VerifyScript(txin.scriptSig, fromPubKey, STANDARD_SCRIPT_VERIFY_FLAGS, MutableTransactionSignatureChecker(&txTo, nIn));
+>>>>>>> refs/remotes/origin/0.10
 }
 
 bool SignSignature(const CKeyStore &keystore, const CTransaction& txFrom, CMutableTransaction& txTo, unsigned int nIn, int nHashType)
@@ -185,7 +189,11 @@ static CScript CombineMultisig(const CScript& scriptPubKey, const BaseSignatureC
             if (sigs.count(pubkey))
                 continue; // Already got a sig for this pubkey
 
+<<<<<<< HEAD
             if (checker.CheckSig(sig, pubkey, scriptPubKey))
+=======
+            if (TransactionSignatureChecker(&txTo, nIn).CheckSig(sig, pubkey, scriptPubKey))
+>>>>>>> refs/remotes/origin/0.10
             {
                 sigs[pubkey] = sig;
                 break;

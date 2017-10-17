@@ -37,7 +37,11 @@ needed: Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/Ma
 
 Unfortunately, the usual linux tools (7zip, hpmount, loopback mount) are incapable of opening this file.
 To create a tarball suitable for Gitian input, mount the dmg in OS X, then create it with:
+<<<<<<< HEAD
   $ tar -C /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/ -czf MacOSX10.9.sdk.tar.gz MacOSX10.9.sdk
+=======
+  $ tar -C /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/ -czf MacOSX10.7.sdk.tar.gz MacOSX10.7.sdk
+>>>>>>> refs/remotes/origin/0.10
 
 
 The Gitian descriptors build 2 sets of files: Linux tools, then Apple binaries

@@ -798,6 +798,7 @@ void SetupEnvironment()
     // boost::filesystem::path, which is then used to explicitly imbue the path.
     std::locale loc = boost::filesystem::path::imbue(std::locale::classic());
     boost::filesystem::path::imbue(loc);
+<<<<<<< HEAD
 }
 
 bool SetupNetworking()
@@ -810,6 +811,8 @@ bool SetupNetworking()
         return false;
 #endif
     return true;
+=======
+>>>>>>> refs/remotes/origin/0.10
 }
 
 void SetThreadPriority(int nPriority)

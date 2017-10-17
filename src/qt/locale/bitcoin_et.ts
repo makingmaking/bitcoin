@@ -345,10 +345,13 @@
         <source>%1 and %2</source>
         <translation>%1 ja %2</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation><numerusform>%n aasta</numerusform><numerusform>%n aastat</numerusform></translation>
     </message>
+=======
+>>>>>>> refs/remotes/origin/0.10
     <message>
         <source>%1 behind</source>
         <translation>%1 maas</translation>
@@ -644,6 +647,10 @@
         <translation>MB</translation>
     </message>
     <message>
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
         <source>Reset all client options to default.</source>
         <translation>Taasta kõik klientprogrammi seadete vaikeväärtused.</translation>
     </message>
@@ -757,6 +764,13 @@
     <message>
         <source>Recent transactions</source>
         <translation>Hiljutised tehingud</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>sünkimata</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     </context>
 <context>
@@ -1026,10 +1040,13 @@
         <translation>Vali...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Hide</source>
         <translation>Peida</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Recommended:</source>
         <translation>Soovitatud:</translation>
     </message>
@@ -1080,6 +1097,13 @@
     <message>
         <source>or</source>
         <translation>või</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>The recipient address is not valid, please recheck.</source>
+        <translation>Saaja aadress ei ole kehtiv, palun kontrolli.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
@@ -1768,6 +1792,7 @@
         <translation>Tehingu allkirjastamine ebaõnnestus</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Start minimized</source>
         <translation>Käivitu tegumiribale</translation>
     </message>
@@ -1776,6 +1801,8 @@
         <translation>Tehingu summa on tasu maksmiseks liiga väikene</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Transaction amount too small</source>
         <translation>Tehingu summa liiga väikene</translation>
     </message>
@@ -1784,8 +1811,13 @@
         <translation>Tehing liiga suur</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>UI Options:</source>
         <translation>UI Valikud:</translation>
+=======
+        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
+        <translation>Kasuta kuulatava pordi määramiseks UPnP ühendust (vaikeväärtus: 1, kui kuulatakse)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -1794,6 +1826,10 @@
     <message>
         <source>Warning</source>
         <translation>Hoiatus</translation>
+    </message>
+    <message>
+        <source>on startup</source>
+        <translation>käivitamisel</translation>
     </message>
     <message>
         <source>on startup</source>

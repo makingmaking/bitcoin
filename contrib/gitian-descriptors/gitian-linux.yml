@@ -24,7 +24,11 @@ files: []
 script: |
   WRAP_DIR=$HOME/wrapped
   HOSTS="i686-pc-linux-gnu x86_64-unknown-linux-gnu"
+<<<<<<< HEAD
   CONFIGFLAGS="--enable-glibc-back-compat --enable-reduce-exports LDFLAGS=-static-libstdc++"
+=======
+  CONFIGFLAGS="--enable-glibc-back-compat"
+>>>>>>> refs/remotes/origin/0.10
   FAKETIME_HOST_PROGS=""
   FAKETIME_PROGS="date ar ranlib nm strip"
 

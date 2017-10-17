@@ -188,7 +188,11 @@ bool static IsDefinedHashtypeSignature(const valtype &vchSig) {
     return true;
 }
 
+<<<<<<< HEAD
 bool CheckSignatureEncoding(const vector<unsigned char> &vchSig, unsigned int flags, ScriptError* serror) {
+=======
+bool static CheckSignatureEncoding(const valtype &vchSig, unsigned int flags, ScriptError* serror) {
+>>>>>>> refs/remotes/origin/0.10
     // Empty signature. Not strictly DER encoded, but allowed to provide a
     // compact way to provide an invalid signature for use with CHECK(MULTI)SIG
     if (vchSig.size() == 0) {
@@ -336,6 +340,7 @@ bool EvalScript(vector<vector<unsigned char> >& stack, const CScript& script, un
                 //
                 case OP_NOP:
                     break;
+<<<<<<< HEAD
 
                 case OP_CHECKLOCKTIMEVERIFY:
                 {
@@ -350,6 +355,22 @@ bool EvalScript(vector<vector<unsigned char> >& stack, const CScript& script, un
                     if (stack.size() < 1)
                         return set_error(serror, SCRIPT_ERR_INVALID_STACK_OPERATION);
 
+=======
+
+                case OP_CHECKLOCKTIMEVERIFY:
+                {
+                    if (!(flags & SCRIPT_VERIFY_CHECKLOCKTIMEVERIFY)) {
+                        // not enabled; treat as a NOP2
+                        if (flags & SCRIPT_VERIFY_DISCOURAGE_UPGRADABLE_NOPS) {
+                            return set_error(serror, SCRIPT_ERR_DISCOURAGE_UPGRADABLE_NOPS);
+                        }
+                        break;
+                    }
+
+                    if (stack.size() < 1)
+                        return set_error(serror, SCRIPT_ERR_INVALID_STACK_OPERATION);
+
+>>>>>>> refs/remotes/origin/0.10
                     // Note that elsewhere numeric opcodes are limited to
                     // operands in the range -2**31+1 to 2**31-1, however it is
                     // legal for opcodes to produce results exceeding that
@@ -1128,7 +1149,11 @@ bool TransactionSignatureChecker::CheckSig(const vector<unsigned char>& vchSigIn
 
 bool TransactionSignatureChecker::CheckLockTime(const CScriptNum& nLockTime) const
 {
+<<<<<<< HEAD
     // There are two kinds of nLockTime: lock-by-blockheight
+=======
+    // There are two times of nLockTime: lock-by-blockheight
+>>>>>>> refs/remotes/origin/0.10
     // and lock-by-blocktime, distinguished by whether
     // nLockTime < LOCKTIME_THRESHOLD.
     //

@@ -168,10 +168,13 @@
         <translation>Ці ўпэўненыя вы, што жадаеце зашыфраваць свой гаманец?</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Bitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
         <translation>Bitcoin Core зараз будзе зачынены, каб фіналізаваць працэс шыфравання. Памятайце, што шыфраванне вашага гаманца не гарантуе абсалютную абарону ад магчымасці крадзяжу біткойнаў шкоднымі праграмамі, якія могуць інфікаваць ваш камп'ютар.</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>ВАЖНА: Усе папярэднія копіі гаманца варта замяніць новым зашыфраваным файлам. У мэтах бяспекі папярэднія копіі незашыфраванага файла-гаманца стануць неўжывальнымі, калі вы станеце карыстацца новым зашыфраваным гаманцом.</translation>
     </message>
@@ -188,8 +191,13 @@
         <translation>Увядзіце новы пароль для гаманца.&lt;br/&gt;Парольная фраза павинна складацца&lt;b&gt; не меньш чым з дзесяці сімвалаў&lt;/b&gt;, ці &lt;b&gt;больш чым з васьмі слоў&lt;/b&gt;.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
         <translation>Увядзіце стары пароль і новы пароль для гаманца.</translation>
+=======
+        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>Bitcoin зачыняецца дзеля завяршэння працэсса шыфравання. Памятайце, што шыфраванне гаманца цалкам абараняе вашыя сродкі ад скрадання шкоднымі праграмамі якія могуць пранікнуць у ваш камп'ютар.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -398,10 +406,13 @@
         <translation>Аб Bitcoin Core</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Modify configuration options for Bitcoin Core</source>
         <translation>Мадыфікаваць опцыі канфігурацыі Bitcoin Core</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Show the list of used sending addresses and labels</source>
         <translation>Паказаць спіс адрасоў і метак для дасылання</translation>
     </message>
@@ -423,12 +434,17 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
+<<<<<<< HEAD
         <translation><numerusform>%n актыўнае злучэнне з сецівам Bitcoin</numerusform><numerusform>%n актыўных злучэнняў з сецівам Bitcoin</numerusform><numerusform>%n актыўных злучэнняў з сецівам Bitcoin</numerusform><numerusform>%n актыўных злучэнняў з сецівам Bitcoin</numerusform></translation>
+=======
+        <translation><numerusform>%n актыўнае злучэнне з Bitcoin-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Bitcoin-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Bitcoin-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Bitcoin-сецівам</numerusform></translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>No block source available...</source>
         <translation>Крыніца блокаў недасяжная...</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation><numerusform>Апрацаваны %n блок гісторыі транзакцый.</numerusform><numerusform>Апрацавана %n блокі гісторыі транзакцый.</numerusform><numerusform>Апрацавана %n блокаў гісторыі транзакцый.</numerusform><numerusform>Апрацавана %n блокаў гісторыі транзакцый.</numerusform></translation>
@@ -445,14 +461,19 @@
         <source>%n week(s)</source>
         <translation><numerusform>%n тыдзень</numerusform><numerusform>%n тыдні</numerusform><numerusform>%n тыдняў</numerusform><numerusform>%n тыдняў</numerusform></translation>
     </message>
+=======
+>>>>>>> refs/remotes/origin/0.10
     <message>
         <source>%1 and %2</source>
         <translation>%1 і %2</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation><numerusform>%n год</numerusform><numerusform>%n гады</numerusform><numerusform>%n гадоў</numerusform><numerusform>%n гадоў</numerusform></translation>
     </message>
+=======
+>>>>>>> refs/remotes/origin/0.10
     <message>
         <source>%1 behind</source>
         <translation>%1 таму</translation>
@@ -702,6 +723,13 @@
         <translation>не</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
+        <translation>Гэта метка стане чырвонай, калі транзакцыя перавысіць 1000 байт.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>This means a fee of at least %1 per kB is required.</source>
         <translation>Гэта значыць патрэбную камісію мінімум %1 на Кб.</translation>
     </message>
@@ -710,6 +738,17 @@
         <translation>Транзакцыя большага прыярытэту больш прываблівая для ўключэння ў блок.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>This label turns red, if the priority is smaller than "medium".</source>
+        <translation>Гэта метка стане чырвонай, калі прыярытэт меньш чым "сярэдні".</translation>
+    </message>
+    <message>
+        <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
+        <translation>Гэта метка стане чырвонай, калі любы з адрасатаў атрымае меньш чым %1.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>(no label)</source>
         <translation>непазначаны</translation>
     </message>
@@ -798,7 +837,15 @@
         <source>command-line options</source>
         <translation>опцыі каманднага радка</translation>
     </message>
+<<<<<<< HEAD
 </context>
+=======
+    <message>
+        <source>Start minimized</source>
+        <translation>Стартаваць ммінімізаванай</translation>
+    </message>
+    </context>
+>>>>>>> refs/remotes/origin/0.10
 <context>
     <name>Intro</name>
     <message>
@@ -1440,6 +1487,66 @@
         <translation>Опцыі RPC сервера:</translation>
     </message>
     <message>
+        <source>Do you want to rebuild the block database now?</source>
+        <translation>Ці жадаеце вы перабудаваць зараз базу звестак блокаў?</translation>
+    </message>
+    <message>
+        <source>Error initializing block database</source>
+        <translation>Памылка ініцыялізацыі базвы звестак блокаў</translation>
+    </message>
+    <message>
+        <source>Error initializing wallet database environment %s!</source>
+        <translation>Памалка ініцыялізацыі асяроддзя базы звестак гаманца %s!</translation>
+    </message>
+    <message>
+        <source>Error loading block database</source>
+        <translation>Памылка загрузкі базвы звестак блокаў</translation>
+    </message>
+    <message>
+        <source>Error opening block database</source>
+        <translation>Памылка адчынення базы звестак блокаў</translation>
+    </message>
+    <message>
+        <source>Error: Disk space is low!</source>
+        <translation>Памылка: Замала вольнага месца на дыску!</translation>
+    </message>
+    <message>
+        <source>Importing...</source>
+        <translation>Імпартаванне...</translation>
+    </message>
+    <message>
+        <source>Not enough file descriptors available.</source>
+        <translation>Не хапае файлавых дэскрыптараў.</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: %u)</source>
+        <translation>Use UPnP to map the listening port (default: %u)</translation>
+    </message>
+    <message>
+        <source>Verifying blocks...</source>
+        <translation>Праверка блокаў...</translation>
+    </message>
+    <message>
+        <source>Verifying wallet...</source>
+        <translation>Праверка гаманца...</translation>
+    </message>
+    <message>
+        <source>Wallet options:</source>
+        <translation>Опцыі гаманца:</translation>
+    </message>
+    <message>
+        <source>Imports blocks from external blk000??.dat file</source>
+        <translation>Імпартаванне блокаў з вонкавага blk000??.dat файла</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Інфармацыя</translation>
+    </message>
+    <message>
+        <source>RPC server options:</source>
+        <translation>Опцыі RPC сервера:</translation>
+    </message>
+    <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Слаць trace/debug звесткі ў кансоль замест файла debug.log</translation>
     </message>
@@ -1448,10 +1555,13 @@
         <translation>Памылка подпісу транзакцыі</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Start minimized</source>
         <translation>Стартаваць ммінімізаванай</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>This is experimental software.</source>
         <translation>Гэта эксперыментальная праграма.</translation>
     </message>

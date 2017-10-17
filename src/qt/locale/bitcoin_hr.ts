@@ -421,6 +421,18 @@
         <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>Ispis svih opcija naredbene linije programa sa kratkim opisom</translation>
     </message>
+    <message>
+        <source>Open a bitcoin: URI or payment request</source>
+        <translation>Otvori bitcoin: URI adresu ili zahtjev za uplatu</translation>
+    </message>
+    <message>
+        <source>&amp;Command-line options</source>
+        <translation>Opcije &amp;naredbene linije</translation>
+    </message>
+    <message>
+        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <translation>Ispis svih opcija naredbene linije programa sa kratkim opisom</translation>
+    </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
         <translation><numerusform>%n aktivna veza na Bitcoin mrežu</numerusform><numerusform>%n aktivnih veza na Bitcoin mrežu</numerusform><numerusform>%n aktivnih veza na Bitcoin mrežu</numerusform></translation>
@@ -456,6 +468,18 @@
     <message>
         <source>Transactions after this will not yet be visible.</source>
         <translation>Transakcije izvršene za tim blokom nisu još prikazane.</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 i %2</translation>
+    </message>
+    <message>
+        <source>Last received block was generated %1 ago.</source>
+        <translation>Zadnji primljeni blok je bio ustvaren prije %1.</translation>
+    </message>
+    <message>
+        <source>Transactions after this will not yet be visible.</source>
+        <translation>Transakcije izvršene za tim blokom nisu jop prikazane.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -646,6 +670,7 @@
         <translation>najniža</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This label turns red if the transaction size is greater than 1000 bytes.</source>
         <translation>Oznaka postane crvene boje ako je transakcija veća od 1000 bajtova.</translation>
     </message>
@@ -658,6 +683,8 @@
         <translation>Oznaka postane crvene boje ako je iznos manji od %1</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>yes</source>
         <translation>da</translation>
     </message>
@@ -686,7 +713,11 @@
     </message>
     <message>
         <source>The label associated with this address list entry</source>
+<<<<<<< HEAD
         <translation>Oznaka bitcoin adrese</translation>
+=======
+        <translation>Oznaka adrese</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
@@ -765,10 +796,25 @@
     <message>
         <source>Command-line options</source>
         <translation>Opcije programa u naredbenoj liniji</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Usage:</source>
         <translation>Upotreba:</translation>
+=======
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Upotreba:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>opcije programa u naredbenoj liniji</translation>
+    </message>
+    <message>
+        <source>UI options</source>
+        <translation>UI postavke</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>command-line options</source>
@@ -860,10 +906,39 @@
         <translation>Po&amp;nastavi postavke</translation>
     </message>
     <message>
+        <source>Size of &amp;database cache</source>
+        <translation>Veličina predmemorije baze podataka</translation>
+    </message>
+    <message>
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
+        <source>Number of script &amp;verification threads</source>
+        <translation>Broj CPU niti za verifikaciju transakcija</translation>
+    </message>
+    <message>
+        <source>Allow incoming connections</source>
+        <translation>Dozvoli povezivanje izvana</translation>
+    </message>
+    <message>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>IP adresa proxy servera (npr. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+    </message>
+    <message>
+        <source>Reset all client options to default.</source>
+        <translation>Nastavi sve postavke programa na početne vrijednosti.</translation>
+    </message>
+    <message>
+        <source>&amp;Reset Options</source>
+        <translation>Po&amp;nastavi postavke</translation>
+    </message>
+    <message>
         <source>&amp;Network</source>
         <translation>&amp;Mreža</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically start Bitcoin Core after logging in to the system.</source>
         <translation>Program se automatski pokrene po prijavi u sustav.</translation>
     </message>
@@ -872,6 +947,8 @@
         <translation>&amp;Pokreni program kod prijave u sustav</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>W&amp;allet</source>
         <translation>&amp;Novčanik</translation>
     </message>
@@ -921,7 +998,11 @@
     </message>
     <message>
         <source>User Interface &amp;language:</source>
+<<<<<<< HEAD
         <translation>Jezi&amp;k sučelja:</translation>
+=======
+        <translation>Jezik:</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1101,12 +1182,20 @@
         <source>Unknown</source>
         <translation>Nepoznato</translation>
     </message>
+<<<<<<< HEAD
 </context>
+=======
+    </context>
+>>>>>>> refs/remotes/origin/0.10
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>&amp;Amount:</source>
+<<<<<<< HEAD
         <translation>&amp;Iznos:</translation>
+=======
+        <translation>Iznos:</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -1181,7 +1270,11 @@
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
+<<<<<<< HEAD
         <translation>Greška kod kodiranja URI adrese u QR kod.</translation>
+=======
+        <translation>Greška pri kodiranju URI adrese u QR kod.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
 </context>
 <context>
@@ -1849,7 +1942,11 @@
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+<<<<<<< HEAD
         <translation>Nevaljali iznos za opciju -paytxfee=&lt;iznos&gt;: '%s'</translation>
+=======
+        <translation>Nevaljali iznos za opciju -paytxfee=&lt;amount&gt;: '%s'</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Insufficient funds</source>

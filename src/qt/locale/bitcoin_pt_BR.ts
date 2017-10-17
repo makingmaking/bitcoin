@@ -11,7 +11,7 @@
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Novo</translation>
+        <translation>Novo</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
@@ -19,15 +19,15 @@
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Copiar</translation>
+        <translation>Copiar</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>&amp;Fechar</translation>
+        <translation>Fechar</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Copiar Endereço</translation>
+        <translation>Copiar Endereço</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -39,11 +39,11 @@
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Exportar</translation>
+        <translation>Exportar</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Excluir</translation>
+        <translation>Excluir</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -79,7 +79,7 @@
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Editar</translation>
+        <translation>Editar</translation>
     </message>
     <message>
         <source>Export Address List</source>
@@ -227,7 +227,11 @@
     <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
+<<<<<<< HEAD
         <translation>&amp;Assinar mensagem...</translation>
+=======
+        <translation>Assinar Mensagem...</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -235,7 +239,7 @@
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;Visão geral</translation>
+        <translation>Visão geral</translation>
     </message>
     <message>
         <source>Node</source>
@@ -247,7 +251,7 @@
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Transações</translation>
+        <translation>Transações</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
@@ -271,19 +275,23 @@
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;Opções...</translation>
+        <translation>Opções...</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Criptografar Carteira...</translation>
+        <translation>Criptografar Carteira...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
+<<<<<<< HEAD
         <translation>&amp;Backup da carteira...</translation>
+=======
+        <translation>Backup Carteira...</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Mudar frase de segurança...</translation>
+        <translation>Mudar frase de segurança...</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
@@ -291,11 +299,15 @@
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
+<<<<<<< HEAD
         <translation>Endereços de &amp;recebimento...</translation>
+=======
+        <translation>Receber endereços...</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Abrir &amp;URI...</translation>
+        <translation>Abrir URI...</translation>
     </message>
     <message>
         <source>Bitcoin Core client</source>
@@ -331,7 +343,7 @@
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Verificar mensagem...</translation>
+        <translation>Verificar mensagem...</translation>
     </message>
     <message>
         <source>Bitcoin</source>
@@ -343,11 +355,11 @@
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;Enviar</translation>
+        <translation>Enviar</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;Receber</translation>
+        <translation>Receber</translation>
     </message>
     <message>
         <source>Show information about Bitcoin Core</source>
@@ -355,7 +367,7 @@
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Exibir/Ocultar</translation>
+        <translation>Exibir/Ocultar</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
@@ -400,10 +412,13 @@
     <message>
         <source>&amp;About Bitcoin Core</source>
         <translation>&amp;Sobre Bitcoin</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Modify configuration options for Bitcoin Core</source>
         <translation>Modificar opções de configuração do Bitcoin</translation>
+=======
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -1090,6 +1105,13 @@
     <message>
         <source>User Interface &amp;language:</source>
         <translation>&amp;Linguagem da interface:</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
+        <translation>A língua da interface com usuário pode ser escolhida aqui. Esta configuração só surtirá efeito após reiniciar o Bitcoin.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1213,6 +1235,13 @@
     <message>
         <source>Current total balance in watch-only addresses</source>
         <translation>Balanço total em endereços monitorados</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>fora de sincronia</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
 </context>
 <context>
@@ -1232,6 +1261,15 @@
     <message>
         <source>Payment request network doesn't match client network.</source>
         <translation>Rede de pedido de pagamento não corresponde rede do cliente.</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Payment request is not initialized.</source>
+        <translation>Pedido de pagamento não é inicializado.</translation>
+=======
+        <source>Payment request has expired.</source>
+        <translation>Solicitação de pagamento expirou.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Payment request is not initialized.</source>
@@ -1266,10 +1304,13 @@
         <translation>Arquivo de pedido de pagamento não pode ser lido ! Isto pode ser causado por uma requisição de pagamento inválida.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request expired.</source>
         <translation>Pedido de pagamento expirado.</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation>Cobrança não verificada para scripts de pagamento personalizados não é suportado.</translation>
     </message>
@@ -1286,6 +1327,13 @@
         <translation>Pedido de pagamento %1 é muito grande (%2 bytes, permitido %3 bytes).</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Payment request DoS protection</source>
+        <translation>Pagamento requer proteção DoS</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Error communicating with %1: %2</source>
         <translation>Erro na comunicação com %1: %2</translation>
     </message>
@@ -1313,8 +1361,13 @@
         <translation>User Agent</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Node/Service</source>
         <translation>Nó/Serviço</translation>
+=======
+        <source>Address/Hostname</source>
+        <translation>Endereço/Hostname</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Ping Time</source>
@@ -1474,6 +1527,14 @@
         <translation>Serviços</translation>
     </message>
     <message>
+        <source>Starting Height</source>
+        <translation>Altura inicial</translation>
+    </message>
+    <message>
+        <source>Sync Height</source>
+        <translation>Altura sincronizada</translation>
+    </message>
+    <message>
         <source>Ban Score</source>
         <translation>Banir pontuação</translation>
     </message>
@@ -1601,6 +1662,13 @@
         <source>Unknown</source>
         <translation>Desconhecido</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Fetching...</source>
+        <translation>Buscando...</translation>
+    </message>
+>>>>>>> refs/remotes/origin/0.10
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -1842,6 +1910,17 @@
         <translation>colapso Taxa de definições</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Minimize</source>
+        <translation>Minimizar</translation>
+    </message>
+    <message>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa personalizada for definida em 1000 satoshis e a transação tiver somente 250 bytes, então "por kilobyte" somente paga 250 satoshis de taxa, enquanto "pelo menos" paga 1000 satoshis. Se a transação for maior que 1 kilobyte, ambos pagam por kilobyte.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>per kilobyte</source>
         <translation>por kilobyte</translation>
     </message>
@@ -1850,10 +1929,13 @@
         <translation>Se a taxa personalizada for definida em 1000 satoshis e a transação tiver somente 250 bytes, então "por kilobyte" somente paga 250 satoshis de taxa, enquanto "pelo menos" paga 1000 satoshis. Se a transação for maior que 1 kilobyte, ambos pagam por kilobyte.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Hide</source>
         <translation>Ocultar</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>total at least</source>
         <translation>pelo menos</translation>
     </message>
@@ -1990,6 +2072,7 @@
         <translation>A transação foi rejeitada! Isso pode acontecer se alguns bitcoins na sua carteira já foram gastos em outro local, por exemplo se você tiver uma cópia do wallet.dat e os bitcoins tiverem sido gastos na cópia mas não marcados como gastos aqui ainda.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
         <translation>Uma taxa maior que %1 é considerada uma taxa absurdamente alto.</translation>
     </message>
@@ -2000,18 +2083,27 @@
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation><numerusform>Confirmação estimada em %n bloco.</numerusform><numerusform>Confirmação estimada em %n blocos.</numerusform></translation>
+=======
+        <source>A fee higher than %1 is considered an insanely high fee.</source>
+        <translation>Uma taxa acima de %1 é considerada uma taxa insanamente alta.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
         <translation>Pagar somente a taxa mínima de %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The recipient address is not valid. Please recheck.</source>
         <translation>O endereço do destinatário é inválido. Favor confirmar.</translation>
     </message>
     <message>
         <source>Duplicate address found: addresses should only be used once each.</source>
         <translation>Endereço duplicado encontrado: Endereços devem ser usados somente uma vez cada.</translation>
+=======
+        <source>Estimated to begin confirmation within %1 block(s).</source>
+        <translation>Confirmação estimada em %1 bloco(s)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Warning: Invalid Bitcoin address</source>
@@ -2125,11 +2217,19 @@
     <name>ShutdownWindow</name>
     <message>
         <source>Bitcoin Core is shutting down...</source>
+<<<<<<< HEAD
         <translation>Bitcoin está sendo encerrado...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>Não desligue o computador até que esta janela desapareça.</translation>
+=======
+        <translation>Bitcoin está desligando...</translation>
+    </message>
+    <message>
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation>Não desligue o computador até esta janela desapareça.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
 </context>
 <context>
@@ -2143,8 +2243,13 @@
         <translation>&amp;Assinar mensagem</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Você pode assinar mensagens com seus endereços para provar que você pode receber bitcoins enviados por alguém. Cuidado para não assinar nada vago ou aleatório, pois ataques phishing podem tentar te enganar para assinar coisas para eles como se fosse você. Somente assine termos bem detalhados que você concorde.</translation>
+=======
+        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Você pode assinar mensagens com seus endereços para provar que você é o dono delas. Seja cuidadoso para não assinar algo vago, pois ataques de phishing podem tentar te enganar para dar sua assinatura de identidade para eles. Apenas assine afirmações completamente detalhadas com as quais você concorda.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>The Bitcoin address to sign the message with</source>
@@ -2552,6 +2657,13 @@
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
         <translation>Mostrar ou não endereços Bitcoin na lista de transações.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>Endereço de destino da transação.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -2798,10 +2910,21 @@
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Apaga todas as transações da carteira e somente recupera essas partes da blockchain usando o comando -rescan na inicialização</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>Distribuido sob a licença MIT software license. Veja os termos em &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
+=======
+    </message>
+    <message>
+        <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
+        <translation>Distribuido sob a licença MIT software license. Veja os termos em &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
+    </message>
+    <message>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>Entra no modo de teste de regressão, que usa uma cadeia especial onde os blocos podem ser resolvidos instantaneamente.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
@@ -2924,12 +3047,17 @@
         <translation>Somente conectar a clientes na rede &lt;net&gt; (ipv4, ipv6 ou onion)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Prune cannot be configured with a negative value.</source>
         <translation>O modo Prune não pode ser configurado com um valor negativo.</translation>
     </message>
     <message>
         <source>Prune mode is incompatible with -txindex.</source>
         <translation>O modo Prune é incompatível com -txindex.</translation>
+=======
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation>Reconstruir índice de blockchain a partir dos arquivos atuais blk000??.dat</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
@@ -2942,6 +3070,10 @@
     <message>
         <source>Specify wallet file (within data directory)</source>
         <translation>Especifique o arquivo da carteira (dentro do diretório de dados)</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: %u)</source>
+        <translation>Use UPnP para mapear a porta de entrada (padrão: %u)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
@@ -2962,10 +3094,13 @@
     <message>
         <source>Wallet options:</source>
         <translation>Opções da carteira:</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Warning: This version is obsolete; upgrade required!</source>
         <translation>Atenção: Essa versão está obsoleta, atualização necessária!</translation>
+=======
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
@@ -2980,16 +3115,28 @@
         <translation>Permitir conexões JSON-RPC de uma fonte específica. Válido para um único ip (ex. 1.2.3.4), até uma rede/máscara (ex. 1.2.3.4/255.255.255.0) ou uma rede/CIDR (ex. 1.2.3.4/24). Esta opção pode ser usada múltiplas vezes</translation>
     </message>
     <message>
+<<<<<<< HEAD
+        <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
+        <translation>Vincular ao endereço fornecido e sempre escutar nele. Use a notação [host]:port para IPv6</translation>
+=======
+        <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
+        <translation>Um erro ocorreu enquanto configurando o endereço RPC %s porta %u para escuta: %s</translation>
+>>>>>>> refs/remotes/origin/0.10
+    </message>
+    <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
         <translation>Vincular ao endereço fornecido e sempre escutar nele. Use a notação [host]:port para IPv6</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
         <translation>Não foi possível obter acesso exclusivo ao diretório de dados %s. Provavelmente Bitcoin já está sendo executado.</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
         <translation>Descobrir o próprio IP (padrão: 1 enquanto aguardando conexões e sem -externalip ou -proxy)</translation>
+=======
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3020,6 +3167,30 @@
         <translation>Ativando a melhor sequência...</translation>
     </message>
     <message>
+        <source>To use bitcoind, or the -server option to bitcoin-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</source>
+        <translation>Para usar o bitcoind, ou a opção -server do bitcoin-qt, você deve definir rpcpassword no arquivo de configuração:
+%s
+É recomendado que use a seguinte senha randômica:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(você não precisa lembrar esta senha)
+O usuário e senha NÃO DEVEM ser os mesmos.
+Se o arquivo não existir, crie com permissão de proprietário criador somente.
+É também recomendado definir a opção alertnotify se deseja ser notificado de problemas;
+por exemplo: alertnotify=echo %%s | mail -s "Alerta do Bitcoin" admin@foo.com.br
+</translation>
+    </message>
+    <message>
         <source>Cannot resolve -whitebind address: '%s'</source>
         <translation>Impossível resolver endereço -whitebind: '%s'</translation>
     </message>
@@ -3040,8 +3211,25 @@
         <translation>Erro ao carregar wallet.dat: A carteira requer a nova versão do Bitcoin</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error reading from database, shutting down.</source>
         <translation>Erro ao ler o banco de dados. Finalizando.</translation>
+=======
+        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>
+        <translation>Erro ao carregar wallet.dat: A carteira requer a nova versão do Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error reading from database, shutting down.</source>
+        <translation>Erro ao ler o banco de dados. Finalizando.</translation>
+    </message>
+    <message>
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation>Erro: Argumento não suportado -tor, use -onion.</translation>
+    </message>
+    <message>
+        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (em BTC/kB) a adicionar nas transações que você envia (padrão: %s)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Information</source>
@@ -3074,6 +3262,13 @@
     <message>
         <source>Node relay options:</source>
         <translation>Opções de relé nó :</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>Opções RPC SSL: (veja o Bitcoin Wiki para instruções de configuração SSL)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3092,6 +3287,7 @@
         <translation>Enviar transação sem taxa, se possível (padrão: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set SSL root certificates for payment request (default: -system-)</source>
         <translation>Define certificados SSL root para requisição de pagamento (padrão: -system-)</translation>
     </message>
@@ -3100,6 +3296,8 @@
         <translation>Escolher língua, por exemplo "de_DE" (padrão: localização do sistema)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>Show all debugging options (usage: --help -help-debug)</source>
         <translation>Exibir todas opções de depuração (uso: --help -help-debug)</translation>
     </message>
@@ -3164,6 +3362,13 @@
         <translation>Atenção</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Warning: This version is obsolete, upgrade required!</source>
+        <translation>Atenção: Esta versão está obsoleta, atualização necessária!</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Zapping all transactions from wallet...</source>
         <translation>Aniquilando todas as transações da carteira...</translation>
     </message>
@@ -3212,10 +3417,24 @@
         <translation>(padrão: %s)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Acceptable ciphers (default: %s)</source>
+        <translation>Cífras aceitas (padrão: %s)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Error loading wallet.dat</source>
         <translation>Erro ao carregar wallet.dat</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Force safe mode (default: %u)</source>
+        <translation>Forçar modo seguro (default: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Generate coins (default: %u)</source>
         <translation>Gerar moedas (padrão: %u)</translation>
     </message>
@@ -3225,13 +3444,24 @@
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
+<<<<<<< HEAD
         <translation>Incluir endereço IP na saída de depuração (padrão: %u)</translation>
+=======
+        <translation>Incluir endereço IP na saída de debug (padrão: %u)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
         <translation>Endereço -proxy inválido: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
+        <translation>Tamanho limite do cache de assinaturas de &lt;n&gt; entradas (padrão: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
         <translation>Aguardar por conexões na porta &lt;port&gt; (padrão: %u ou testnet: %u)</translation>
     </message>
@@ -3244,6 +3474,21 @@
         <translation>Retransmitir P2SH não multisig (default: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Server certificate file (default: %s)</source>
+        <translation>Arquivo de certificado do servidor (padrão: %s)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: %s)</source>
+        <translation>Chave privada do servidor (padrão: %s)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: %u)</source>
+        <translation>Defina o tamanho da chave para piscina &lt;n&gt; (default: %u)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Set minimum block size in bytes (default: %u)</source>
         <translation>Definir tamanho mínimo do bloco, em bytes (padrão: %u)</translation>
     </message>

@@ -1323,6 +1323,13 @@ Var vänlig och försök igen.</translation>
         <translation>Betalningsbegäran %1 är för stor (%2 bytes, tillåten %3 bytes)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Payment request DoS protection</source>
+        <translation>Betalningsbegäran begär DoS-skydd</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Error communicating with %1: %2</source>
         <translation>Kommunikationsfel med %1: %2</translation>
     </message>
@@ -2063,6 +2070,13 @@ Var vänlig och försök igen.</translation>
         <translation>Kopiera växel</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Total Amount %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</source>
+        <translation>Total summa %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>or</source>
         <translation>eller</translation>
     </message>
@@ -2949,6 +2963,13 @@ Var vänlig och försök igen.</translation>
         <translation>Distribuerad under MIT mjukvarulicens, se den bifogade filen COPYING eller &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>Ange regressiontestläge, som använder en speciell kedja i vilka block kan lösas omedelbart.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/origin/0.10
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Exekvera kommando när en plånbokstransaktion ändras (%s i cmd är ersatt av TxID)</translation>
     </message>
@@ -3213,16 +3234,34 @@ Var vänlig och försök igen.</translation>
         <translation>Otillåtet belopp för -maxtxfee=&lt;belopp&gt;: '%s' (måste åtminstånde vara minrelay avgift %s för att förhindra stoppade transkationer)</translation>
     </message>
     <message>
+        <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
+        <translation>Om paytxfee inte är satt, inkludera tillräcklig avgift så att transaktionen börjar att konfirmeras inom n blocks (förvalt: %u)</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>Otillåtet belopp för -maxtxfee=&lt;belopp&gt;: '%s' (måste åtminstånde vara minrelay avgift %s för att förhindra stoppade transkationer)</translation>
+    </message>
+    <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
         <translation>Maximal storlek på data i databärartransaktioner som vi reläar och bryter (förvalt: %u) </translation>
+    </message>
+    <message>
+        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
+        <translation>Maximum total avgift att använda i en plånbok transaktion, sätts den för lågt kan stora transaktioner avbrytas (förvalt: %s)</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>Sök efter klientadresser med DNS sökningen, om det finns otillräckligt med adresser (förvalt: 1 om inte -connect)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
         <translation>Slumpa autentiseringen för varje proxyanslutning. Detta möjliggör Tor ström-isolering (förvalt: %u)</translation>
+=======
+        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
+        <translation>Begär hög-prioritet för relätrafik eller lågavgifts transaktioner
+(förvalt: %u)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
@@ -3237,8 +3276,41 @@ Var vänlig och försök igen.</translation>
         <translation>Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användning i OpenSSL Toolkit &lt;https://www.openssl.org/&gt; och kryptografisk mjukvara utvecklad av Eric Young samt UPnP-mjukvara skriven av Thomas Bernard.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>Vitlistade klienter kan inte bli DoS-bannade och deras transaktioner reläas alltid, även om dom redan är i mempoolen, användbart för t.ex en gateway  </translation>
+=======
+        <source>To use bitcoind, or the -server option to bitcoin-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</source>
+        <translation>För att använda bitconid,eller -server optionen till bitcoin-qt så mäste du sätta ett rpclösensord i konfigurationsfilen:
+%s
+Det är rekommenderat att använda följande slumpade lösenord:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(du behöver inte komma ihåg lösenordet)
+Användarnamnet och lösenordet FÅR INTE vara detsamma.
+Om filen inte existerar, skapa den med enbart ägarläsbara filrättigheter.
+Det är också rekommenderat att sätta alertnotify så du meddelas om problem;
+till exempel: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</translation>
+    </message>
+    <message>
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>Varning: -maxtxfee är satt väldigt hög! Så höga avgifter kan betalas för en enstaka transaktion.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
+        <translation>Varning: Vänligen kolla så att din dators datum och tid är korrekt! Om din klocka går fel kommer Bitcoin Core inte att fungera korrekt.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
@@ -3255,6 +3327,10 @@ Var vänlig och försök igen.</translation>
     <message>
         <source>Activating best chain...</source>
         <translation>Aktiverar bästa kedjan...</translation>
+    </message>
+    <message>
+        <source>Accept public REST requests (default: %u)</source>
+        <translation>Acceptera publika REST förfrågningar (förvalt: %u)</translation>
     </message>
     <message>
         <source>Cannot resolve -whitebind address: '%s'</source>
@@ -3279,6 +3355,21 @@ Var vänlig och försök igen.</translation>
     <message>
         <source>Error reading from database, shutting down.</source>
         <translation>Fel vid läsning från databas, avslutar.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Error: A fatal internal error occurred, see debug.log for details</source>
+        <translation>Fel: Ett kritiskt internt fel uppstod, se debug.log för detaljer</translation>
+    </message>
+    <message>
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation>Fel: Argumentet -tor stöds inte, använd -onion.</translation>
+    </message>
+    <message>
+        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Avgift (i BTC/Kb) att lägga till på transaktioner du skickar (förvalt: %s)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Information</source>
@@ -3321,20 +3412,38 @@ Var vänlig och försök igen.</translation>
         <translation>Nodreläalternativ:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>RPC server options:</source>
         <translation>RPC-serveralternativ:</translation>
+=======
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>RPC SSL optioner: (se Bitcoin Wiki för SSL inställningsinstruktioner)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Rebuild block chain index from current blk000??.dat files on startup</source>
         <translation>Återskapa blockkedjans index från nuvarande blk000??.dat filer under uppstarten</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Receive and display P2P network alerts (default: %u)</source>
         <translation>Mottag och visa P2P nätverksvarningar (förvalt: %u)</translation>
+=======
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>RPC support för HTTP permanent anslutning (förvalt: %d)</translation>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>Slumpmässigt tappa 1 av varje &lt;n&gt; nåtverksmeddelande</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
         <translation>Minskar -maxconnections från %d till %d, på grund av systembegränsningar.</translation>
+    </message>
+    <message>
+        <source>Receive and display P2P network alerts (default: %u)</source>
+        <translation>Ta emot och visa varningar för P2P-nätverk (standard: %u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3481,12 +3590,17 @@ Var vänlig och försök igen.</translation>
         <translation>Håll inte transaktioner i minnespoolen längre än &lt;n&gt; timmar (förvalt: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>Fel vid läsning av wallet.dat! Alla nycklar lästes korrekt, men transaktionsdata eller adressbokens poster kanske saknas eller är felaktiga.</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
         <translation>Hur grundlig blockverifikationen vid -checkblocks är (0-4, förvalt: %u)</translation>
+=======
+        <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
+        <translation>Logga transaktionsprioritet och avgift per kB vid blockbrytning (förvalt: %u)</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>

@@ -135,9 +135,12 @@
         <source>Wallet encrypted</source>
         <translation>Ví đã được mã hóa</translation>
     </message>
+<<<<<<< HEAD
     </context>
 <context>
     <name>BanTableModel</name>
+=======
+>>>>>>> refs/remotes/origin/0.10
     </context>
 <context>
     <name>BitcoinGUI</name>
@@ -261,6 +264,21 @@
         <source>Incoming transaction</source>
         <translation>Giao dịch đang tới</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Date: %1
+Amount: %2
+Type: %3
+Address: %4
+</source>
+        <translation>Ngày: %1
+Lượng: %2
+Loại: %3
+Địa chỉ: %4
+</translation>
+    </message>
+>>>>>>> refs/remotes/origin/0.10
     </context>
 <context>
     <name>ClientModel</name>
@@ -461,6 +479,13 @@
         <source>Amount</source>
         <translation>Lượng</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>NETWORK</source>
+        <translation>NETWORK</translation>
+    </message>
+>>>>>>> refs/remotes/origin/0.10
     </context>
 <context>
     <name>QRImageWidget</name>
@@ -608,8 +633,13 @@
         <translation>Ngày tháng</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Label</source>
         <translation>Nhãn</translation>
+=======
+        <source>Address</source>
+        <translation>Địa chỉ</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     </context>
 <context>

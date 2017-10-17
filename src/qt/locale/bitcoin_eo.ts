@@ -413,6 +413,10 @@
         <source>%1 and %2</source>
         <translation>%1 kaj %2</translation>
     </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n jaro</numerusform><numerusform>%n jaroj</numerusform></translation>
+    </message>
     <message>
         <source>%1 behind</source>
         <translation>mankas %1</translation>
@@ -2258,10 +2262,13 @@
         <translation>Subskriba transakcio fiaskis</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Start minimized</source>
         <translation>Lanĉiĝi plejete</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/origin/0.10
         <source>This is experimental software.</source>
         <translation>ĝi estas eksperimenta programo</translation>
     </message>

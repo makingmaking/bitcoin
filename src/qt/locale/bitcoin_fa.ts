@@ -184,8 +184,13 @@
         <translation>رمز جدید کیف پول خود را وارد کنید.&lt;br/&gt;از رمز عبوری استفاده کنید که&lt;b&gt; حداقل 10  کاراکتر تصادفی &lt;/b&gt; و یا &lt;b&gt; حداقل 8 حرف داشته باشد.&lt;/b&gt;</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
         <translation>رمز عبور قدیمی و رمز عبور جدید کیف پول خود را وارد گنید.</translation>
+=======
+        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>بیت‌کوین هم اکنون بسته می‌شود تا فرایند رمزگذاری را تمام کند. به خاطر داشته باشید که رمزگذاری کردن کیف پول‌تان نمی‌تواند به طور کامل بیت‌کوین‌های شما را در برابر دزدیده شدن توسط بدافزارهایی که احتمالاً رایانهٔ شما را آلوده می‌کنند، محافظت نماید.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -283,7 +288,11 @@
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
+<<<<<<< HEAD
         <translation>&amp;در حال ارسال آدرس ها...</translation>
+=======
+        <translation>$ارسال آدرس ها...</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
@@ -573,7 +582,11 @@
     </message>
     <message>
         <source>medium-high</source>
+<<<<<<< HEAD
         <translation>متوسط متمایل به زیاد</translation>
+=======
+        <translation>متوسط رو به بالا</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>medium</source>
@@ -899,6 +912,17 @@
     <message>
         <source>Spendable:</source>
         <translation>:قابل خرج کردن</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>تراکنش های اخیر</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>ناهمگام</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Recent transactions</source>
@@ -1313,6 +1337,14 @@
         <translation>انتخاب نشانی پیشتر استفاده شده</translation>
     </message>
     <message>
+        <source>The Bitcoin address to sign the message with</source>
+        <translation>نشانی بیت‌کوین برای امضاء پیغام با آن</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>انتخاب نشانی پیش‌تر استفاده شده</translation>
+    </message>
+    <message>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -1355,6 +1387,10 @@
     <message>
         <source>&amp;Verify Message</source>
         <translation>&amp;شناسایی پیام</translation>
+    </message>
+    <message>
+        <source>The Bitcoin address the message was signed with</source>
+        <translation>نشانی بیت‌کوین که پیغام با آن امضاء شده</translation>
     </message>
     <message>
         <source>The Bitcoin address the message was signed with</source>
@@ -1918,8 +1954,13 @@
         <translation>در حال بازبینی کیف پول...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Choose data directory on startup (default: 0)</source>
         <translation>انتخاب مسیر داده‌ها در ابتدای اجرای برنامه (پیش‌فرض: 0)</translation>
+=======
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
+        <translation>هشدار: تاریخ و ساعت کامپیوتر خود را بررسی کنید. اگر ساعت درست نباشد هسته بیت‌کوین به درستی کار نخواهد کرد.</translation>
+>>>>>>> refs/remotes/origin/0.10
     </message>
     <message>
         <source>Information</source>

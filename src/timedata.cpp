@@ -41,6 +41,13 @@ static int64_t abs64(int64_t n)
 }
 
 #define BITCOIN_TIMEDATA_MAX_SAMPLES 200
+<<<<<<< HEAD
+=======
+
+void AddTimeData(const CNetAddr& ip, int64_t nTime)
+{
+    int64_t nOffsetSample = nTime - GetTime();
+>>>>>>> refs/remotes/origin/0.10
 
 void AddTimeData(const CNetAddr& ip, int64_t nOffsetSample)
 {

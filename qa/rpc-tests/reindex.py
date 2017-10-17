@@ -6,8 +6,14 @@
 #
 # Test -reindex with CheckBlockIndex
 #
+<<<<<<< HEAD
 from test_framework.test_framework import BitcoinTestFramework
 from test_framework.util import *
+=======
+from test_framework import BitcoinTestFramework
+from bitcoinrpc.authproxy import AuthServiceProxy, JSONRPCException
+from util import *
+>>>>>>> refs/remotes/origin/0.10
 import os.path
 
 class ReindexTest(BitcoinTestFramework):
